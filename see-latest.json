@@ -1,17 +1,17 @@
 {
-  "cycle": 9,
-  "timestamp": "2026-06-07T21:25:20.535Z",
-  "duration": 12793,
+  "cycle": 10,
+  "timestamp": "2026-06-07T21:55:18.031Z",
+  "duration": 33500,
   "models": {
     "total": 15,
-    "online": 11,
-    "offline": 4,
-    "pctOnline": 73
+    "online": 14,
+    "offline": 1,
+    "pctOnline": 93
   },
   "stats": {
     "total": 39,
-    "critical": 4,
-    "warning": 0,
+    "critical": 1,
+    "warning": 3,
     "improvement": 24,
     "opportunity": 0,
     "info": 11
@@ -28,26 +28,8 @@
     },
     {
       "action": "code_patch",
-      "file": "api/admin-panel.js",
-      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 29:', e.message);\n          co",
-      "autoFix": true,
-      "priority": 5,
-      "applied": false,
-      "error": "Cannot read properties of undefined (reading 'match')"
-    },
-    {
-      "action": "code_patch",
       "file": "api/chat.js",
       "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 33:', e.message);\n      consol",
-      "autoFix": true,
-      "priority": 5,
-      "applied": false,
-      "error": "Cannot read properties of undefined (reading 'match')"
-    },
-    {
-      "action": "code_patch",
-      "file": "api/chat.js",
-      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 91:', e.message);\n      consol",
       "autoFix": true,
       "priority": 5,
       "applied": false,
@@ -83,15 +65,6 @@
     {
       "action": "code_patch",
       "file": "api/skynet-memory.js",
-      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 111:', e.message);",
-      "autoFix": true,
-      "priority": 5,
-      "applied": false,
-      "error": "Cannot read properties of undefined (reading 'match')"
-    },
-    {
-      "action": "code_patch",
-      "file": "api/skynet-memory.js",
       "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 169:', e.message);\n  console.l",
       "autoFix": true,
       "priority": 5,
@@ -100,97 +73,135 @@
     },
     {
       "action": "code_patch",
-      "file": "api/admin-panel.js:~35",
+      "file": "api/admin-panel.js:~29",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
-      "applied": true
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/admin-panel.js'"
     },
     {
       "action": "code_patch",
-      "file": "api/admin-panel.js:~35",
+      "file": "api/admin-panel.js:~29",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
-      "applied": true
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/admin-panel.js'"
     },
     {
       "action": "code_patch",
-      "file": "api/admin-panel.js:~35",
+      "file": "api/admin-panel.js:~29",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
-      "applied": true
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/admin-panel.js'"
     },
     {
       "action": "code_patch",
-      "file": "api/admin-panel.js:~35",
+      "file": "api/admin-panel.js:~29",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
-      "applied": true
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/admin-panel.js'"
     },
     {
       "action": "code_patch",
-      "file": "api/admin-panel.js:~35",
+      "file": "api/admin-panel.js:~29",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
-      "applied": true
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/admin-panel.js'"
     },
     {
       "action": "code_patch",
-      "file": "api/admin-panel.js:~35",
+      "file": "api/admin-panel.js:~29",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
-      "applied": true
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/admin-panel.js'"
     },
     {
       "action": "code_patch",
-      "file": "api/chat.js:~129",
+      "file": "api/chat.js:~91",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
-      "applied": true
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/chat.js'"
     },
     {
       "action": "code_patch",
-      "file": "api/chat.js:~129",
+      "file": "api/chat.js:~91",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
-      "applied": true
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/chat.js'"
     },
     {
       "action": "code_patch",
-      "file": "api/chat.js:~129",
+      "file": "api/chat.js:~91",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
-      "applied": true
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/chat.js'"
     },
     {
       "action": "code_patch",
-      "file": "api/chat.js:~129",
+      "file": "api/chat.js:~91",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
-      "applied": true
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/chat.js'"
     },
     {
       "action": "code_patch",
-      "file": "api/chat.js:~129",
+      "file": "api/chat.js:~91",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
-      "applied": true
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/chat.js'"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/chat.js'"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/chat.js'"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/see.js:~65",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "EROFS: read-only file system, open '/var/task/api/see.js'"
     }
   ],
   "memory": {
     "totalImprovements": 75,
-    "totalCycles": 9,
-    "lastCycle": "2026-06-07T21:25:02.188Z",
+    "totalCycles": 10,
+    "lastCycle": "2026-06-07T21:54:44.033Z",
     "failedAttempts": [],
     "modelHistory": 0
   },
@@ -198,30 +209,30 @@
     {
       "severity": "critical",
       "area": "health",
-      "model": "modelo13",
-      "detail": "modelo13 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 139
+      "model": "modelo2",
+      "detail": "modelo2: The operation was aborted due to timeout",
+      "latency": 10001
     },
     {
-      "severity": "critical",
+      "severity": "warning",
       "area": "health",
       "model": "modelo14",
-      "detail": "modelo14 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 234
+      "detail": "modelo14 HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 6 credits to unlock 1000 free mod",
+      "latency": 120
     },
     {
-      "severity": "critical",
+      "severity": "warning",
       "area": "health",
       "model": "modelo15",
-      "detail": "modelo15 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 21
+      "detail": "modelo15 HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 6 credits to unlock 1000 free mod",
+      "latency": 93
     },
     {
-      "severity": "critical",
+      "severity": "warning",
       "area": "health",
       "model": "modelo16",
-      "detail": "modelo16 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 30
+      "detail": "modelo16 HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free mo",
+      "latency": 27
     },
     {
       "severity": "improvement",
@@ -232,20 +243,8 @@
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/admin-panel.js",
-      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 29:', e.message);\n          console.log('["
-    },
-    {
-      "severity": "improvement",
-      "area": "code",
       "file": "api/chat.js",
       "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 33:', e.message);\n      console.log('[see:"
-    },
-    {
-      "severity": "improvement",
-      "area": "code",
-      "file": "api/chat.js",
-      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 91:', e.message);\n      console.log('[see:"
     },
     {
       "severity": "improvement",
@@ -269,117 +268,129 @@
       "severity": "improvement",
       "area": "code",
       "file": "api/skynet-memory.js",
-      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 111:', e.message);"
-    },
-    {
-      "severity": "improvement",
-      "area": "code",
-      "file": "api/skynet-memory.js",
       "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 169:', e.message);\n  console.log('[see:fix"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/admin-panel.js:~35",
+      "file": "api/admin-panel.js:~29",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/admin-panel.js:~35",
+      "file": "api/admin-panel.js:~29",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/admin-panel.js:~35",
+      "file": "api/admin-panel.js:~29",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/admin-panel.js:~35",
+      "file": "api/admin-panel.js:~29",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/admin-panel.js:~35",
+      "file": "api/admin-panel.js:~29",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/admin-panel.js:~35",
+      "file": "api/admin-panel.js:~29",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~129",
+      "file": "api/chat.js:~91",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~129",
+      "file": "api/chat.js:~91",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~129",
+      "file": "api/chat.js:~91",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~129",
+      "file": "api/chat.js:~91",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~129",
+      "file": "api/chat.js:~91",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~129",
+      "file": "api/chat.js:~91",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/skynet-memory.js:~132",
+      "file": "api/chat.js:~91",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/skynet-memory.js:~175",
+      "file": "api/see.js:~65",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/skynet-memory.js:~175",
+      "file": "api/skynet-memory.js:~111",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/skynet-memory.js:~111",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/skynet-memory.js:~173",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/skynet-memory.js:~173",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo1",
-      "detail": "modelo1 OK (2246ms)",
-      "latency": 2246
+      "detail": "modelo1 OK (1734ms)",
+      "latency": 1734
     },
     {
       "severity": "info",
       "area": "health",
-      "model": "modelo2",
-      "detail": "modelo2 OK (1138ms)",
-      "latency": 1138
+      "model": "modelo3",
+      "detail": "modelo3 OK (1608ms)",
+      "latency": 1608
     }
   ]
 }
