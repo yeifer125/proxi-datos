@@ -1,20 +1,20 @@
 {
-  "cycle": 4,
-  "timestamp": "2026-06-08T02:01:10.513Z",
-  "duration": 31322,
+  "cycle": 5,
+  "timestamp": "2026-06-08T06:00:58.974Z",
+  "duration": 22951,
   "models": {
-    "total": 15,
-    "online": 9,
-    "offline": 6,
-    "pctOnline": 60
+    "total": 16,
+    "online": 11,
+    "offline": 5,
+    "pctOnline": 69
   },
   "stats": {
-    "total": 38,
-    "critical": 6,
+    "total": 41,
+    "critical": 5,
     "warning": 0,
-    "improvement": 23,
+    "improvement": 25,
     "opportunity": 0,
-    "info": 9
+    "info": 11
   },
   "improvements": [
     {
@@ -91,7 +91,7 @@
     },
     {
       "action": "code_patch",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
@@ -100,7 +100,7 @@
     },
     {
       "action": "code_patch",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
@@ -109,7 +109,7 @@
     },
     {
       "action": "code_patch",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
@@ -118,7 +118,7 @@
     },
     {
       "action": "code_patch",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
@@ -127,7 +127,7 @@
     },
     {
       "action": "code_patch",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
@@ -136,7 +136,7 @@
     },
     {
       "action": "code_patch",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
@@ -145,7 +145,34 @@
     },
     {
       "action": "code_patch",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/modelo17.js:~308",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/modelo17.js:~308",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/see.js:~21",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
@@ -164,33 +191,6 @@
     {
       "action": "code_patch",
       "file": "api/see.js:~21",
-      "detail": "catch silencioso — traga errores sin loguear",
-      "autoFix": true,
-      "priority": 5,
-      "applied": false,
-      "error": "patrón no encontrado"
-    },
-    {
-      "action": "code_patch",
-      "file": "api/see.js:~21",
-      "detail": "catch silencioso — traga errores sin loguear",
-      "autoFix": true,
-      "priority": 5,
-      "applied": false,
-      "error": "patrón no encontrado"
-    },
-    {
-      "action": "code_patch",
-      "file": "api/see.js:~21",
-      "detail": "catch silencioso — traga errores sin loguear",
-      "autoFix": true,
-      "priority": 5,
-      "applied": false,
-      "error": "patrón no encontrado"
-    },
-    {
-      "action": "code_patch",
-      "file": "api/skynet-memory.js:~20",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
@@ -199,8 +199,8 @@
     }
   ],
   "memory": {
-    "totalCycles": 4,
-    "lastCycle": "2026-06-08T02:00:29.171Z",
+    "totalCycles": 5,
+    "lastCycle": "2026-06-08T06:00:29.577Z",
     "failedAttempts": [],
     "modelHistory": 0
   },
@@ -208,44 +208,37 @@
     {
       "severity": "critical",
       "area": "health",
-      "model": "modelo8",
-      "detail": "modelo8: The operation was aborted due to timeout",
-      "latency": 10001
-    },
-    {
-      "severity": "critical",
-      "area": "health",
       "model": "modelo12",
       "detail": "modelo12: The operation was aborted due to timeout",
-      "latency": 10002
+      "latency": 10001
     },
     {
       "severity": "critical",
       "area": "health",
       "model": "modelo13",
       "detail": "modelo13 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 211
+      "latency": 131
     },
     {
       "severity": "critical",
       "area": "health",
       "model": "modelo14",
       "detail": "modelo14 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 203
+      "latency": 142
     },
     {
       "severity": "critical",
       "area": "health",
       "model": "modelo15",
       "detail": "modelo15 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 18
+      "latency": 80
     },
     {
       "severity": "critical",
       "area": "health",
       "model": "modelo16",
       "detail": "modelo16 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 19
+      "latency": 18
     },
     {
       "severity": "improvement",
@@ -298,43 +291,55 @@
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/chat.js:~91",
+      "file": "api/chat.js:~109",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/modelo17.js:~308",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/modelo17.js:~308",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
@@ -384,13 +389,6 @@
       "area": "code",
       "file": "api/skynet-memory.js:~20",
       "detail": "catch silencioso — traga errores sin loguear"
-    },
-    {
-      "severity": "info",
-      "area": "health",
-      "model": "modelo1",
-      "detail": "modelo1 OK (2125ms)",
-      "latency": 2125
     }
   ]
 }
