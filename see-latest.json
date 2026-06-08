@@ -1,20 +1,20 @@
 {
-  "cycle": 3,
-  "timestamp": "2026-06-08T01:14:28.627Z",
-  "duration": 14633,
+  "cycle": 4,
+  "timestamp": "2026-06-08T02:01:10.513Z",
+  "duration": 31322,
   "models": {
     "total": 15,
-    "online": 11,
-    "offline": 4,
-    "pctOnline": 73
+    "online": 9,
+    "offline": 6,
+    "pctOnline": 60
   },
   "stats": {
     "total": 38,
-    "critical": 4,
+    "critical": 6,
     "warning": 0,
     "improvement": 23,
     "opportunity": 0,
-    "info": 11
+    "info": 9
   },
   "improvements": [
     {
@@ -199,8 +199,8 @@
     }
   ],
   "memory": {
-    "totalCycles": 3,
-    "lastCycle": "2026-06-08T01:14:08.245Z",
+    "totalCycles": 4,
+    "lastCycle": "2026-06-08T02:00:29.171Z",
     "failedAttempts": [],
     "modelHistory": 0
   },
@@ -208,23 +208,37 @@
     {
       "severity": "critical",
       "area": "health",
+      "model": "modelo8",
+      "detail": "modelo8: The operation was aborted due to timeout",
+      "latency": 10001
+    },
+    {
+      "severity": "critical",
+      "area": "health",
+      "model": "modelo12",
+      "detail": "modelo12: The operation was aborted due to timeout",
+      "latency": 10002
+    },
+    {
+      "severity": "critical",
+      "area": "health",
       "model": "modelo13",
       "detail": "modelo13 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 233
+      "latency": 211
     },
     {
       "severity": "critical",
       "area": "health",
       "model": "modelo14",
       "detail": "modelo14 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 132
+      "latency": 203
     },
     {
       "severity": "critical",
       "area": "health",
       "model": "modelo15",
       "detail": "modelo15 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 16
+      "latency": 18
     },
     {
       "severity": "critical",
@@ -375,22 +389,8 @@
       "severity": "info",
       "area": "health",
       "model": "modelo1",
-      "detail": "modelo1 OK (1133ms)",
-      "latency": 1133
-    },
-    {
-      "severity": "info",
-      "area": "health",
-      "model": "modelo2",
-      "detail": "modelo2 OK (1360ms)",
-      "latency": 1360
-    },
-    {
-      "severity": "info",
-      "area": "health",
-      "model": "modelo3",
-      "detail": "modelo3 OK (920ms)",
-      "latency": 920
+      "detail": "modelo1 OK (2125ms)",
+      "latency": 2125
     }
   ]
 }
