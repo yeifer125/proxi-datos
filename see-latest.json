@@ -1,15 +1,397 @@
 {
-  "ok": true,
-  "message": "Reset a 0",
-  "cycle": 0,
-  "timestamp": "2026-06-08T00:41:43.610Z",
+  "cycle": 1,
+  "timestamp": "2026-06-08T00:50:51.718Z",
+  "duration": 16470,
+  "models": {
+    "total": 15,
+    "online": 11,
+    "offline": 4,
+    "pctOnline": 73
+  },
   "stats": {
-    "totalRequests": 0,
-    "totalTokens": 0,
-    "uniqueIPs": 0,
-    "modelsOnline": 0,
-    "modelsOffline": 0,
-    "criticalFindings": 0,
-    "improvementsTotal": 0
-  }
+    "total": 37,
+    "critical": 4,
+    "warning": 0,
+    "improvement": 22,
+    "opportunity": 0,
+    "info": 11
+  },
+  "improvements": [
+    {
+      "action": "code_patch",
+      "file": "api/chat.js",
+      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 33:', e.message);\n      consol",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/see.js",
+      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 18:', e.message);\n      consol",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/see.js",
+      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 32:', e.message);",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/see.js:~65",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/skynet-memory.js:~20",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/skynet-memory.js:~137",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    }
+  ],
+  "memory": {
+    "totalCycles": 1,
+    "lastCycle": "2026-06-08T00:50:29.420Z",
+    "failedAttempts": [],
+    "modelHistory": 0
+  },
+  "findings": [
+    {
+      "severity": "critical",
+      "area": "health",
+      "model": "modelo13",
+      "detail": "modelo13 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
+      "latency": 147
+    },
+    {
+      "severity": "critical",
+      "area": "health",
+      "model": "modelo14",
+      "detail": "modelo14 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
+      "latency": 141
+    },
+    {
+      "severity": "critical",
+      "area": "health",
+      "model": "modelo15",
+      "detail": "modelo15 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
+      "latency": 2193
+    },
+    {
+      "severity": "critical",
+      "area": "health",
+      "model": "modelo16",
+      "detail": "modelo16 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
+      "latency": 21
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/chat.js",
+      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 33:', e.message);\n      console.log('[see:"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/see.js",
+      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 18:', e.message);\n      console.log('[see:"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/see.js",
+      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 32:', e.message);"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/admin-panel.js:~17",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/chat.js:~91",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/see.js:~65",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/skynet-memory.js:~20",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/skynet-memory.js:~137",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/skynet-memory.js:~20",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/skynet-memory.js:~20",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "info",
+      "area": "health",
+      "model": "modelo1",
+      "detail": "modelo1 OK (1025ms)",
+      "latency": 1025
+    },
+    {
+      "severity": "info",
+      "area": "health",
+      "model": "modelo2",
+      "detail": "modelo2 OK (1134ms)",
+      "latency": 1134
+    },
+    {
+      "severity": "info",
+      "area": "health",
+      "model": "modelo3",
+      "detail": "modelo3 OK (1725ms)",
+      "latency": 1725
+    },
+    {
+      "severity": "info",
+      "area": "health",
+      "model": "modelo4",
+      "detail": "modelo4 OK (513ms)",
+      "latency": 513
+    }
+  ]
 }
