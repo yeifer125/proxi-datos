@@ -1,7 +1,7 @@
 {
-  "cycle": 1,
-  "timestamp": "2026-06-08T00:50:51.718Z",
-  "duration": 16470,
+  "cycle": 2,
+  "timestamp": "2026-06-08T00:58:58.328Z",
+  "duration": 13024,
   "models": {
     "total": 15,
     "online": 11,
@@ -9,10 +9,10 @@
     "pctOnline": 73
   },
   "stats": {
-    "total": 37,
+    "total": 38,
     "critical": 4,
     "warning": 0,
-    "improvement": 22,
+    "improvement": 23,
     "opportunity": 0,
     "info": 11
   },
@@ -28,24 +28,6 @@
     },
     {
       "action": "code_patch",
-      "file": "api/see.js",
-      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 18:', e.message);\n      consol",
-      "autoFix": true,
-      "priority": 5,
-      "applied": false,
-      "error": "patrón no encontrado"
-    },
-    {
-      "action": "code_patch",
-      "file": "api/see.js",
-      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 32:', e.message);",
-      "autoFix": true,
-      "priority": 5,
-      "applied": false,
-      "error": "patrón no encontrado"
-    },
-    {
-      "action": "code_patch",
       "file": "api/admin-panel.js:~17",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
@@ -172,7 +154,34 @@
     },
     {
       "action": "code_patch",
-      "file": "api/see.js:~65",
+      "file": "api/see.js:~21",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/see.js:~21",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/see.js:~21",
+      "detail": "catch silencioso — traga errores sin loguear",
+      "autoFix": true,
+      "priority": 5,
+      "applied": false,
+      "error": "patrón no encontrado"
+    },
+    {
+      "action": "code_patch",
+      "file": "api/see.js:~21",
       "detail": "catch silencioso — traga errores sin loguear",
       "autoFix": true,
       "priority": 5,
@@ -187,20 +196,11 @@
       "priority": 5,
       "applied": false,
       "error": "patrón no encontrado"
-    },
-    {
-      "action": "code_patch",
-      "file": "api/skynet-memory.js:~137",
-      "detail": "catch silencioso — traga errores sin loguear",
-      "autoFix": true,
-      "priority": 5,
-      "applied": false,
-      "error": "patrón no encontrado"
     }
   ],
   "memory": {
-    "totalCycles": 1,
-    "lastCycle": "2026-06-08T00:50:29.420Z",
+    "totalCycles": 2,
+    "lastCycle": "2026-06-08T00:58:39.032Z",
     "failedAttempts": [],
     "modelHistory": 0
   },
@@ -210,28 +210,28 @@
       "area": "health",
       "model": "modelo13",
       "detail": "modelo13 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 147
+      "latency": 180
     },
     {
       "severity": "critical",
       "area": "health",
       "model": "modelo14",
       "detail": "modelo14 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 141
+      "latency": 179
     },
     {
       "severity": "critical",
       "area": "health",
       "model": "modelo15",
       "detail": "modelo15 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 2193
+      "latency": 16
     },
     {
       "severity": "critical",
       "area": "health",
       "model": "modelo16",
       "detail": "modelo16 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
-      "latency": 21
+      "latency": 12
     },
     {
       "severity": "improvement",
@@ -242,18 +242,6 @@
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/see.js",
-      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 18:', e.message);\n      console.log('[see:"
-    },
-    {
-      "severity": "improvement",
-      "area": "code",
-      "file": "api/see.js",
-      "detail": "console.log posiblemente debug: console.log('[see:fix] catch en línea 32:', e.message);"
-    },
-    {
-      "severity": "improvement",
-      "area": "code",
       "file": "api/admin-panel.js:~17",
       "detail": "catch silencioso — traga errores sin loguear"
     },
@@ -338,7 +326,25 @@
     {
       "severity": "improvement",
       "area": "code",
-      "file": "api/see.js:~65",
+      "file": "api/see.js:~21",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/see.js:~21",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/see.js:~21",
+      "detail": "catch silencioso — traga errores sin loguear"
+    },
+    {
+      "severity": "improvement",
+      "area": "code",
+      "file": "api/see.js:~21",
       "detail": "catch silencioso — traga errores sin loguear"
     },
     {
@@ -369,29 +375,22 @@
       "severity": "info",
       "area": "health",
       "model": "modelo1",
-      "detail": "modelo1 OK (1025ms)",
-      "latency": 1025
+      "detail": "modelo1 OK (1538ms)",
+      "latency": 1538
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo2",
-      "detail": "modelo2 OK (1134ms)",
-      "latency": 1134
+      "detail": "modelo2 OK (1104ms)",
+      "latency": 1104
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo3",
-      "detail": "modelo3 OK (1725ms)",
-      "latency": 1725
-    },
-    {
-      "severity": "info",
-      "area": "health",
-      "model": "modelo4",
-      "detail": "modelo4 OK (513ms)",
-      "latency": 513
+      "detail": "modelo3 OK (1110ms)",
+      "latency": 1110
     }
   ]
 }
