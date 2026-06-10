@@ -1,77 +1,222 @@
 {
-  "cycle": 22,
-  "timestamp": "2026-06-10T14:01:19.913Z",
-  "duration": 14637,
+  "cycle": 24,
+  "timestamp": "2026-06-10T22:01:43.438Z",
+  "duration": 25621,
   "models": {
-    "total": 7,
-    "online": 7,
-    "offline": 0,
-    "pctOnline": 100
+    "total": 18,
+    "online": 13,
+    "offline": 5,
+    "pctOnline": 72
   },
   "stats": {
-    "total": 7,
-    "critical": 0,
+    "total": 28,
+    "critical": 5,
     "warning": 0,
     "improvement": 0,
-    "opportunity": 0,
-    "info": 7
+    "opportunity": 9,
+    "info": 14
   },
-  "improvements": [],
+  "improvements": [
+    {
+      "action": "model_discovery",
+      "detail": "9 modelos infrautilizados — buscar reemplazos",
+      "autoFix": true,
+      "priority": 3,
+      "applied": false,
+      "error": "memory.improvements.push is not a function"
+    }
+  ],
   "memory": {
-    "totalCycles": 22,
-    "lastCycle": "2026-06-10T14:00:59.057Z",
+    "totalCycles": 24,
+    "lastCycle": "2026-06-10T22:01:05.190Z",
     "failedAttempts": [],
     "modelHistory": 0
   },
   "findings": [
     {
+      "severity": "critical",
+      "area": "health",
+      "model": "modelo13",
+      "detail": "modelo13 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
+      "latency": 144
+    },
+    {
+      "severity": "critical",
+      "area": "health",
+      "model": "modelo14",
+      "detail": "modelo14 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
+      "latency": 137
+    },
+    {
+      "severity": "critical",
+      "area": "health",
+      "model": "modelo15",
+      "detail": "modelo15 HTTP 401: {\"error\":{\"message\":\"No cookie auth credentials found\",\"code\":401}}",
+      "latency": 19
+    },
+    {
+      "severity": "critical",
+      "area": "health",
+      "model": "modelo16",
+      "detail": "modelo16 HTTP 401: {\"code\":401,\"reason\":\"FAILED_TO_AUTH\",\"message\":\"failed to authenticate API key\",\"metadata\":{}}",
+      "latency": 5949
+    },
+    {
+      "severity": "critical",
+      "area": "health",
+      "model": "modelo18",
+      "detail": "modelo18 HTTP 401: {\"code\":401,\"reason\":\"FAILED_TO_AUTH\",\"message\":\"failed to authenticate API key\",\"metadata\":{}}",
+      "latency": 1114
+    },
+    {
+      "severity": "opportunity",
+      "area": "performance",
+      "model": "modelo15",
+      "detail": "modelo15 solo 6 requests (0.6%) — posible reemplazo"
+    },
+    {
+      "severity": "opportunity",
+      "area": "performance",
+      "model": "modelo14",
+      "detail": "modelo14 solo 6 requests (0.6%) — posible reemplazo"
+    },
+    {
+      "severity": "opportunity",
+      "area": "performance",
+      "model": "modelo8",
+      "detail": "modelo8 solo 9 requests (0.9%) — posible reemplazo"
+    },
+    {
+      "severity": "opportunity",
+      "area": "performance",
+      "model": "modelo13",
+      "detail": "modelo13 solo 5 requests (0.5%) — posible reemplazo"
+    },
+    {
+      "severity": "opportunity",
+      "area": "performance",
+      "model": "modelo4",
+      "detail": "modelo4 solo 9 requests (0.9%) — posible reemplazo"
+    },
+    {
+      "severity": "opportunity",
+      "area": "performance",
+      "model": "modelo5",
+      "detail": "modelo5 solo 9 requests (0.9%) — posible reemplazo"
+    },
+    {
+      "severity": "opportunity",
+      "area": "performance",
+      "model": "modelo12",
+      "detail": "modelo12 solo 6 requests (0.6%) — posible reemplazo"
+    },
+    {
+      "severity": "opportunity",
+      "area": "performance",
+      "model": "modelo16",
+      "detail": "modelo16 solo 5 requests (0.5%) — posible reemplazo"
+    },
+    {
+      "severity": "opportunity",
+      "area": "performance",
+      "model": "modelo19",
+      "detail": "modelo19 solo 2 requests (0.2%) — posible reemplazo"
+    },
+    {
       "severity": "info",
       "area": "health",
       "model": "modelo1",
-      "detail": "modelo1 OK (2968ms)",
-      "latency": 2968
+      "detail": "modelo1 OK (1389ms)",
+      "latency": 1389
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo2",
-      "detail": "modelo2 OK (6567ms)",
-      "latency": 6567
+      "detail": "modelo2 OK (1276ms)",
+      "latency": 1276
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo3",
-      "detail": "modelo3 OK (1712ms)",
-      "latency": 1712
+      "detail": "modelo3 OK (874ms)",
+      "latency": 874
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo4",
-      "detail": "modelo4 OK (795ms)",
-      "latency": 795
+      "detail": "modelo4 OK (681ms)",
+      "latency": 681
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo5",
-      "detail": "modelo5 OK (1100ms)",
-      "latency": 1100
+      "detail": "modelo5 OK (567ms)",
+      "latency": 567
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo6",
-      "detail": "modelo6 OK (641ms)",
-      "latency": 641
+      "detail": "modelo6 OK (721ms)",
+      "latency": 721
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo7",
-      "detail": "modelo7 OK (732ms)",
-      "latency": 732
+      "detail": "modelo7 OK (5911ms)",
+      "latency": 5911
+    },
+    {
+      "severity": "info",
+      "area": "health",
+      "model": "modelo8",
+      "detail": "modelo8 OK (892ms)",
+      "latency": 892
+    },
+    {
+      "severity": "info",
+      "area": "health",
+      "model": "modelo10",
+      "detail": "modelo10 OK (659ms)",
+      "latency": 659
+    },
+    {
+      "severity": "info",
+      "area": "health",
+      "model": "modelo11",
+      "detail": "modelo11 OK (1122ms)",
+      "latency": 1122
+    },
+    {
+      "severity": "info",
+      "area": "health",
+      "model": "modelo12",
+      "detail": "modelo12 OK (1458ms)",
+      "latency": 1458
+    },
+    {
+      "severity": "info",
+      "area": "health",
+      "model": "modelo17",
+      "detail": "modelo17 OK (1416ms)",
+      "latency": 1416
+    },
+    {
+      "severity": "info",
+      "area": "health",
+      "model": "modelo19",
+      "detail": "modelo19 OK (1285ms)",
+      "latency": 1285
+    },
+    {
+      "severity": "info",
+      "area": "performance",
+      "detail": "Modelo más usado: modelo19 (1000 requests totales)"
     }
   ]
 }
