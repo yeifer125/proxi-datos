@@ -1,20 +1,20 @@
 {
-  "cycle": 27,
-  "timestamp": "2026-06-11T10:01:01.285Z",
-  "duration": 11624,
+  "cycle": 28,
+  "timestamp": "2026-06-11T14:01:50.888Z",
+  "duration": 21800,
   "models": {
     "total": 7,
-    "online": 7,
-    "offline": 0,
-    "pctOnline": 100
+    "online": 6,
+    "offline": 1,
+    "pctOnline": 86
   },
   "stats": {
     "total": 18,
-    "critical": 0,
+    "critical": 1,
     "warning": 0,
     "improvement": 0,
     "opportunity": 10,
-    "info": 8
+    "info": 7
   },
   "improvements": [
     {
@@ -23,16 +23,23 @@
       "autoFix": true,
       "priority": 3,
       "applied": false,
-      "error": "memory.improvements.push is not a function"
+      "error": "Tests fallaron"
     }
   ],
   "memory": {
-    "totalCycles": 27,
-    "lastCycle": "2026-06-11T10:00:19.577Z",
+    "totalCycles": 28,
+    "lastCycle": "2026-06-11T14:00:56.832Z",
     "failedAttempts": [],
     "modelHistory": 0
   },
   "findings": [
+    {
+      "severity": "critical",
+      "area": "health",
+      "model": "modelo5",
+      "detail": "modelo5: The operation was aborted due to timeout",
+      "latency": 10001
+    },
     {
       "severity": "opportunity",
       "area": "performance",
@@ -97,50 +104,43 @@
       "severity": "info",
       "area": "health",
       "model": "modelo1",
-      "detail": "modelo1 OK (2089ms)",
-      "latency": 2089
+      "detail": "modelo1 OK (6000ms)",
+      "latency": 6000
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo2",
-      "detail": "modelo2 OK (1309ms)",
-      "latency": 1309
+      "detail": "modelo2 OK (1013ms)",
+      "latency": 1013
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo3",
-      "detail": "modelo3 OK (3992ms)",
-      "latency": 3992
+      "detail": "modelo3 OK (1057ms)",
+      "latency": 1057
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo4",
-      "detail": "modelo4 OK (763ms)",
-      "latency": 763
-    },
-    {
-      "severity": "info",
-      "area": "health",
-      "model": "modelo5",
-      "detail": "modelo5 OK (1801ms)",
-      "latency": 1801
+      "detail": "modelo4 OK (1320ms)",
+      "latency": 1320
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo6",
-      "detail": "modelo6 OK (660ms)",
-      "latency": 660
+      "detail": "modelo6 OK (1479ms)",
+      "latency": 1479
     },
     {
       "severity": "info",
       "area": "health",
       "model": "modelo7",
-      "detail": "modelo7 OK (928ms)",
-      "latency": 928
+      "detail": "modelo7 OK (714ms)",
+      "latency": 714
     },
     {
       "severity": "info",
