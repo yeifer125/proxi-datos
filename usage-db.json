@@ -3,18 +3,6 @@
     {
       "model": "modelo17",
       "ip": "205.147.22.19",
-      "tokens": 39664,
-      "timestamp": "2026-06-12T22:12:01.723Z"
-    },
-    {
-      "model": "modelo17",
-      "ip": "205.147.22.19",
-      "tokens": 18785,
-      "timestamp": "2026-06-12T22:12:05.042Z"
-    },
-    {
-      "model": "modelo17",
-      "ip": "205.147.22.19",
       "tokens": 90673,
       "timestamp": "2026-06-12T22:12:06.349Z"
     },
@@ -12007,12 +11995,24 @@
       "ip": "18.212.32.90",
       "tokens": 57,
       "timestamp": "2026-06-13T03:21:38.719Z"
+    },
+    {
+      "model": "modelo12",
+      "ip": "18.212.32.90",
+      "tokens": 253,
+      "timestamp": "2026-06-13T03:21:38.945Z"
+    },
+    {
+      "model": "modelo2",
+      "ip": "18.212.32.90",
+      "tokens": 22,
+      "timestamp": "2026-06-13T03:21:38.979Z"
     }
   ],
   "stats": {
     "modelo17": {
-      "totalTokens": 101350630,
-      "totalRequests": 1246,
+      "totalTokens": 101292181,
+      "totalRequests": 1244,
       "uniqueIPs": [
         "205.147.22.19",
         "44.204.228.65"
@@ -12094,12 +12094,13 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 494,
-      "totalRequests": 8,
+      "totalTokens": 516,
+      "totalRequests": 9,
       "uniqueIPs": [
         "205.147.22.19",
         "13.218.52.30",
-        "13.222.109.129"
+        "13.222.109.129",
+        "18.212.32.90"
       ]
     },
     "modelo4": {
@@ -12161,14 +12162,15 @@
       ]
     },
     "modelo12": {
-      "totalTokens": 2738,
-      "totalRequests": 10,
+      "totalTokens": 2991,
+      "totalRequests": 11,
       "uniqueIPs": [
         "205.147.22.19",
         "13.218.52.30",
         "44.204.228.65",
         "13.222.109.129",
-        "174.129.45.248"
+        "174.129.45.248",
+        "18.212.32.90"
       ]
     },
     "modelo19": {
@@ -12359,13 +12361,15 @@
     "18.212.32.90": {
       "ip": "18.212.32.90",
       "count": 2,
-      "lastSeen": "2026-06-13T03:21:38.719Z",
+      "lastSeen": "2026-06-13T03:21:38.979Z",
       "models": [
         "modelo13",
-        "modelo4"
+        "modelo4",
+        "modelo12",
+        "modelo2"
       ],
-      "tokens": 72
+      "tokens": 275
     }
   },
-  "lastUpdated": "2026-06-13T03:21:38.762Z"
+  "lastUpdated": "2026-06-13T03:21:39.917Z"
 }
