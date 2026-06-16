@@ -1,18 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo21",
-      "ip": "190.211.125.254",
-      "tokens": 23090,
-      "timestamp": "2026-06-16T06:21:35.359Z"
-    },
-    {
-      "model": "modelo17",
-      "ip": "190.211.125.254",
-      "tokens": 29721,
-      "timestamp": "2026-06-16T06:21:37.592Z"
-    },
-    {
       "model": "modelo17",
       "ip": "190.211.125.254",
       "tokens": 102594,
@@ -12021,11 +12009,23 @@
       "ip": "149.88.23.115",
       "tokens": 109158,
       "timestamp": "2026-06-16T16:02:00.817Z"
+    },
+    {
+      "model": "modelo17",
+      "ip": "149.88.23.115",
+      "tokens": 72934,
+      "timestamp": "2026-06-16T16:02:03.493Z"
+    },
+    {
+      "model": "modelo3",
+      "ip": "149.88.23.115",
+      "tokens": 426,
+      "timestamp": "2026-06-16T16:02:11.075Z"
     }
   ],
   "stats": {
     "modelo17": {
-      "totalTokens": 103876714,
+      "totalTokens": 103919927,
       "totalRequests": 1500,
       "uniqueIPs": [
         "190.211.125.254",
@@ -12084,8 +12084,8 @@
       ]
     },
     "modelo21": {
-      "totalTokens": 3625530,
-      "totalRequests": 133,
+      "totalTokens": 3602440,
+      "totalRequests": 132,
       "uniqueIPs": [
         "190.211.125.254",
         "159.26.98.246",
@@ -12124,15 +12124,16 @@
       ]
     },
     "modelo3": {
-      "totalTokens": 10504,
-      "totalRequests": 24,
+      "totalTokens": 10930,
+      "totalRequests": 25,
       "uniqueIPs": [
         "190.211.125.254",
         "159.26.98.246",
         "195.242.214.85",
         "89.38.99.102",
         "138.199.50.141",
-        "37.19.221.242"
+        "37.19.221.242",
+        "149.88.23.115"
       ]
     },
     "modelo4": {
@@ -12511,15 +12512,16 @@
     },
     "149.88.23.115": {
       "ip": "149.88.23.115",
-      "count": 115,
-      "lastSeen": "2026-06-16T16:02:00.817Z",
+      "count": 117,
+      "lastSeen": "2026-06-16T16:02:11.075Z",
       "models": [
         "modelo21",
         "modelo17",
-        "modelo2"
+        "modelo2",
+        "modelo3"
       ],
-      "tokens": 7350771
+      "tokens": 7424131
     }
   },
-  "lastUpdated": "2026-06-16T16:02:01.013Z"
+  "lastUpdated": "2026-06-16T16:02:11.267Z"
 }
