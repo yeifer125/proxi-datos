@@ -99,7 +99,18 @@
     "url": "https://opencode.ai/zen/v1/chat/completions",
     "model": "deepseek-v4-flash-free",
     "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
+    "system_prompt": "$SYSTEM_PROMPT1",
+    "knowledge": {
+      "enabled": true,
+      "mode": "rag",
+      "rag_limit": 3,
+      "tool_endpoint": "/api/knowledge",
+      "available_modes": [
+        "rag",
+        "tool",
+        "full"
+      ]
+    }
   },
   "modelo18": {
     "url": "https://integrate.api.nvidia.com/v1/chat/completions",
