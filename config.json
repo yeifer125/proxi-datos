@@ -3,143 +3,54 @@
     "url": "https://api.kilo.ai/api/gateway/chat/completions",
     "model": "kilo-auto/free",
     "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
+    "system_prompt": ""
   },
   "modelo2": {
     "url": "https://api.kilo.ai/api/gateway/chat/completions",
-    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "model": "poolside/laguna-m.1:free",
     "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
+    "system_prompt": ""
   },
   "modelo3": {
     "url": "https://api.kilo.ai/api/gateway/chat/completions",
-    "model": "poolside/laguna-m.1:free",
+    "model": "stepfun/step-3.7-flash:free",
     "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
+    "system_prompt": ""
   },
   "modelo4": {
     "url": "https://api.kilo.ai/api/gateway/chat/completions",
-    "model": "poolside/laguna-xs.2:free",
+    "model": "nvidia/nemotron-3.5-content-safety:free",
     "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
+    "system_prompt": ""
   },
   "modelo5": {
     "url": "https://api.kilo.ai/api/gateway/chat/completions",
-    "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
     "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
+    "system_prompt": ""
   },
   "modelo6": {
     "url": "https://api.kilo.ai/api/gateway/chat/completions",
-    "model": "stepfun/step-3.7-flash:free",
+    "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
     "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
+    "system_prompt": ""
   },
   "modelo7": {
-    "url": "https://opencode.ai/zen/v1/chat/completions",
-    "model": "nemotron-3-ultra-free",
+    "url": "https://api.kilo.ai/api/gateway/chat/completions",
+    "model": "poolside/laguna-xs.2:free",
     "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
+    "system_prompt": ""
   },
   "modelo8": {
     "url": "https://api.kilo.ai/api/gateway/chat/completions",
-    "model": "openrouter/free",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
     "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
+    "system_prompt": ""
   },
   "modelo9": {
     "url": "https://api.kilo.ai/api/gateway/chat/completions",
-    "model": "kilo-auto/free",
+    "model": "openrouter/free",
     "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
-  },
-  "modelo10": {
-    "url": "https://image.pollinations.ai/prompt/",
-    "model": "pollinations-image",
-    "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
-  },
-  "modelo11": {
-    "url": "https://opencode.ai/zen/v1/chat/completions",
-    "model": "deepseek-v4-flash-free",
-    "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
-  },
-  "modelo12": {
-    "url": "https://opencode.ai/zen/v1/chat/completions",
-    "model": "mimo-v2.5-free",
-    "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
-  },
-  "modelo13": {
-    "url": "https://api.modelverse.cn/v1/chat/completions",
-    "model": "claude-opus-4-8",
-    "key": "$MODELVERSE_KEY",
-    "system_prompt": "$SYSTEM_PROMPT1"
-  },
-  "modelo14": {
-    "url": "https://api.modelverse.cn/v1/chat/completions",
-    "model": "gpt-5.5",
-    "key": "$MODELVERSE_KEY",
-    "system_prompt": "$SYSTEM_PROMPT1"
-  },
-  "modelo15": {
-    "url": "https://api.modelverse.cn/v1/chat/completions",
-    "model": "claude-sonnet-4-6",
-    "key": "$MODELVERSE_KEY",
-    "system_prompt": "$SYSTEM_PROMPT1"
-  },
-  "modelo16": {
-    "url": "https://api.modelverse.cn/v1/chat/completions",
-    "model": "glm-5.2",
-    "key": "$MODELVERSE_KEY",
-    "system_prompt": "$SYSTEM_PROMPT1"
-  },
-  "modelo17": {
-    "url": "https://opencode.ai/zen/v1/chat/completions",
-    "model": "deepseek-v4-flash-free",
-    "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1",
-    "knowledge": {
-      "enabled": true,
-      "mode": "rag",
-      "rag_limit": 3,
-      "tool_endpoint": "/api/knowledge",
-      "available_modes": [
-        "rag",
-        "tool",
-        "full"
-      ]
-    }
-  },
-  "modelo18": {
-    "url": "https://integrate.api.nvidia.com/v1/chat/completions",
-    "model": "z-ai/glm-5.1",
-    "key": "$NVIDIA_NIM_KEY",
-    "system_prompt": "$SYSTEM_PROMPT1"
-  },
-  "modelo19": {
-    "url": "http://74.50.77.70:11434/v1/chat/completions",
-    "model": "qwen3-coder:30b",
-    "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
-  },
-  "modelo20": {
-    "url": "https://integrate.api.nvidia.com/v1/chat/completions",
-    "model": "minimaxai/minimax-m2.7",
-    "key": "$NVIDIA_NIM_KEY",
-    "system_prompt": "$SYSTEM_PROMPT1"
-  },
-  "modelo21": {
-    "url": "http://117.50.180.234:8080/v1/chat/completions",
-    "model": "Gemma4-26B-Uncensored",
-    "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
-  },
-  "modelo22": {
-    "url": "http://57.130.24.2:31984/v1/chat/completions",
-    "model": "kimi-k2.7-code",
-    "key": "",
-    "system_prompt": "$SYSTEM_PROMPT1"
+    "system_prompt": ""
   }
 }
