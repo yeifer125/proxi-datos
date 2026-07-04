@@ -302,6 +302,13 @@
       "source": "apikey"
     },
     {
+      "model": "modelo3",
+      "ip": "44.200.114.230",
+      "tokens": 193,
+      "timestamp": "2026-07-04T18:03:06.141Z",
+      "source": "health-check"
+    },
+    {
       "model": "modelo6",
       "ip": "44.200.114.230",
       "tokens": 173,
@@ -321,6 +328,20 @@
       "tokens": 172,
       "timestamp": "2026-07-04T18:03:30.096Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo6",
+      "ip": "44.200.114.230",
+      "tokens": 173,
+      "timestamp": "2026-07-04T18:03:31.182Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo17",
+      "ip": "44.200.114.230",
+      "tokens": 1991,
+      "timestamp": "2026-07-04T18:04:52.005Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -333,11 +354,12 @@
       ]
     },
     "modelo17": {
-      "totalTokens": 506491,
-      "totalRequests": 8,
+      "totalTokens": 508482,
+      "totalRequests": 9,
       "uniqueIPs": [
         "3.84.39.165",
-        "190.211.125.254"
+        "190.211.125.254",
+        "44.200.114.230"
       ]
     },
     "modelo12": {
@@ -356,8 +378,8 @@
       ]
     },
     "modelo6": {
-      "totalTokens": 346,
-      "totalRequests": 2,
+      "totalTokens": 519,
+      "totalRequests": 3,
       "uniqueIPs": [
         "3.84.39.165",
         "44.200.114.230"
@@ -425,6 +447,13 @@
     },
     "modelo5": {
       "totalTokens": 172,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "44.200.114.230"
+      ]
+    },
+    "modelo3": {
+      "totalTokens": 193,
       "totalRequests": 1,
       "uniqueIPs": [
         "44.200.114.230"
@@ -497,19 +526,21 @@
     },
     "44.200.114.230": {
       "ip": "44.200.114.230",
-      "count": 2,
-      "lastSeen": "2026-07-04T18:03:30.096Z",
+      "count": 3,
+      "lastSeen": "2026-07-04T18:04:52.005Z",
       "models": [
         "modelo6",
         "modelo20",
-        "modelo5"
+        "modelo5",
+        "modelo3",
+        "modelo17"
       ],
-      "tokens": 329,
+      "tokens": 2357,
       "sources": {
-        "health-check": 2
+        "health-check": 3
       }
     }
   },
-  "lastUpdated": "2026-07-04T18:04:50.854Z",
+  "lastUpdated": "2026-07-04T18:04:52.140Z",
   "resetAt": "2026-07-04T16:33:04.450Z"
 }
