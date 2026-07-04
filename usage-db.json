@@ -1009,6 +1009,12 @@
       "timestamp": "2026-07-04T04:44:31.581Z"
     },
     {
+      "model": "modelo9",
+      "ip": "35.153.133.38",
+      "tokens": 173,
+      "timestamp": "2026-07-04T04:44:31.696Z"
+    },
+    {
       "model": "modelo13",
       "ip": "35.153.133.38",
       "tokens": 256,
@@ -1109,6 +1115,18 @@
       "ip": "35.153.133.38",
       "tokens": 193,
       "timestamp": "2026-07-04T04:47:18.919Z"
+    },
+    {
+      "model": "modelo19",
+      "ip": "35.153.133.38",
+      "tokens": 167,
+      "timestamp": "2026-07-04T04:47:43.660Z"
+    },
+    {
+      "model": "modelo13",
+      "ip": "190.211.125.254",
+      "tokens": 1,
+      "timestamp": "2026-07-04T04:47:59.516Z"
     }
   ],
   "stats": {
@@ -1166,8 +1184,8 @@
       ]
     },
     "modelo13": {
-      "totalTokens": 2016,
-      "totalRequests": 33,
+      "totalTokens": 2017,
+      "totalRequests": 34,
       "uniqueIPs": [
         "54.221.174.175",
         "190.211.125.254",
@@ -1220,10 +1238,18 @@
       ]
     },
     "modelo19": {
-      "totalTokens": 167,
+      "totalTokens": 334,
+      "totalRequests": 2,
+      "uniqueIPs": [
+        "190.211.125.254",
+        "35.153.133.38"
+      ]
+    },
+    "modelo9": {
+      "totalTokens": 173,
       "totalRequests": 1,
       "uniqueIPs": [
-        "190.211.125.254"
+        "35.153.133.38"
       ]
     }
   },
@@ -1231,7 +1257,7 @@
     "190.211.125.254": {
       "ip": "190.211.125.254",
       "count": 172,
-      "lastSeen": "2026-07-04T04:47:13.621Z",
+      "lastSeen": "2026-07-04T04:47:59.516Z",
       "models": [
         "modelo22",
         "modelo17",
@@ -1265,18 +1291,20 @@
     "35.153.133.38": {
       "ip": "35.153.133.38",
       "count": 4,
-      "lastSeen": "2026-07-04T04:47:18.919Z",
+      "lastSeen": "2026-07-04T04:47:43.660Z",
       "models": [
         "modelo22",
         "modelo21",
         "modelo16",
         "modelo13",
         "modelo18",
-        "modelo3"
+        "modelo3",
+        "modelo9",
+        "modelo19"
       ],
       "tokens": 591
     }
   },
-  "lastUpdated": "2026-07-04T04:47:19.021Z",
+  "lastUpdated": "2026-07-04T04:48:00.450Z",
   "resetAt": "2026-07-04T04:05:02.305Z"
 }
