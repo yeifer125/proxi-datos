@@ -1,6 +1,51 @@
 {
-  "usages": [],
-  "stats": {},
-  "visitors": {},
+  "usages": [
+    {
+      "model": "modelo9",
+      "ip": "3.84.39.165",
+      "tokens": 193,
+      "timestamp": "2026-07-04T16:32:51.182Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo4",
+      "ip": "3.84.39.165",
+      "tokens": 162,
+      "timestamp": "2026-07-04T16:32:51.214Z",
+      "source": "health-check"
+    }
+  ],
+  "stats": {
+    "modelo9": {
+      "totalTokens": 193,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "3.84.39.165"
+      ]
+    },
+    "modelo4": {
+      "totalTokens": 162,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "3.84.39.165"
+      ]
+    }
+  },
+  "visitors": {
+    "3.84.39.165": {
+      "ip": "3.84.39.165",
+      "count": 2,
+      "lastSeen": "2026-07-04T16:32:51.214Z",
+      "models": [
+        "modelo9",
+        "modelo4"
+      ],
+      "tokens": 355,
+      "sources": {
+        "health-check": 2
+      }
+    }
+  },
+  "lastUpdated": "2026-07-04T16:32:51.256Z",
   "resetAt": "2026-07-04T16:32:50.062Z"
 }
