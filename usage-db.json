@@ -3494,17 +3494,38 @@
       "source": "health-check"
     },
     {
+      "model": "modelo4",
+      "ip": "3.81.229.13",
+      "tokens": 16,
+      "timestamp": "2026-07-06T06:06:59.792Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo8",
+      "ip": "3.81.229.13",
+      "tokens": 20,
+      "timestamp": "2026-07-06T06:08:32.154Z",
+      "source": "health-check"
+    },
+    {
       "model": "modelo13",
       "ip": "3.81.229.13",
       "tokens": 13,
       "timestamp": "2026-07-06T06:08:35.233Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo7",
+      "ip": "3.81.229.13",
+      "tokens": 22,
+      "timestamp": "2026-07-06T06:10:32.062Z",
+      "source": "health-check"
     }
   ],
   "stats": {
     "modelo4": {
-      "totalTokens": 352,
-      "totalRequests": 22,
+      "totalTokens": 368,
+      "totalRequests": 23,
       "uniqueIPs": [
         "13.218.24.78",
         "3.92.192.125",
@@ -3512,11 +3533,12 @@
       ]
     },
     "modelo8": {
-      "totalTokens": 2324,
-      "totalRequests": 22,
+      "totalTokens": 2344,
+      "totalRequests": 23,
       "uniqueIPs": [
         "13.218.24.78",
-        "3.92.192.125"
+        "3.92.192.125",
+        "3.81.229.13"
       ]
     },
     "modelo1": {
@@ -3538,11 +3560,12 @@
       ]
     },
     "modelo7": {
-      "totalTokens": 484,
-      "totalRequests": 22,
+      "totalTokens": 506,
+      "totalRequests": 23,
       "uniqueIPs": [
         "13.218.24.78",
-        "3.92.192.125"
+        "3.92.192.125",
+        "3.81.229.13"
       ]
     },
     "modelo15": {
@@ -3754,8 +3777,8 @@
     },
     "3.81.229.13": {
       "ip": "3.81.229.13",
-      "count": 5,
-      "lastSeen": "2026-07-06T06:08:35.233Z",
+      "count": 8,
+      "lastSeen": "2026-07-06T06:10:32.062Z",
       "models": [
         "modelo22",
         "modelo19",
@@ -3772,14 +3795,16 @@
         "modelo15",
         "modelo16",
         "modelo21",
-        "modelo5"
+        "modelo5",
+        "modelo8",
+        "modelo7"
       ],
-      "tokens": 314,
+      "tokens": 372,
       "sources": {
-        "health-check": 5
+        "health-check": 8
       }
     }
   },
-  "lastUpdated": "2026-07-06T06:10:31.423Z",
+  "lastUpdated": "2026-07-06T06:12:31.389Z",
   "resetAt": "2026-07-06T05:01:57.320Z"
 }
