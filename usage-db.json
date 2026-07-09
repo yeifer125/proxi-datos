@@ -1,13 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo16",
-      "ip": "3.234.242.106",
-      "tokens": 1,
-      "timestamp": "2026-07-09T17:21:39.148Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo9",
       "ip": "3.234.242.106",
       "tokens": 18,
@@ -13999,6 +13992,13 @@
       "tokens": 253,
       "timestamp": "2026-07-09T21:59:35.702Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo8",
+      "ip": "35.170.192.135",
+      "tokens": 22,
+      "timestamp": "2026-07-09T21:59:39.849Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -14020,8 +14020,8 @@
       ]
     },
     "modelo8": {
-      "totalTokens": 6075,
-      "totalRequests": 83,
+      "totalTokens": 6097,
+      "totalRequests": 84,
       "uniqueIPs": [
         "13.218.24.78",
         "3.92.192.125",
@@ -14052,7 +14052,8 @@
         "98.84.27.120",
         "44.200.221.53",
         "54.174.140.223",
-        "98.87.150.109"
+        "98.87.150.109",
+        "35.170.192.135"
       ]
     },
     "modelo1": {
@@ -14330,8 +14331,8 @@
       ]
     },
     "modelo16": {
-      "totalTokens": 182,
-      "totalRequests": 97,
+      "totalTokens": 181,
+      "totalRequests": 96,
       "uniqueIPs": [
         "13.218.24.78",
         "3.92.192.125",
@@ -15953,18 +15954,19 @@
     },
     "35.170.192.135": {
       "ip": "35.170.192.135",
-      "count": 1,
-      "lastSeen": "2026-07-09T21:59:35.702Z",
+      "count": 2,
+      "lastSeen": "2026-07-09T21:59:39.849Z",
       "models": [
         "modelo20",
-        "modelo12"
+        "modelo12",
+        "modelo8"
       ],
-      "tokens": 253,
+      "tokens": 275,
       "sources": {
-        "health-check": 1
+        "health-check": 2
       }
     }
   },
-  "lastUpdated": "2026-07-09T21:59:35.883Z",
+  "lastUpdated": "2026-07-09T22:01:33.172Z",
   "resetAt": "2026-07-06T05:01:57.320Z"
 }
