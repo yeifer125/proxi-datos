@@ -1,13 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo17",
-      "ip": "100.56.16.173",
-      "tokens": 89,
-      "timestamp": "2026-07-07T23:03:34.375Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo14",
       "ip": "100.56.16.173",
       "tokens": 12,
@@ -13999,6 +13992,13 @@
       "tokens": 418,
       "timestamp": "2026-07-09T03:23:40.023Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo22",
+      "ip": "190.211.124.187",
+      "tokens": 22,
+      "timestamp": "2026-07-09T03:23:43.485Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -14383,8 +14383,8 @@
       ]
     },
     "modelo22": {
-      "totalTokens": 678,
-      "totalRequests": 26,
+      "totalTokens": 700,
+      "totalRequests": 27,
       "uniqueIPs": [
         "3.92.192.125",
         "13.218.24.78",
@@ -14406,7 +14406,8 @@
         "44.200.157.133",
         "13.218.158.109",
         "100.56.16.173",
-        "44.202.145.255"
+        "44.202.145.255",
+        "190.211.124.187"
       ]
     },
     "modelo6": {
@@ -14484,8 +14485,8 @@
       ]
     },
     "modelo17": {
-      "totalTokens": 120422316,
-      "totalRequests": 1553,
+      "totalTokens": 120422227,
+      "totalRequests": 1552,
       "uniqueIPs": [
         "3.92.192.125",
         "13.218.24.78",
@@ -15171,17 +15172,18 @@
     },
     "190.211.124.187": {
       "ip": "190.211.124.187",
-      "count": 2368,
-      "lastSeen": "2026-07-09T03:23:40.023Z",
+      "count": 2369,
+      "lastSeen": "2026-07-09T03:23:43.485Z",
       "models": [
         "modelo17",
         "modelo13",
         "modelo2",
-        "modelo16"
+        "modelo16",
+        "modelo22"
       ],
-      "tokens": 187356740,
+      "tokens": 187356762,
       "sources": {
-        "apikey": 2368
+        "apikey": 2369
       }
     },
     "3.90.7.23": {
@@ -15411,6 +15413,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-09T03:23:40.221Z",
+  "lastUpdated": "2026-07-09T03:23:43.621Z",
   "resetAt": "2026-07-06T05:01:57.320Z"
 }
