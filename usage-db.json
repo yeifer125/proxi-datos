@@ -3,20 +3,6 @@
     {
       "model": "modelo17",
       "ip": "190.211.124.187",
-      "tokens": 88896,
-      "timestamp": "2026-07-09T16:45:12.064Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo17",
-      "ip": "190.211.124.187",
-      "tokens": 90510,
-      "timestamp": "2026-07-09T16:45:26.570Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo17",
-      "ip": "190.211.124.187",
       "tokens": 92535,
       "timestamp": "2026-07-09T16:45:48.370Z",
       "source": "apikey"
@@ -13861,6 +13847,13 @@
       "source": "health-check"
     },
     {
+      "model": "modelo17",
+      "ip": "54.87.197.75",
+      "tokens": 1912,
+      "timestamp": "2026-07-09T20:58:03.011Z",
+      "source": "health-check"
+    },
+    {
       "model": "modelo6",
       "ip": "54.87.197.75",
       "tokens": 173,
@@ -13998,6 +13991,13 @@
       "ip": "98.84.27.120",
       "tokens": 44,
       "timestamp": "2026-07-09T21:01:19.749Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo18",
+      "ip": "98.84.27.120",
+      "tokens": 10,
+      "timestamp": "2026-07-09T21:01:22.577Z",
       "source": "health-check"
     }
   ],
@@ -14587,8 +14587,8 @@
       ]
     },
     "modelo18": {
-      "totalTokens": 1261,
-      "totalRequests": 83,
+      "totalTokens": 1271,
+      "totalRequests": 84,
       "uniqueIPs": [
         "3.92.192.125",
         "13.218.24.78",
@@ -14616,12 +14616,13 @@
         "3.234.242.106",
         "44.203.119.80",
         "190.211.124.187",
-        "3.84.250.165"
+        "3.84.250.165",
+        "98.84.27.120"
       ]
     },
     "modelo17": {
-      "totalTokens": 32536542,
-      "totalRequests": 527,
+      "totalTokens": 32359048,
+      "totalRequests": 526,
       "uniqueIPs": [
         "3.92.192.125",
         "13.218.24.78",
@@ -15780,7 +15781,7 @@
         "modelo3",
         "modelo21"
       ],
-      "tokens": 496,
+      "tokens": 1912,
       "sources": {
         "health-check": 8
       }
@@ -15788,9 +15789,10 @@
     "98.84.27.120": {
       "ip": "98.84.27.120",
       "count": 1,
-      "lastSeen": "2026-07-09T21:01:19.749Z",
+      "lastSeen": "2026-07-09T21:01:22.577Z",
       "models": [
-        "modelo20"
+        "modelo20",
+        "modelo18"
       ],
       "tokens": 44,
       "sources": {
@@ -15798,6 +15800,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-09T21:01:19.900Z",
+  "lastUpdated": "2026-07-09T21:01:22.772Z",
   "resetAt": "2026-07-06T05:01:57.320Z"
 }
