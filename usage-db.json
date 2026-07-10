@@ -11773,6 +11773,27 @@
       "tokens": 105646,
       "timestamp": "2026-07-10T06:03:39.223Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo7",
+      "ip": "100.30.179.9",
+      "tokens": 22,
+      "timestamp": "2026-07-10T06:03:48.733Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo4",
+      "ip": "100.30.179.9",
+      "tokens": 30,
+      "timestamp": "2026-07-10T06:03:49.043Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo21",
+      "ip": "100.30.179.9",
+      "tokens": 18,
+      "timestamp": "2026-07-10T06:03:49.247Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -11939,15 +11960,16 @@
       ]
     },
     "modelo7": {
-      "totalTokens": 1056,
-      "totalRequests": 27,
+      "totalTokens": 1078,
+      "totalRequests": 28,
       "uniqueIPs": [
         "34.236.134.132",
         "190.211.124.187",
         "34.239.120.251",
         "34.207.140.71",
         "18.213.245.238",
-        "35.175.139.144"
+        "35.175.139.144",
+        "100.30.179.9"
       ]
     },
     "modelo15": {
@@ -11983,13 +12005,14 @@
       ]
     },
     "modelo21": {
-      "totalTokens": 324,
-      "totalRequests": 9,
+      "totalTokens": 342,
+      "totalRequests": 10,
       "uniqueIPs": [
         "34.236.134.132",
         "190.211.124.189",
         "34.239.120.251",
-        "18.213.245.238"
+        "18.213.245.238",
+        "100.30.179.9"
       ]
     },
     "modelo20": {
@@ -12033,13 +12056,14 @@
       ]
     },
     "modelo4": {
-      "totalTokens": 258,
-      "totalRequests": 5,
+      "totalTokens": 288,
+      "totalRequests": 6,
       "uniqueIPs": [
         "190.211.124.212",
         "190.211.124.229",
         "190.211.124.232",
-        "35.175.139.144"
+        "35.175.139.144",
+        "100.30.179.9"
       ]
     }
   },
@@ -12579,8 +12603,22 @@
       "sources": {
         "apikey": 1
       }
+    },
+    "100.30.179.9": {
+      "ip": "100.30.179.9",
+      "count": 3,
+      "lastSeen": "2026-07-10T06:03:49.247Z",
+      "models": [
+        "modelo7",
+        "modelo4",
+        "modelo21"
+      ],
+      "tokens": 70,
+      "sources": {
+        "health-check": 3
+      }
     }
   },
-  "lastUpdated": "2026-07-10T06:03:39.780Z",
+  "lastUpdated": "2026-07-10T06:03:51.399Z",
   "resetAt": "2026-07-10T00:02:17.716Z"
 }
