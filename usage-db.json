@@ -11131,6 +11131,13 @@
       "source": "health-check"
     },
     {
+      "model": "modelo3",
+      "ip": "52.200.237.225",
+      "tokens": 20,
+      "timestamp": "2026-07-10T05:52:34.660Z",
+      "source": "health-check"
+    },
+    {
       "model": "modelo15",
       "ip": "52.200.237.225",
       "tokens": 13,
@@ -11143,12 +11150,19 @@
       "tokens": 13,
       "timestamp": "2026-07-10T05:52:36.779Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo17",
+      "ip": "190.211.124.212",
+      "tokens": 104139,
+      "timestamp": "2026-07-10T05:53:15.140Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo17": {
-      "totalTokens": 115573243,
-      "totalRequests": 1139,
+      "totalTokens": 115677382,
+      "totalRequests": 1140,
       "uniqueIPs": [
         "190.211.124.187",
         "34.236.134.132",
@@ -11166,7 +11180,8 @@
         "52.200.237.225",
         "190.211.124.208",
         "190.211.124.209",
-        "190.211.124.210"
+        "190.211.124.210",
+        "190.211.124.212"
       ]
     },
     "modelo22": {
@@ -11256,13 +11271,14 @@
       ]
     },
     "modelo3": {
-      "totalTokens": 816,
-      "totalRequests": 20,
+      "totalTokens": 836,
+      "totalRequests": 21,
       "uniqueIPs": [
         "34.236.134.132",
         "190.211.124.187",
         "190.211.124.189",
-        "190.211.124.202"
+        "190.211.124.202",
+        "52.200.237.225"
       ]
     },
     "modelo16": {
@@ -11610,9 +11626,10 @@
         "modelo22",
         "modelo8",
         "modelo18",
-        "modelo13"
+        "modelo13",
+        "modelo3"
       ],
-      "tokens": 2049,
+      "tokens": 2069,
       "sources": {
         "health-check": 7
       }
@@ -11667,8 +11684,20 @@
       "sources": {
         "apikey": 1
       }
+    },
+    "190.211.124.212": {
+      "ip": "190.211.124.212",
+      "count": 1,
+      "lastSeen": "2026-07-10T05:53:15.140Z",
+      "models": [
+        "modelo17"
+      ],
+      "tokens": 104139,
+      "sources": {
+        "apikey": 1
+      }
     }
   },
-  "lastUpdated": "2026-07-10T05:52:36.922Z",
+  "lastUpdated": "2026-07-10T05:53:15.338Z",
   "resetAt": "2026-07-10T00:02:17.716Z"
 }
