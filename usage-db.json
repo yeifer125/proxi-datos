@@ -12452,12 +12452,26 @@
       "tokens": 164899,
       "timestamp": "2026-07-10T06:07:23.454Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "190.211.124.239",
+      "tokens": 1,
+      "timestamp": "2026-07-10T06:07:24.968Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo17",
+      "ip": "190.211.124.240",
+      "tokens": 127231,
+      "timestamp": "2026-07-10T06:07:27.499Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo17": {
-      "totalTokens": 124590691,
-      "totalRequests": 1217,
+      "totalTokens": 124717922,
+      "totalRequests": 1218,
       "uniqueIPs": [
         "190.211.124.187",
         "34.236.134.132",
@@ -12740,13 +12754,14 @@
       ]
     },
     "modelo1": {
-      "totalTokens": 402,
-      "totalRequests": 5,
+      "totalTokens": 403,
+      "totalRequests": 6,
       "uniqueIPs": [
         "190.211.124.202",
         "52.200.237.225",
         "100.30.179.9",
-        "190.211.124.235"
+        "190.211.124.235",
+        "190.211.124.239"
       ]
     },
     "modelo4": {
@@ -13358,15 +13373,16 @@
     },
     "190.211.124.239": {
       "ip": "190.211.124.239",
-      "count": 8,
-      "lastSeen": "2026-07-10T06:06:51.907Z",
+      "count": 9,
+      "lastSeen": "2026-07-10T06:07:24.968Z",
       "models": [
         "modelo17",
-        "modelo4"
+        "modelo4",
+        "modelo1"
       ],
-      "tokens": 783252,
+      "tokens": 783253,
       "sources": {
-        "apikey": 8
+        "apikey": 9
       }
     },
     "34.239.127.6": {
@@ -13394,15 +13410,15 @@
     },
     "190.211.124.240": {
       "ip": "190.211.124.240",
-      "count": 4,
-      "lastSeen": "2026-07-10T06:07:23.454Z",
+      "count": 5,
+      "lastSeen": "2026-07-10T06:07:27.499Z",
       "models": [
         "modelo4",
         "modelo17"
       ],
-      "tokens": 249655,
+      "tokens": 376886,
       "sources": {
-        "apikey": 4
+        "apikey": 5
       }
     },
     "190.211.124.217": {
@@ -13430,6 +13446,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-10T06:07:23.618Z",
+  "lastUpdated": "2026-07-10T06:07:27.751Z",
   "resetAt": "2026-07-10T00:02:17.716Z"
 }
