@@ -10998,6 +10998,13 @@
       "source": "apikey"
     },
     {
+      "model": "modelo2",
+      "ip": "52.200.237.225",
+      "tokens": 172,
+      "timestamp": "2026-07-10T05:50:08.589Z",
+      "source": "health-check"
+    },
+    {
       "model": "modelo9",
       "ip": "52.200.237.225",
       "tokens": 173,
@@ -11094,6 +11101,13 @@
       "tokens": 14,
       "timestamp": "2026-07-10T05:52:32.546Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo15",
+      "ip": "52.200.237.225",
+      "tokens": 13,
+      "timestamp": "2026-07-10T05:52:34.784Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -11183,13 +11197,14 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 867,
-      "totalRequests": 19,
+      "totalTokens": 1039,
+      "totalRequests": 20,
       "uniqueIPs": [
         "34.236.134.132",
         "190.211.124.187",
         "190.211.124.189",
-        "190.211.124.202"
+        "190.211.124.202",
+        "52.200.237.225"
       ]
     },
     "modelo11": {
@@ -11232,12 +11247,13 @@
       ]
     },
     "modelo15": {
-      "totalTokens": 777,
-      "totalRequests": 21,
+      "totalTokens": 790,
+      "totalRequests": 22,
       "uniqueIPs": [
         "34.236.134.132",
         "190.211.124.187",
-        "34.239.120.251"
+        "34.239.120.251",
+        "52.200.237.225"
       ]
     },
     "modelo12": {
@@ -11541,7 +11557,7 @@
     "52.200.237.225": {
       "ip": "52.200.237.225",
       "count": 4,
-      "lastSeen": "2026-07-10T05:52:32.546Z",
+      "lastSeen": "2026-07-10T05:52:34.784Z",
       "models": [
         "modelo19",
         "modelo6",
@@ -11549,7 +11565,9 @@
         "modelo9",
         "modelo11",
         "modelo20",
-        "modelo5"
+        "modelo5",
+        "modelo2",
+        "modelo15"
       ],
       "tokens": 2049,
       "sources": {
@@ -11608,6 +11626,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-10T05:52:33.283Z",
+  "lastUpdated": "2026-07-10T05:52:35.302Z",
   "resetAt": "2026-07-10T00:02:17.716Z"
 }
