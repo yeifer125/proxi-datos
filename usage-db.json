@@ -3,13 +3,6 @@
     {
       "model": "modelo17",
       "ip": "190.211.124.187",
-      "tokens": 55408,
-      "timestamp": "2026-07-10T16:01:03.723Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo17",
-      "ip": "190.211.124.187",
       "tokens": 56774,
       "timestamp": "2026-07-10T16:01:13.691Z",
       "source": "apikey"
@@ -13999,12 +13992,19 @@
       "tokens": 94327,
       "timestamp": "2026-07-10T19:19:00.012Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo20",
+      "ip": "3.83.99.247",
+      "tokens": 44,
+      "timestamp": "2026-07-10T19:19:03.580Z",
+      "source": "health-check"
     }
   ],
   "stats": {
     "modelo17": {
-      "totalTokens": 51567991,
-      "totalRequests": 609,
+      "totalTokens": 51512583,
+      "totalRequests": 608,
       "uniqueIPs": [
         "190.211.124.187",
         "34.236.134.132",
@@ -14478,8 +14478,8 @@
       ]
     },
     "modelo20": {
-      "totalTokens": 3112,
-      "totalRequests": 64,
+      "totalTokens": 3156,
+      "totalRequests": 65,
       "uniqueIPs": [
         "190.211.124.187",
         "190.211.124.189",
@@ -14500,7 +14500,8 @@
         "54.167.135.33",
         "44.197.234.93",
         "54.227.6.54",
-        "100.55.100.199"
+        "100.55.100.199",
+        "3.83.99.247"
       ]
     },
     "modelo18": {
@@ -15963,8 +15964,8 @@
     },
     "3.83.99.247": {
       "ip": "3.83.99.247",
-      "count": 11,
-      "lastSeen": "2026-07-10T19:18:44.030Z",
+      "count": 12,
+      "lastSeen": "2026-07-10T19:19:03.580Z",
       "models": [
         "modelo4",
         "modelo13",
@@ -15980,14 +15981,15 @@
         "modelo15",
         "modelo21",
         "modelo9",
-        "modelo8"
+        "modelo8",
+        "modelo20"
       ],
-      "tokens": 238,
+      "tokens": 282,
       "sources": {
-        "health-check": 11
+        "health-check": 12
       }
     }
   },
-  "lastUpdated": "2026-07-10T19:19:00.370Z",
+  "lastUpdated": "2026-07-10T19:19:03.946Z",
   "resetAt": "2026-07-10T00:02:17.716Z"
 }
