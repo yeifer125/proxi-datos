@@ -7750,10 +7750,24 @@
       "source": "apikey"
     },
     {
+      "model": "modelo3",
+      "ip": "190.211.124.187",
+      "tokens": 110,
+      "timestamp": "2026-07-10T23:28:18.450Z",
+      "source": "apikey"
+    },
+    {
       "model": "modelo4",
       "ip": "190.211.124.187",
       "tokens": 192,
       "timestamp": "2026-07-10T23:28:21.121Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo6",
+      "ip": "190.211.124.187",
+      "tokens": 62,
+      "timestamp": "2026-07-10T23:28:22.421Z",
       "source": "apikey"
     }
   ],
@@ -7831,13 +7845,14 @@
       ]
     },
     "modelo3": {
-      "totalTokens": 633,
-      "totalRequests": 23,
+      "totalTokens": 743,
+      "totalRequests": 24,
       "uniqueIPs": [
         "3.83.99.247",
         "32.198.77.100",
         "13.220.217.41",
-        "44.192.91.154"
+        "44.192.91.154",
+        "190.211.124.187"
       ]
     },
     "modelo2": {
@@ -7851,13 +7866,14 @@
       ]
     },
     "modelo6": {
-      "totalTokens": 587,
-      "totalRequests": 24,
+      "totalTokens": 649,
+      "totalRequests": 25,
       "uniqueIPs": [
         "3.83.99.247",
         "32.198.77.100",
         "44.192.91.154",
-        "13.220.217.41"
+        "13.220.217.41",
+        "190.211.124.187"
       ]
     },
     "modelo1": {
@@ -8004,17 +8020,19 @@
     },
     "190.211.124.187": {
       "ip": "190.211.124.187",
-      "count": 472,
-      "lastSeen": "2026-07-10T23:28:21.121Z",
+      "count": 474,
+      "lastSeen": "2026-07-10T23:28:22.421Z",
       "models": [
         "modelo17",
         "modelo13",
         "modelo1",
-        "modelo4"
+        "modelo4",
+        "modelo3",
+        "modelo6"
       ],
-      "tokens": 29798115,
+      "tokens": 29798287,
       "sources": {
-        "apikey": 472
+        "apikey": 474
       }
     },
     "45.79.183.61": {
@@ -8123,6 +8141,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-10T23:28:21.402Z",
+  "lastUpdated": "2026-07-10T23:28:23.639Z",
   "resetAt": "2026-07-10T19:19:39.287Z"
 }
