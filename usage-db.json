@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo1",
-      "ip": "44.192.61.84",
-      "tokens": 601,
-      "timestamp": "2026-07-11T17:14:43.110Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo4",
-      "ip": "44.192.61.84",
-      "tokens": 601,
-      "timestamp": "2026-07-11T17:14:43.130Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo2",
       "ip": "44.192.61.84",
       "tokens": 624,
@@ -13999,12 +13985,26 @@
       "tokens": 87193,
       "timestamp": "2026-07-11T21:53:53.628Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo17",
+      "ip": "45.79.183.61",
+      "tokens": 63453,
+      "timestamp": "2026-07-11T21:53:55.366Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo17",
+      "ip": "45.79.183.61",
+      "tokens": 90361,
+      "timestamp": "2026-07-11T21:54:07.479Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo4": {
-      "totalTokens": 1202,
-      "totalRequests": 2,
+      "totalTokens": 601,
+      "totalRequests": 1,
       "uniqueIPs": [
         "44.192.61.84"
       ]
@@ -14024,8 +14024,8 @@
       ]
     },
     "modelo1": {
-      "totalTokens": 1202,
-      "totalRequests": 2,
+      "totalTokens": 601,
+      "totalRequests": 1,
       "uniqueIPs": [
         "44.192.61.84"
       ]
@@ -14059,8 +14059,8 @@
       ]
     },
     "modelo17": {
-      "totalTokens": 158228380,
-      "totalRequests": 1978,
+      "totalTokens": 158382194,
+      "totalRequests": 1980,
       "uniqueIPs": [
         "44.192.61.84",
         "45.79.183.61",
@@ -14132,14 +14132,14 @@
     },
     "45.79.183.61": {
       "ip": "45.79.183.61",
-      "count": 666,
-      "lastSeen": "2026-07-11T21:53:53.628Z",
+      "count": 668,
+      "lastSeen": "2026-07-11T21:54:07.479Z",
       "models": [
         "modelo17"
       ],
-      "tokens": 42149278,
+      "tokens": 42303092,
       "sources": {
-        "apikey": 666
+        "apikey": 668
       }
     },
     "190.211.124.187": {
@@ -14167,6 +14167,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-11T21:53:53.760Z",
+  "lastUpdated": "2026-07-11T21:54:08.961Z",
   "resetAt": "2026-07-11T17:14:42.121Z"
 }
