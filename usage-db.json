@@ -195,6 +195,20 @@
       "tokens": 48137,
       "timestamp": "2026-07-11T17:15:43.243Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo13",
+      "ip": "44.192.61.84",
+      "tokens": 13,
+      "timestamp": "2026-07-11T17:15:44.441Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo17",
+      "ip": "45.79.183.61",
+      "tokens": 51579,
+      "timestamp": "2026-07-11T17:15:51.724Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -255,8 +269,8 @@
       ]
     },
     "modelo17": {
-      "totalTokens": 375072,
-      "totalRequests": 7,
+      "totalTokens": 426651,
+      "totalRequests": 8,
       "uniqueIPs": [
         "44.192.61.84",
         "45.79.183.61",
@@ -290,13 +304,20 @@
       "uniqueIPs": [
         "44.192.61.84"
       ]
+    },
+    "modelo13": {
+      "totalTokens": 13,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "44.192.61.84"
+      ]
     }
   },
   "visitors": {
     "44.192.61.84": {
       "ip": "44.192.61.84",
-      "count": 6,
-      "lastSeen": "2026-07-11T17:15:13.750Z",
+      "count": 7,
+      "lastSeen": "2026-07-11T17:15:44.441Z",
       "models": [
         "modelo4",
         "modelo9",
@@ -310,23 +331,24 @@
         "modelo14",
         "modelo2",
         "modelo12",
-        "modelo7"
+        "modelo7",
+        "modelo13"
       ],
-      "tokens": 4102,
+      "tokens": 4115,
       "sources": {
-        "health-check": 6
+        "health-check": 7
       }
     },
     "45.79.183.61": {
       "ip": "45.79.183.61",
-      "count": 3,
-      "lastSeen": "2026-07-11T17:15:43.243Z",
+      "count": 4,
+      "lastSeen": "2026-07-11T17:15:51.724Z",
       "models": [
         "modelo17"
       ],
-      "tokens": 141420,
+      "tokens": 192999,
       "sources": {
-        "apikey": 3
+        "apikey": 4
       }
     },
     "190.211.124.187": {
@@ -342,6 +364,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-11T17:15:43.656Z",
+  "lastUpdated": "2026-07-11T17:15:52.658Z",
   "resetAt": "2026-07-11T17:14:42.121Z"
 }
