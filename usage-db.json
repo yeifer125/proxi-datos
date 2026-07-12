@@ -2,13 +2,6 @@
   "usages": [
     {
       "model": "modelo17",
-      "ip": "190.211.126.118",
-      "tokens": 65776,
-      "timestamp": "2026-07-11T23:38:02.577Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo17",
       "ip": "45.79.183.61",
       "tokens": 78970,
       "timestamp": "2026-07-11T23:38:09.836Z",
@@ -13999,6 +13992,13 @@
       "tokens": 46832,
       "timestamp": "2026-07-12T02:56:03.169Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo12",
+      "ip": "100.52.181.116",
+      "tokens": 579,
+      "timestamp": "2026-07-12T02:56:07.124Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -14089,8 +14089,8 @@
       ]
     },
     "modelo17": {
-      "totalTokens": 60455182,
-      "totalRequests": 864,
+      "totalTokens": 60389406,
+      "totalRequests": 863,
       "uniqueIPs": [
         "44.192.61.84",
         "45.79.183.61",
@@ -14126,15 +14126,16 @@
       ]
     },
     "modelo12": {
-      "totalTokens": 32950,
-      "totalRequests": 55,
+      "totalTokens": 33529,
+      "totalRequests": 56,
       "uniqueIPs": [
         "44.192.61.84",
         "190.211.124.187",
         "3.87.193.18",
         "54.159.99.131",
         "76.151.97.168",
-        "3.236.107.14"
+        "3.236.107.14",
+        "100.52.181.116"
       ]
     },
     "modelo7": {
@@ -14434,8 +14435,20 @@
       "sources": {
         "apikey": 59
       }
+    },
+    "100.52.181.116": {
+      "ip": "100.52.181.116",
+      "count": 1,
+      "lastSeen": "2026-07-12T02:56:07.124Z",
+      "models": [
+        "modelo12"
+      ],
+      "tokens": 579,
+      "sources": {
+        "health-check": 1
+      }
     }
   },
-  "lastUpdated": "2026-07-12T02:56:03.399Z",
+  "lastUpdated": "2026-07-12T02:56:07.311Z",
   "resetAt": "2026-07-11T17:14:42.121Z"
 }
