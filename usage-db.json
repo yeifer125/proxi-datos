@@ -2,13 +2,6 @@
   "usages": [
     {
       "model": "modelo17",
-      "ip": "190.211.126.118",
-      "tokens": 90146,
-      "timestamp": "2026-07-11T23:51:49.193Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo17",
       "ip": "45.79.183.61",
       "tokens": 84602,
       "timestamp": "2026-07-11T23:51:50.168Z",
@@ -13999,6 +13992,13 @@
       "tokens": 601,
       "timestamp": "2026-07-12T03:03:18.176Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo16",
+      "ip": "107.23.243.200",
+      "tokens": 1,
+      "timestamp": "2026-07-12T03:03:21.394Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -14062,8 +14062,8 @@
       ]
     },
     "modelo16": {
-      "totalTokens": 2978,
-      "totalRequests": 64,
+      "totalTokens": 2979,
+      "totalRequests": 65,
       "uniqueIPs": [
         "44.192.61.84",
         "190.211.124.187",
@@ -14071,7 +14071,8 @@
         "54.159.99.131",
         "76.151.97.168",
         "3.236.107.14",
-        "100.52.181.116"
+        "100.52.181.116",
+        "107.23.243.200"
       ]
     },
     "modelo20": {
@@ -14099,8 +14100,8 @@
       ]
     },
     "modelo17": {
-      "totalTokens": 58286366,
-      "totalRequests": 809,
+      "totalTokens": 58196220,
+      "totalRequests": 808,
       "uniqueIPs": [
         "44.192.61.84",
         "45.79.183.61",
@@ -14487,21 +14488,22 @@
     },
     "107.23.243.200": {
       "ip": "107.23.243.200",
-      "count": 5,
-      "lastSeen": "2026-07-12T03:03:18.176Z",
+      "count": 6,
+      "lastSeen": "2026-07-12T03:03:21.394Z",
       "models": [
         "modelo19",
         "modelo1",
         "modelo17",
         "modelo20",
-        "modelo18"
+        "modelo18",
+        "modelo16"
       ],
-      "tokens": 4839,
+      "tokens": 4840,
       "sources": {
-        "health-check": 5
+        "health-check": 6
       }
     }
   },
-  "lastUpdated": "2026-07-12T03:03:20.499Z",
+  "lastUpdated": "2026-07-12T03:03:24.619Z",
   "resetAt": "2026-07-11T17:14:42.121Z"
 }
