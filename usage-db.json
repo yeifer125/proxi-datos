@@ -8069,6 +8069,35 @@
       "tokens": 16,
       "timestamp": "2026-07-13T14:35:18.740Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo17",
+      "ip": "unknown",
+      "tokens": 1,
+      "timestamp": "2026-07-13T14:35:28.633Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo16",
+      "ip": "unknown",
+      "tokens": 149,
+      "timestamp": "2026-07-13T14:35:33.088Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo18",
+      "ip": "unknown",
+      "tokens": 12,
+      "timestamp": "2026-07-13T14:35:35.029Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo9",
+      "ip": "unknown",
+      "tokens": 22,
+      "timestamp": "2026-07-13T14:36:05.428Z",
+      "rotatorModel": "modelo7",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -8145,8 +8174,8 @@
       ]
     },
     "modelo9": {
-      "totalTokens": 433,
-      "totalRequests": 8,
+      "totalTokens": 455,
+      "totalRequests": 9,
       "uniqueIPs": [
         "unknown",
         "::1"
@@ -8185,16 +8214,16 @@
       ]
     },
     "modelo17": {
-      "totalTokens": 42,
-      "totalRequests": 3,
+      "totalTokens": 43,
+      "totalRequests": 4,
       "uniqueIPs": [
         "unknown",
         "::1"
       ]
     },
     "modelo18": {
-      "totalTokens": 81,
-      "totalRequests": 6,
+      "totalTokens": 93,
+      "totalRequests": 7,
       "uniqueIPs": [
         "unknown",
         "::1"
@@ -8225,18 +8254,19 @@
       ]
     },
     "modelo16": {
-      "totalTokens": 18,
-      "totalRequests": 1,
+      "totalTokens": 167,
+      "totalRequests": 2,
       "uniqueIPs": [
-        "::1"
+        "::1",
+        "unknown"
       ]
     }
   },
   "visitors": {
     "unknown": {
       "ip": "unknown",
-      "count": 1089,
-      "lastSeen": "2026-07-13T14:35:18.740Z",
+      "count": 1093,
+      "lastSeen": "2026-07-13T14:36:05.428Z",
       "models": [
         "modelo1",
         "modelo11",
@@ -8256,12 +8286,13 @@
         "modelo18",
         "modelo21",
         "modelo20",
-        "modelo19"
+        "modelo19",
+        "modelo16"
       ],
-      "tokens": 98638729,
+      "tokens": 98638913,
       "sources": {
-        "apikey": 1082,
-        "health-check": 10
+        "apikey": 1085,
+        "health-check": 11
       }
     },
     "::1": {
@@ -8293,6 +8324,6 @@
       "tokens": 0
     }
   },
-  "lastUpdated": "2026-07-13T14:35:19.974Z",
+  "lastUpdated": "2026-07-13T14:36:06.460Z",
   "resetAt": "2026-07-13T02:55:14.404Z"
 }
