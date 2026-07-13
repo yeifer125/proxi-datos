@@ -13,6 +13,13 @@
       "tokens": 20,
       "timestamp": "2026-07-13T03:12:59.948Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo2",
+      "ip": "unknown",
+      "tokens": 152,
+      "timestamp": "2026-07-13T03:25:43.615Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -29,23 +36,31 @@
       "uniqueIPs": [
         "unknown"
       ]
+    },
+    "modelo2": {
+      "totalTokens": 152,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "unknown"
+      ]
     }
   },
   "visitors": {
     "unknown": {
       "ip": "unknown",
-      "count": 2,
-      "lastSeen": "2026-07-13T03:12:59.948Z",
+      "count": 3,
+      "lastSeen": "2026-07-13T03:25:43.615Z",
       "models": [
         "modelo1",
-        "modelo11"
+        "modelo11",
+        "modelo2"
       ],
-      "tokens": 49,
+      "tokens": 201,
       "sources": {
-        "apikey": 2
+        "apikey": 3
       }
     }
   },
-  "lastUpdated": "2026-07-13T03:13:00.394Z",
+  "lastUpdated": "2026-07-13T03:25:44.050Z",
   "resetAt": "2026-07-13T02:55:14.404Z"
 }
