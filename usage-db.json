@@ -7995,6 +7995,37 @@
       "tokens": 22,
       "timestamp": "2026-07-13T14:26:04.442Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo9",
+      "ip": "unknown",
+      "tokens": 22,
+      "timestamp": "2026-07-13T14:26:29.993Z",
+      "rotatorModel": "modelo8",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo8",
+      "ip": "unknown",
+      "tokens": 46,
+      "timestamp": "2026-07-13T14:30:02.636Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo9",
+      "ip": "unknown",
+      "tokens": 59,
+      "timestamp": "2026-07-13T14:30:05.398Z",
+      "rotatorModel": "modelo5",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo9",
+      "ip": "unknown",
+      "tokens": 22,
+      "timestamp": "2026-07-13T14:32:17.762Z",
+      "rotatorModel": "modelo7",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -8063,16 +8094,16 @@
       ]
     },
     "modelo8": {
-      "totalTokens": 248,
-      "totalRequests": 4,
+      "totalTokens": 294,
+      "totalRequests": 5,
       "uniqueIPs": [
         "unknown",
         "::1"
       ]
     },
     "modelo9": {
-      "totalTokens": 241,
-      "totalRequests": 4,
+      "totalTokens": 344,
+      "totalRequests": 7,
       "uniqueIPs": [
         "unknown",
         "::1"
@@ -8161,8 +8192,8 @@
   "visitors": {
     "unknown": {
       "ip": "unknown",
-      "count": 1083,
-      "lastSeen": "2026-07-13T14:26:04.442Z",
+      "count": 1087,
+      "lastSeen": "2026-07-13T14:32:17.762Z",
       "models": [
         "modelo1",
         "modelo11",
@@ -8184,10 +8215,10 @@
         "modelo20",
         "modelo19"
       ],
-      "tokens": 98638537,
+      "tokens": 98638686,
       "sources": {
         "apikey": 1080,
-        "health-check": 6
+        "health-check": 10
       }
     },
     "::1": {
@@ -8219,6 +8250,6 @@
       "tokens": 0
     }
   },
-  "lastUpdated": "2026-07-13T14:26:08.788Z",
+  "lastUpdated": "2026-07-13T14:32:23.887Z",
   "resetAt": "2026-07-13T02:55:14.404Z"
 }
