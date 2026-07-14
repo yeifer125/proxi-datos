@@ -3,13 +3,6 @@
     {
       "model": "modelo13",
       "ip": "190.211.124.187",
-      "tokens": 88,
-      "timestamp": "2026-07-14T13:10:52.460Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo13",
-      "ip": "190.211.124.187",
       "tokens": 44,
       "timestamp": "2026-07-14T13:10:58.592Z",
       "source": "apikey"
@@ -14078,6 +14071,13 @@
       "tokens": 236,
       "timestamp": "2026-07-14T19:22:45.846Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo19",
+      "ip": "98.84.6.247",
+      "tokens": 1379,
+      "timestamp": "2026-07-14T19:23:11.102Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -14127,8 +14127,8 @@
       ]
     },
     "modelo13": {
-      "totalTokens": 128599,
-      "totalRequests": 399,
+      "totalTokens": 128511,
+      "totalRequests": 398,
       "uniqueIPs": [
         "44.198.190.4",
         "54.211.203.184",
@@ -14506,8 +14506,8 @@
       ]
     },
     "modelo19": {
-      "totalTokens": 17767,
-      "totalRequests": 70,
+      "totalTokens": 19146,
+      "totalRequests": 71,
       "uniqueIPs": [
         "190.211.126.118",
         "44.198.190.4",
@@ -14522,7 +14522,8 @@
         "54.224.153.136",
         "52.204.218.34",
         "13.220.108.223",
-        "34.205.33.182"
+        "34.205.33.182",
+        "98.84.6.247"
       ]
     },
     "modelo22": {
@@ -15585,8 +15586,8 @@
     },
     "98.84.6.247": {
       "ip": "98.84.6.247",
-      "count": 9,
-      "lastSeen": "2026-07-14T19:22:28.835Z",
+      "count": 10,
+      "lastSeen": "2026-07-14T19:23:11.102Z",
       "models": [
         "modelo2",
         "modelo8",
@@ -15596,14 +15597,15 @@
         "modelo20",
         "modelo7",
         "modelo13",
-        "modelo1"
+        "modelo1",
+        "modelo19"
       ],
-      "tokens": 3516,
+      "tokens": 4895,
       "sources": {
-        "health-check": 9
+        "health-check": 10
       }
     }
   },
-  "lastUpdated": "2026-07-14T19:22:46.013Z",
+  "lastUpdated": "2026-07-14T19:24:26.476Z",
   "resetAt": "2026-07-13T22:39:38.841Z"
 }
