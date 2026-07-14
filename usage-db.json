@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo13",
-      "ip": "190.211.124.187",
-      "tokens": 42,
-      "timestamp": "2026-07-14T04:43:04.499Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo6",
-      "ip": "54.235.17.166",
-      "tokens": 18,
-      "timestamp": "2026-07-14T04:43:05.640Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo1",
       "ip": "54.235.17.166",
       "tokens": 18,
@@ -14062,6 +14048,20 @@
       "tokens": 200,
       "timestamp": "2026-07-14T13:33:10.181Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo13",
+      "ip": "52.204.218.34",
+      "tokens": 13,
+      "timestamp": "2026-07-14T13:33:13.448Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo18",
+      "ip": "52.204.218.34",
+      "tokens": 12,
+      "timestamp": "2026-07-14T13:33:13.538Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -14101,7 +14101,7 @@
       ]
     },
     "modelo13": {
-      "totalTokens": 34438,
+      "totalTokens": 34409,
       "totalRequests": 762,
       "uniqueIPs": [
         "44.198.190.4",
@@ -14177,8 +14177,8 @@
       ]
     },
     "modelo18": {
-      "totalTokens": 12517,
-      "totalRequests": 61,
+      "totalTokens": 12529,
+      "totalRequests": 62,
       "uniqueIPs": [
         "44.198.190.4",
         "190.211.126.118",
@@ -14283,8 +14283,8 @@
       ]
     },
     "modelo6": {
-      "totalTokens": 2862,
-      "totalRequests": 57,
+      "totalTokens": 2844,
+      "totalRequests": 56,
       "uniqueIPs": [
         "190.211.126.118",
         "44.198.190.4",
@@ -15282,8 +15282,8 @@
     },
     "52.204.218.34": {
       "ip": "52.204.218.34",
-      "count": 80,
-      "lastSeen": "2026-07-14T13:31:12.560Z",
+      "count": 82,
+      "lastSeen": "2026-07-14T13:33:13.538Z",
       "models": [
         "modelo2",
         "modelo15",
@@ -15307,9 +15307,9 @@
         "modelo12",
         "modelo20"
       ],
-      "tokens": 6565,
+      "tokens": 6590,
       "sources": {
-        "health-check": 80
+        "health-check": 82
       }
     },
     "190.211.124.199": {
@@ -15349,6 +15349,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-14T13:33:11.704Z",
+  "lastUpdated": "2026-07-14T13:33:13.696Z",
   "resetAt": "2026-07-13T22:39:38.841Z"
 }
