@@ -3,13 +3,6 @@
     {
       "model": "modelo2",
       "ip": "190.211.124.187",
-      "tokens": 46594,
-      "timestamp": "2026-07-16T08:50:04.938Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "190.211.124.187",
       "tokens": 46928,
       "timestamp": "2026-07-16T08:50:12.052Z",
       "source": "apikey"
@@ -14039,6 +14032,13 @@
       "tokens": 48278,
       "timestamp": "2026-07-16T19:35:10.918Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo19",
+      "ip": "3.234.217.247",
+      "tokens": 796,
+      "timestamp": "2026-07-16T19:35:13.643Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -14168,8 +14168,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 110037557,
-      "totalRequests": 1244,
+      "totalTokens": 109990963,
+      "totalRequests": 1243,
       "uniqueIPs": [
         "44.198.190.4",
         "190.211.126.118",
@@ -14574,8 +14574,8 @@
       ]
     },
     "modelo19": {
-      "totalTokens": 28718,
-      "totalRequests": 33,
+      "totalTokens": 29514,
+      "totalRequests": 34,
       "uniqueIPs": [
         "190.211.126.118",
         "44.198.190.4",
@@ -14596,7 +14596,8 @@
         "34.228.225.239",
         "34.230.76.128",
         "54.82.162.21",
-        "44.204.129.67"
+        "44.204.129.67",
+        "3.234.217.247"
       ]
     },
     "modelo22": {
@@ -15897,21 +15898,22 @@
     },
     "3.234.217.247": {
       "ip": "3.234.217.247",
-      "count": 4,
-      "lastSeen": "2026-07-16T19:34:33.573Z",
+      "count": 5,
+      "lastSeen": "2026-07-16T19:35:13.643Z",
       "models": [
         "modelo7",
         "modelo4",
         "modelo5",
         "modelo2",
-        "modelo15"
+        "modelo15",
+        "modelo19"
       ],
-      "tokens": 147,
+      "tokens": 943,
       "sources": {
-        "health-check": 4
+        "health-check": 5
       }
     }
   },
-  "lastUpdated": "2026-07-16T19:35:11.146Z",
+  "lastUpdated": "2026-07-16T19:35:13.832Z",
   "resetAt": "2026-07-13T22:39:38.841Z"
 }
