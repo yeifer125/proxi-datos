@@ -1,41 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo11",
-      "ip": "67.202.39.166",
-      "tokens": 13,
-      "timestamp": "2026-07-14T22:29:15.164Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo3",
-      "ip": "67.202.39.166",
-      "tokens": 20,
-      "timestamp": "2026-07-14T22:31:12.662Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo1",
-      "ip": "67.202.39.166",
-      "tokens": 18,
-      "timestamp": "2026-07-14T22:31:13.557Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo15",
-      "ip": "67.202.39.166",
-      "tokens": 12,
-      "timestamp": "2026-07-14T22:31:13.790Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo13",
-      "ip": "67.202.39.166",
-      "tokens": 13,
-      "timestamp": "2026-07-14T22:31:13.942Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo2",
       "ip": "67.202.39.166",
       "tokens": 89,
@@ -13793,6 +13758,13 @@
       "source": "health-check"
     },
     {
+      "model": "modelo13",
+      "ip": "34.228.225.239",
+      "tokens": 13,
+      "timestamp": "2026-07-16T05:56:48.274Z",
+      "source": "health-check"
+    },
+    {
       "model": "modelo17",
       "ip": "34.228.225.239",
       "tokens": 12,
@@ -13840,6 +13812,13 @@
       "tokens": 18,
       "timestamp": "2026-07-16T05:58:46.238Z",
       "rotatorModel": "modelo1",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo15",
+      "ip": "34.228.225.239",
+      "tokens": 12,
+      "timestamp": "2026-07-16T05:58:46.766Z",
       "source": "health-check"
     },
     {
@@ -13992,6 +13971,13 @@
       "source": "health-check"
     },
     {
+      "model": "modelo11",
+      "ip": "34.230.76.128",
+      "tokens": 13,
+      "timestamp": "2026-07-16T06:04:15.326Z",
+      "source": "health-check"
+    },
+    {
       "model": "modelo7",
       "ip": "34.230.76.128",
       "tokens": 22,
@@ -14039,6 +14025,20 @@
       "tokens": 18,
       "timestamp": "2026-07-16T06:05:50.861Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo3",
+      "ip": "34.230.76.128",
+      "tokens": 20,
+      "timestamp": "2026-07-16T06:05:50.941Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo2",
+      "ip": "190.211.124.187",
+      "tokens": 123333,
+      "timestamp": "2026-07-16T06:06:13.040Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -14067,8 +14067,8 @@
       ]
     },
     "modelo1": {
-      "totalTokens": 1293,
-      "totalRequests": 36,
+      "totalTokens": 1275,
+      "totalRequests": 35,
       "uniqueIPs": [
         "44.198.190.4",
         "190.211.126.118",
@@ -14161,8 +14161,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 343513,
-      "totalRequests": 48,
+      "totalTokens": 466846,
+      "totalRequests": 49,
       "uniqueIPs": [
         "44.198.190.4",
         "190.211.126.118",
@@ -14255,7 +14255,8 @@
         "34.205.33.182",
         "98.84.6.247",
         "67.202.39.166",
-        "34.228.225.239"
+        "34.228.225.239",
+        "34.230.76.128"
       ]
     },
     "modelo7": {
@@ -14467,7 +14468,8 @@
         "34.205.33.182",
         "98.84.6.247",
         "67.202.39.166",
-        "34.228.225.239"
+        "34.228.225.239",
+        "34.230.76.128"
       ]
     },
     "modelo14": {
@@ -14660,7 +14662,7 @@
     "190.211.124.187": {
       "ip": "190.211.124.187",
       "count": 1844,
-      "lastSeen": "2026-07-16T06:05:36.627Z",
+      "lastSeen": "2026-07-16T06:06:13.040Z",
       "models": [
         "modelo2",
         "modelo11",
@@ -15727,14 +15729,16 @@
     "34.230.76.128": {
       "ip": "34.230.76.128",
       "count": 3,
-      "lastSeen": "2026-07-16T06:05:50.861Z",
+      "lastSeen": "2026-07-16T06:05:50.941Z",
       "models": [
         "modelo19",
         "modelo2",
         "modelo6",
         "modelo16",
         "modelo7",
-        "modelo1"
+        "modelo1",
+        "modelo11",
+        "modelo3"
       ],
       "tokens": 125,
       "sources": {
@@ -15742,6 +15746,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-16T06:05:50.997Z",
+  "lastUpdated": "2026-07-16T06:06:13.193Z",
   "resetAt": "2026-07-13T22:39:38.841Z"
 }
