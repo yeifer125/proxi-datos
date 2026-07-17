@@ -2,20 +2,6 @@
   "usages": [
     {
       "model": "modelo2",
-      "ip": "91.99.195.164",
-      "tokens": 11253,
-      "timestamp": "2026-07-17T12:42:14.988Z",
-      "source": "free"
-    },
-    {
-      "model": "modelo2",
-      "ip": "91.99.195.164",
-      "tokens": 12833,
-      "timestamp": "2026-07-17T12:42:26.629Z",
-      "source": "free"
-    },
-    {
-      "model": "modelo2",
       "ip": "159.69.208.161",
       "tokens": 11120,
       "timestamp": "2026-07-17T12:47:57.185Z",
@@ -13997,11 +13983,25 @@
       "source": "apikey"
     },
     {
+      "model": "modelo2",
+      "ip": "190.211.124.187",
+      "tokens": 269575,
+      "timestamp": "2026-07-17T17:46:00.111Z",
+      "source": "apikey"
+    },
+    {
       "model": "modelo19",
       "ip": "18.209.11.72",
       "tokens": 153,
       "timestamp": "2026-07-17T17:46:03.655Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo13",
+      "ip": "190.211.124.187",
+      "tokens": 33,
+      "timestamp": "2026-07-17T17:46:08.613Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -14065,8 +14065,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 133306114,
-      "totalRequests": 1955,
+      "totalTokens": 133551603,
+      "totalRequests": 1954,
       "uniqueIPs": [
         "91.99.195.164",
         "190.211.124.187",
@@ -14167,8 +14167,8 @@
       ]
     },
     "modelo13": {
-      "totalTokens": 324,
-      "totalRequests": 9,
+      "totalTokens": 357,
+      "totalRequests": 10,
       "uniqueIPs": [
         "44.198.162.204",
         "190.211.124.187"
@@ -14224,15 +14224,15 @@
     },
     "190.211.124.187": {
       "ip": "190.211.124.187",
-      "count": 726,
-      "lastSeen": "2026-07-17T17:45:57.983Z",
+      "count": 728,
+      "lastSeen": "2026-07-17T17:46:08.613Z",
       "models": [
         "modelo2",
         "modelo13"
       ],
-      "tokens": 74106754,
+      "tokens": 74376362,
       "sources": {
-        "apikey": 726
+        "apikey": 728
       }
     },
     "164.132.108.105": {
@@ -14376,6 +14376,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-17T17:46:03.872Z",
+  "lastUpdated": "2026-07-17T17:46:08.786Z",
   "resetAt": "2026-07-17T06:22:14.128Z"
 }
