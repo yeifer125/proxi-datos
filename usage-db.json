@@ -3,34 +3,6 @@
     {
       "model": "modelo2",
       "ip": "164.132.108.105",
-      "tokens": 61236,
-      "timestamp": "2026-07-17T17:13:12.268Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "164.132.108.105",
-      "tokens": 61401,
-      "timestamp": "2026-07-17T17:13:15.197Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "164.132.108.105",
-      "tokens": 61287,
-      "timestamp": "2026-07-17T17:13:20.878Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "164.132.108.105",
-      "tokens": 70051,
-      "timestamp": "2026-07-17T17:13:26.845Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "164.132.108.105",
       "tokens": 70299,
       "timestamp": "2026-07-17T17:13:30.306Z",
       "source": "apikey"
@@ -14001,6 +13973,28 @@
       "source": "health-check"
     },
     {
+      "model": "modelo1",
+      "ip": "18.209.11.72",
+      "tokens": 18,
+      "timestamp": "2026-07-17T19:02:45.433Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo9",
+      "ip": "18.209.11.72",
+      "tokens": 18,
+      "timestamp": "2026-07-17T19:02:46.242Z",
+      "rotatorModel": "modelo1",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo13",
+      "ip": "190.211.124.187",
+      "tokens": 71,
+      "timestamp": "2026-07-17T19:02:48.087Z",
+      "source": "apikey"
+    },
+    {
       "model": "modelo2",
       "ip": "164.132.108.105",
       "tokens": 73653,
@@ -14034,6 +14028,13 @@
       "tokens": 18,
       "timestamp": "2026-07-17T19:03:28.313Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo2",
+      "ip": "91.99.195.164",
+      "tokens": 11174,
+      "timestamp": "2026-07-17T19:03:57.139Z",
+      "source": "free"
     }
   ],
   "stats": {
@@ -14074,8 +14075,8 @@
       ]
     },
     "modelo1": {
-      "totalTokens": 1270,
-      "totalRequests": 31,
+      "totalTokens": 1288,
+      "totalRequests": 32,
       "uniqueIPs": [
         "3.232.132.171",
         "44.198.162.204",
@@ -14102,8 +14103,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 84293321,
-      "totalRequests": 1189,
+      "totalTokens": 84050520,
+      "totalRequests": 1186,
       "uniqueIPs": [
         "91.99.195.164",
         "190.211.124.187",
@@ -14175,8 +14176,8 @@
       ]
     },
     "modelo9": {
-      "totalTokens": 1302,
-      "totalRequests": 35,
+      "totalTokens": 1320,
+      "totalRequests": 36,
       "uniqueIPs": [
         "3.232.132.171",
         "44.198.162.204",
@@ -14211,8 +14212,8 @@
       ]
     },
     "modelo13": {
-      "totalTokens": 71961,
-      "totalRequests": 205,
+      "totalTokens": 72032,
+      "totalRequests": 206,
       "uniqueIPs": [
         "44.198.162.204",
         "190.211.124.187",
@@ -14264,28 +14265,28 @@
     },
     "91.99.195.164": {
       "ip": "91.99.195.164",
-      "count": 720,
-      "lastSeen": "2026-07-17T18:56:37.394Z",
+      "count": 721,
+      "lastSeen": "2026-07-17T19:03:57.139Z",
       "models": [
         "modelo2"
       ],
-      "tokens": 28678262,
+      "tokens": 28689436,
       "sources": {
         "apikey": 348,
-        "free": 374
+        "free": 375
       }
     },
     "190.211.124.187": {
       "ip": "190.211.124.187",
-      "count": 933,
-      "lastSeen": "2026-07-17T19:02:27.612Z",
+      "count": 934,
+      "lastSeen": "2026-07-17T19:02:48.087Z",
       "models": [
         "modelo2",
         "modelo13"
       ],
-      "tokens": 82081118,
+      "tokens": 82081189,
       "sources": {
-        "apikey": 933
+        "apikey": 934
       }
     },
     "164.132.108.105": {
@@ -14413,7 +14414,7 @@
     },
     "18.209.11.72": {
       "ip": "18.209.11.72",
-      "count": 97,
+      "count": 98,
       "lastSeen": "2026-07-17T19:03:28.313Z",
       "models": [
         "modelo20",
@@ -14438,12 +14439,12 @@
         "modelo6",
         "modelo17"
       ],
-      "tokens": 16875,
+      "tokens": 16891,
       "sources": {
-        "health-check": 97
+        "health-check": 98
       }
     }
   },
-  "lastUpdated": "2026-07-17T19:03:29.066Z",
+  "lastUpdated": "2026-07-17T19:03:57.336Z",
   "resetAt": "2026-07-17T06:22:14.128Z"
 }
