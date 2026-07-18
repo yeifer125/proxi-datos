@@ -1,6 +1,36 @@
 {
-  "usages": [],
-  "stats": {},
-  "visitors": {},
+  "usages": [
+    {
+      "model": "modelo3",
+      "ip": "190.211.124.187",
+      "tokens": 123,
+      "timestamp": "2026-07-18T19:58:25.961Z",
+      "source": "apikey"
+    }
+  ],
+  "stats": {
+    "modelo3": {
+      "totalTokens": 123,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "190.211.124.187"
+      ]
+    }
+  },
+  "visitors": {
+    "190.211.124.187": {
+      "ip": "190.211.124.187",
+      "count": 1,
+      "lastSeen": "2026-07-18T19:58:25.961Z",
+      "models": [
+        "modelo3"
+      ],
+      "tokens": 123,
+      "sources": {
+        "apikey": 1
+      }
+    }
+  },
+  "lastUpdated": "2026-07-18T19:58:26.036Z",
   "resetAt": "2026-07-18T19:58:16.053Z"
 }
