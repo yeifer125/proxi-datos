@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo2",
-      "ip": "190.211.124.187",
-      "tokens": 112090,
-      "timestamp": "2026-07-17T23:01:20.932Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "190.211.124.187",
-      "tokens": 112673,
-      "timestamp": "2026-07-17T23:01:29.881Z",
-      "source": "apikey"
-    },
-    {
       "model": "modelo13",
       "ip": "190.211.124.187",
       "tokens": 196,
@@ -13999,11 +13985,25 @@
       "tokens": 84035,
       "timestamp": "2026-07-18T02:47:59.377Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo2",
+      "ip": "159.69.208.161",
+      "tokens": 23663,
+      "timestamp": "2026-07-18T02:48:03.932Z",
+      "source": "free"
+    },
+    {
+      "model": "modelo2",
+      "ip": "190.211.124.187",
+      "tokens": 83992,
+      "timestamp": "2026-07-18T02:48:48.125Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo2": {
-      "totalTokens": 140842490,
+      "totalTokens": 140725382,
       "totalRequests": 1955,
       "uniqueIPs": [
         "83.192.180.195",
@@ -14065,14 +14065,14 @@
     },
     "159.69.208.161": {
       "ip": "159.69.208.161",
-      "count": 141,
-      "lastSeen": "2026-07-18T02:47:55.802Z",
+      "count": 142,
+      "lastSeen": "2026-07-18T02:48:03.932Z",
       "models": [
         "modelo2"
       ],
-      "tokens": 4595380,
+      "tokens": 4619043,
       "sources": {
-        "free": 108,
+        "free": 109,
         "apikey": 33
       }
     },
@@ -14090,15 +14090,15 @@
     },
     "190.211.124.187": {
       "ip": "190.211.124.187",
-      "count": 1019,
-      "lastSeen": "2026-07-18T02:47:59.377Z",
+      "count": 1020,
+      "lastSeen": "2026-07-18T02:48:48.125Z",
       "models": [
         "modelo13",
         "modelo2"
       ],
-      "tokens": 91215472,
+      "tokens": 91299464,
       "sources": {
-        "apikey": 1019
+        "apikey": 1020
       }
     },
     "91.99.195.164": {
@@ -14139,6 +14139,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-18T02:47:59.513Z",
+  "lastUpdated": "2026-07-18T02:48:55.984Z",
   "resetAt": "2026-07-17T22:46:13.330Z"
 }
