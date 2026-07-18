@@ -3759,6 +3759,13 @@
       "source": "health-check"
     },
     {
+      "model": "modelo16",
+      "ip": "98.92.143.158",
+      "tokens": 3010,
+      "timestamp": "2026-07-18T20:43:43.031Z",
+      "source": "health-check"
+    },
+    {
       "model": "modelo11",
       "ip": "98.92.143.158",
       "tokens": 4553,
@@ -3784,6 +3791,13 @@
       "ip": "98.92.143.158",
       "tokens": 1,
       "timestamp": "2026-07-18T20:44:06.872Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo21",
+      "ip": "98.92.143.158",
+      "tokens": 2663,
+      "timestamp": "2026-07-18T20:44:09.519Z",
       "source": "health-check"
     }
   ],
@@ -3987,25 +4001,27 @@
       ]
     },
     "modelo16": {
-      "totalTokens": 22098,
-      "totalRequests": 35,
+      "totalTokens": 25108,
+      "totalRequests": 36,
       "uniqueIPs": [
         "44.203.219.77",
         "3.81.2.233",
         "54.210.189.217",
         "190.211.124.187",
-        "44.223.50.167"
+        "44.223.50.167",
+        "98.92.143.158"
       ]
     },
     "modelo21": {
-      "totalTokens": 11982,
-      "totalRequests": 9,
+      "totalTokens": 14645,
+      "totalRequests": 10,
       "uniqueIPs": [
         "3.81.2.233",
         "44.203.219.77",
         "54.210.189.217",
         "190.211.124.187",
-        "44.223.50.167"
+        "44.223.50.167",
+        "98.92.143.158"
       ]
     },
     "modelo7": {
@@ -4199,20 +4215,22 @@
     "98.92.143.158": {
       "ip": "98.92.143.158",
       "count": 2,
-      "lastSeen": "2026-07-18T20:44:06.872Z",
+      "lastSeen": "2026-07-18T20:44:09.519Z",
       "models": [
         "modelo3",
         "modelo11",
         "modelo20",
         "modelo19",
-        "modelo18"
+        "modelo18",
+        "modelo16",
+        "modelo21"
       ],
-      "tokens": 4553,
+      "tokens": 5673,
       "sources": {
         "health-check": 2
       }
     }
   },
-  "lastUpdated": "2026-07-18T20:44:07.048Z",
+  "lastUpdated": "2026-07-18T20:44:10.149Z",
   "resetAt": "2026-07-18T19:58:16.053Z"
 }
