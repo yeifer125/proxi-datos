@@ -2593,6 +2593,20 @@
       "tokens": 2489,
       "timestamp": "2026-07-18T20:32:00.635Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo13",
+      "ip": "190.211.124.187",
+      "tokens": 4337,
+      "timestamp": "2026-07-18T20:32:02.012Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo18",
+      "ip": "44.223.50.167",
+      "tokens": 2415,
+      "timestamp": "2026-07-18T20:32:03.704Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -2637,8 +2651,8 @@
       ]
     },
     "modelo13": {
-      "totalTokens": 2878,
-      "totalRequests": 9,
+      "totalTokens": 7215,
+      "totalRequests": 10,
       "uniqueIPs": [
         "190.211.124.187",
         "44.203.219.77",
@@ -2761,13 +2775,14 @@
       ]
     },
     "modelo18": {
-      "totalTokens": 6159,
-      "totalRequests": 9,
+      "totalTokens": 8574,
+      "totalRequests": 10,
       "uniqueIPs": [
         "3.81.2.233",
         "44.203.219.77",
         "190.211.124.187",
-        "54.210.189.217"
+        "54.210.189.217",
+        "44.223.50.167"
       ]
     },
     "modelo16": {
@@ -2802,8 +2817,8 @@
   "visitors": {
     "190.211.124.187": {
       "ip": "190.211.124.187",
-      "count": 170,
-      "lastSeen": "2026-07-18T20:31:55.515Z",
+      "count": 171,
+      "lastSeen": "2026-07-18T20:32:02.012Z",
       "models": [
         "modelo3",
         "modelo4",
@@ -2819,9 +2834,9 @@
         "modelo18",
         "modelo16"
       ],
-      "tokens": 9914286,
+      "tokens": 9918623,
       "sources": {
-        "apikey": 170
+        "apikey": 171
       }
     },
     "44.203.219.77": {
@@ -2943,17 +2958,18 @@
     },
     "44.223.50.167": {
       "ip": "44.223.50.167",
-      "count": 1,
-      "lastSeen": "2026-07-18T20:32:00.635Z",
+      "count": 2,
+      "lastSeen": "2026-07-18T20:32:03.704Z",
       "models": [
-        "modelo1"
+        "modelo1",
+        "modelo18"
       ],
-      "tokens": 2489,
+      "tokens": 4904,
       "sources": {
-        "health-check": 1
+        "health-check": 2
       }
     }
   },
-  "lastUpdated": "2026-07-18T20:32:00.729Z",
+  "lastUpdated": "2026-07-18T20:32:03.777Z",
   "resetAt": "2026-07-18T19:58:16.053Z"
 }
