@@ -2,20 +2,6 @@
   "usages": [
     {
       "model": "modelo2",
-      "ip": "83.192.180.195",
-      "tokens": 21338,
-      "timestamp": "2026-07-18T07:42:54.023Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "83.192.180.195",
-      "tokens": 54900,
-      "timestamp": "2026-07-18T07:43:02.785Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
       "ip": "164.132.108.105",
       "tokens": 108809,
       "timestamp": "2026-07-18T07:43:08.631Z",
@@ -14068,12 +14054,26 @@
       "tokens": 12,
       "timestamp": "2026-07-18T11:28:20.097Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo11",
+      "ip": "98.92.76.240",
+      "tokens": 13,
+      "timestamp": "2026-07-18T11:28:20.140Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo5",
+      "ip": "98.92.76.240",
+      "tokens": 55,
+      "timestamp": "2026-07-18T11:30:17.163Z",
+      "source": "health-check"
     }
   ],
   "stats": {
     "modelo2": {
-      "totalTokens": 23801517,
-      "totalRequests": 461,
+      "totalTokens": 23725279,
+      "totalRequests": 459,
       "uniqueIPs": [
         "83.192.180.195",
         "159.69.208.161",
@@ -14187,8 +14187,8 @@
       ]
     },
     "modelo11": {
-      "totalTokens": 1905,
-      "totalRequests": 77,
+      "totalTokens": 1918,
+      "totalRequests": 78,
       "uniqueIPs": [
         "98.82.25.157",
         "3.227.3.35",
@@ -14277,8 +14277,8 @@
       ]
     },
     "modelo5": {
-      "totalTokens": 5595,
-      "totalRequests": 89,
+      "totalTokens": 5650,
+      "totalRequests": 90,
       "uniqueIPs": [
         "3.227.3.35",
         "98.82.25.157",
@@ -14805,8 +14805,8 @@
     },
     "98.92.76.240": {
       "ip": "98.92.76.240",
-      "count": 19,
-      "lastSeen": "2026-07-18T11:28:20.097Z",
+      "count": 21,
+      "lastSeen": "2026-07-18T11:30:17.163Z",
       "models": [
         "modelo18",
         "modelo6",
@@ -14830,12 +14830,12 @@
         "modelo7",
         "modelo16"
       ],
-      "tokens": 3333,
+      "tokens": 3401,
       "sources": {
-        "health-check": 19
+        "health-check": 21
       }
     }
   },
-  "lastUpdated": "2026-07-18T11:30:16.297Z",
+  "lastUpdated": "2026-07-18T11:30:17.272Z",
   "resetAt": "2026-07-17T22:46:13.330Z"
 }
