@@ -2334,6 +2334,20 @@
       "tokens": 318,
       "timestamp": "2026-07-18T20:28:46.211Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo22",
+      "ip": "54.210.189.217",
+      "tokens": 2396,
+      "timestamp": "2026-07-18T20:28:48.825Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo16",
+      "ip": "190.211.124.187",
+      "tokens": 22,
+      "timestamp": "2026-07-18T20:29:02.357Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -2446,11 +2460,12 @@
       ]
     },
     "modelo22": {
-      "totalTokens": 220,
-      "totalRequests": 5,
+      "totalTokens": 2616,
+      "totalRequests": 6,
       "uniqueIPs": [
         "44.203.219.77",
-        "3.81.2.233"
+        "3.81.2.233",
+        "54.210.189.217"
       ]
     },
     "modelo8": {
@@ -2510,8 +2525,8 @@
       ]
     },
     "modelo16": {
-      "totalTokens": 8861,
-      "totalRequests": 10,
+      "totalTokens": 8883,
+      "totalRequests": 11,
       "uniqueIPs": [
         "44.203.219.77",
         "3.81.2.233",
@@ -2540,8 +2555,8 @@
   "visitors": {
     "190.211.124.187": {
       "ip": "190.211.124.187",
-      "count": 153,
-      "lastSeen": "2026-07-18T20:28:46.211Z",
+      "count": 154,
+      "lastSeen": "2026-07-18T20:29:02.357Z",
       "models": [
         "modelo3",
         "modelo4",
@@ -2557,9 +2572,9 @@
         "modelo18",
         "modelo16"
       ],
-      "tokens": 9906253,
+      "tokens": 9906275,
       "sources": {
-        "apikey": 153
+        "apikey": 154
       }
     },
     "44.203.219.77": {
@@ -2628,8 +2643,8 @@
     },
     "54.210.189.217": {
       "ip": "54.210.189.217",
-      "count": 7,
-      "lastSeen": "2026-07-18T20:28:04.356Z",
+      "count": 8,
+      "lastSeen": "2026-07-18T20:28:48.825Z",
       "models": [
         "modelo19",
         "modelo20",
@@ -2646,11 +2661,12 @@
         "modelo17",
         "modelo18",
         "modelo2",
-        "modelo7"
+        "modelo7",
+        "modelo22"
       ],
-      "tokens": 20024,
+      "tokens": 22420,
       "sources": {
-        "health-check": 7
+        "health-check": 8
       }
     },
     "213.136.79.115": {
@@ -2678,6 +2694,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-18T20:28:46.361Z",
+  "lastUpdated": "2026-07-18T20:29:03.564Z",
   "resetAt": "2026-07-18T19:58:16.053Z"
 }
