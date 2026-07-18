@@ -5695,6 +5695,20 @@
     {
       "model": "modelo2",
       "ip": "190.211.124.187",
+      "tokens": 126073,
+      "timestamp": "2026-07-18T17:40:56.666Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo2",
+      "ip": "213.136.83.197",
+      "tokens": 71850,
+      "timestamp": "2026-07-18T17:40:58.879Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo2",
+      "ip": "190.211.124.187",
       "tokens": 118189,
       "timestamp": "2026-07-18T17:41:06.220Z",
       "source": "apikey"
@@ -5789,6 +5803,13 @@
       "tokens": 127165,
       "timestamp": "2026-07-18T17:42:10.778Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo3",
+      "ip": "3.94.196.33",
+      "tokens": 20,
+      "timestamp": "2026-07-18T17:42:21.154Z",
+      "source": "health-check"
     },
     {
       "model": "modelo2",
@@ -6034,12 +6055,19 @@
       "tokens": 12,
       "timestamp": "2026-07-18T17:44:22.939Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo21",
+      "ip": "3.94.196.33",
+      "tokens": 18,
+      "timestamp": "2026-07-18T17:44:32.067Z",
+      "source": "health-check"
     }
   ],
   "stats": {
     "modelo2": {
-      "totalTokens": 75249465,
-      "totalRequests": 840,
+      "totalTokens": 75447388,
+      "totalRequests": 842,
       "uniqueIPs": [
         "190.211.124.187",
         "213.136.79.115",
@@ -6070,8 +6098,8 @@
       ]
     },
     "modelo3": {
-      "totalTokens": 129,
-      "totalRequests": 2,
+      "totalTokens": 149,
+      "totalRequests": 3,
       "uniqueIPs": [
         "3.94.196.33",
         "190.211.124.187"
@@ -6113,8 +6141,8 @@
       ]
     },
     "modelo21": {
-      "totalTokens": 19,
-      "totalRequests": 2,
+      "totalTokens": 37,
+      "totalRequests": 3,
       "uniqueIPs": [
         "3.94.196.33"
       ]
@@ -6177,20 +6205,20 @@
     },
     "213.136.83.197": {
       "ip": "213.136.83.197",
-      "count": 53,
+      "count": 54,
       "lastSeen": "2026-07-18T17:41:06.273Z",
       "models": [
         "modelo2"
       ],
-      "tokens": 4135546,
+      "tokens": 4201419,
       "sources": {
-        "apikey": 53
+        "apikey": 54
       }
     },
     "3.94.196.33": {
       "ip": "3.94.196.33",
       "count": 9,
-      "lastSeen": "2026-07-18T17:44:22.939Z",
+      "lastSeen": "2026-07-18T17:44:32.067Z",
       "models": [
         "modelo20",
         "modelo1",
@@ -6214,6 +6242,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-18T17:44:23.057Z",
+  "lastUpdated": "2026-07-18T17:44:32.164Z",
   "resetAt": "2026-07-18T16:56:24.915Z"
 }
