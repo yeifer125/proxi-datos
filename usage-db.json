@@ -85,6 +85,20 @@
       "source": "health-check"
     },
     {
+      "model": "modelo1",
+      "ip": "44.203.219.77",
+      "tokens": 18,
+      "timestamp": "2026-07-18T19:58:42.577Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo11",
+      "ip": "44.203.219.77",
+      "tokens": 13,
+      "timestamp": "2026-07-18T19:58:44.266Z",
+      "source": "health-check"
+    },
+    {
       "model": "modelo22",
       "ip": "44.203.219.77",
       "tokens": 44,
@@ -99,6 +113,13 @@
       "source": "apikey"
     },
     {
+      "model": "modelo22",
+      "ip": "44.203.219.77",
+      "tokens": 44,
+      "timestamp": "2026-07-18T19:59:17.431Z",
+      "source": "health-check"
+    },
+    {
       "model": "modelo13",
       "ip": "190.211.124.187",
       "tokens": 262,
@@ -110,6 +131,13 @@
       "ip": "44.203.219.77",
       "tokens": 50,
       "timestamp": "2026-07-18T20:00:20.482Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo19",
+      "ip": "44.203.219.77",
+      "tokens": 1,
+      "timestamp": "2026-07-18T20:00:21.456Z",
       "source": "health-check"
     }
   ],
@@ -172,10 +200,11 @@
       ]
     },
     "modelo11": {
-      "totalTokens": 17,
-      "totalRequests": 1,
+      "totalTokens": 30,
+      "totalRequests": 2,
       "uniqueIPs": [
-        "190.211.124.187"
+        "190.211.124.187",
+        "44.203.219.77"
       ]
     },
     "modelo20": {
@@ -193,14 +222,28 @@
       ]
     },
     "modelo22": {
-      "totalTokens": 44,
-      "totalRequests": 1,
+      "totalTokens": 88,
+      "totalRequests": 2,
       "uniqueIPs": [
         "44.203.219.77"
       ]
     },
     "modelo8": {
       "totalTokens": 50,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "44.203.219.77"
+      ]
+    },
+    "modelo1": {
+      "totalTokens": 18,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "44.203.219.77"
+      ]
+    },
+    "modelo19": {
+      "totalTokens": 1,
       "totalRequests": 1,
       "uniqueIPs": [
         "44.203.219.77"
@@ -230,21 +273,24 @@
     },
     "44.203.219.77": {
       "ip": "44.203.219.77",
-      "count": 2,
-      "lastSeen": "2026-07-18T20:00:20.482Z",
+      "count": 5,
+      "lastSeen": "2026-07-18T20:00:21.456Z",
       "models": [
         "modelo20",
         "modelo2",
         "modelo6",
         "modelo22",
-        "modelo8"
+        "modelo8",
+        "modelo1",
+        "modelo11",
+        "modelo19"
       ],
       "tokens": 139,
       "sources": {
-        "health-check": 2
+        "health-check": 5
       }
     }
   },
-  "lastUpdated": "2026-07-18T20:00:20.553Z",
+  "lastUpdated": "2026-07-18T20:00:21.529Z",
   "resetAt": "2026-07-18T19:58:16.053Z"
 }
