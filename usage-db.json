@@ -16,6 +16,13 @@
       "source": "health-check"
     },
     {
+      "model": "modelo14",
+      "ip": "54.159.128.157",
+      "tokens": 3649,
+      "timestamp": "2026-07-23T04:24:35.561Z",
+      "source": "health-check"
+    },
+    {
       "model": "modelo2",
       "ip": "54.159.128.157",
       "tokens": 2555,
@@ -27,6 +34,13 @@
       "ip": "54.159.128.157",
       "tokens": 2434,
       "timestamp": "2026-07-23T04:24:37.801Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo1",
+      "ip": "54.159.128.157",
+      "tokens": 2489,
+      "timestamp": "2026-07-23T04:24:38.350Z",
       "source": "health-check"
     },
     {
@@ -63,6 +77,13 @@
       "ip": "54.159.128.157",
       "tokens": 2719,
       "timestamp": "2026-07-23T04:24:41.588Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo5",
+      "ip": "54.159.128.157",
+      "tokens": 4440,
+      "timestamp": "2026-07-23T04:24:51.013Z",
       "source": "health-check"
     }
   ],
@@ -103,8 +124,8 @@
       ]
     },
     "modelo14": {
-      "totalTokens": 3649,
-      "totalRequests": 1,
+      "totalTokens": 7298,
+      "totalRequests": 2,
       "uniqueIPs": [
         "54.159.128.157"
       ]
@@ -115,13 +136,27 @@
       "uniqueIPs": [
         "54.159.128.157"
       ]
+    },
+    "modelo1": {
+      "totalTokens": 2489,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "54.159.128.157"
+      ]
+    },
+    "modelo5": {
+      "totalTokens": 4440,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "54.159.128.157"
+      ]
     }
   },
   "visitors": {
     "54.159.128.157": {
       "ip": "54.159.128.157",
-      "count": 2,
-      "lastSeen": "2026-07-23T04:24:41.588Z",
+      "count": 3,
+      "lastSeen": "2026-07-23T04:24:51.013Z",
       "models": [
         "modelo9",
         "modelo2",
@@ -129,14 +164,16 @@
         "modelo3",
         "modelo6",
         "modelo14",
-        "modelo8"
+        "modelo8",
+        "modelo1",
+        "modelo5"
       ],
-      "tokens": 6138,
+      "tokens": 10578,
       "sources": {
-        "health-check": 2
+        "health-check": 3
       }
     }
   },
-  "lastUpdated": "2026-07-23T04:24:41.711Z",
+  "lastUpdated": "2026-07-23T04:24:51.093Z",
   "resetAt": "2026-07-23T04:24:34.704Z"
 }
