@@ -445,11 +445,32 @@
       "source": "apikey"
     },
     {
+      "model": "modelo2",
+      "ip": "190.211.124.187",
+      "tokens": 56365,
+      "timestamp": "2026-07-23T04:30:29.907Z",
+      "source": "apikey"
+    },
+    {
       "model": "modelo4",
       "ip": "100.52.218.188",
       "tokens": 1,
       "timestamp": "2026-07-23T04:30:37.333Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo2",
+      "ip": "100.52.218.188",
+      "tokens": 2555,
+      "timestamp": "2026-07-23T04:30:37.914Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo2",
+      "ip": "190.211.124.187",
+      "tokens": 57167,
+      "timestamp": "2026-07-23T04:30:40.230Z",
+      "source": "apikey"
     },
     {
       "model": "modelo5",
@@ -464,6 +485,13 @@
       "tokens": 100450,
       "timestamp": "2026-07-23T04:31:41.161Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo2",
+      "ip": "190.211.124.187",
+      "tokens": 98248,
+      "timestamp": "2026-07-23T04:32:27.919Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -476,8 +504,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 737722,
-      "totalRequests": 16,
+      "totalTokens": 952057,
+      "totalRequests": 20,
       "uniqueIPs": [
         "54.159.128.157",
         "190.211.124.187",
@@ -648,22 +676,22 @@
     },
     "190.211.124.187": {
       "ip": "190.211.124.187",
-      "count": 9,
-      "lastSeen": "2026-07-23T04:31:41.161Z",
+      "count": 11,
+      "lastSeen": "2026-07-23T04:32:27.919Z",
       "models": [
         "modelo2",
         "modelo15",
         "modelo13",
         "modelo11"
       ],
-      "tokens": 464834,
+      "tokens": 576164,
       "sources": {
-        "apikey": 9
+        "apikey": 11
       }
     },
     "100.52.218.188": {
       "ip": "100.52.218.188",
-      "count": 6,
+      "count": 7,
       "lastSeen": "2026-07-23T04:31:04.863Z",
       "models": [
         "modelo21",
@@ -679,12 +707,12 @@
         "modelo5",
         "modelo4"
       ],
-      "tokens": 12696,
+      "tokens": 13279,
       "sources": {
-        "health-check": 6
+        "health-check": 7
       }
     }
   },
-  "lastUpdated": "2026-07-23T04:31:43.393Z",
+  "lastUpdated": "2026-07-23T04:32:36.970Z",
   "resetAt": "2026-07-23T04:24:34.704Z"
 }
