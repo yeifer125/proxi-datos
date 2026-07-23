@@ -1117,6 +1117,20 @@
       "tokens": 129407,
       "timestamp": "2026-07-23T04:45:08.557Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo13",
+      "ip": "190.211.124.187",
+      "tokens": 41,
+      "timestamp": "2026-07-23T04:45:09.465Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo2",
+      "ip": "23.94.136.177",
+      "tokens": 47322,
+      "timestamp": "2026-07-23T04:45:17.490Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -1129,12 +1143,13 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 8210187,
-      "totalRequests": 91,
+      "totalTokens": 8257509,
+      "totalRequests": 92,
       "uniqueIPs": [
         "54.159.128.157",
         "190.211.124.187",
-        "100.52.218.188"
+        "100.52.218.188",
+        "23.94.136.177"
       ]
     },
     "modelo12": {
@@ -1245,8 +1260,8 @@
       ]
     },
     "modelo13": {
-      "totalTokens": 1591,
-      "totalRequests": 6,
+      "totalTokens": 1632,
+      "totalRequests": 7,
       "uniqueIPs": [
         "190.211.124.187"
       ]
@@ -1304,17 +1319,17 @@
     },
     "190.211.124.187": {
       "ip": "190.211.124.187",
-      "count": 83,
-      "lastSeen": "2026-07-23T04:45:08.557Z",
+      "count": 84,
+      "lastSeen": "2026-07-23T04:45:09.465Z",
       "models": [
         "modelo2",
         "modelo15",
         "modelo13",
         "modelo11"
       ],
-      "tokens": 7531859,
+      "tokens": 7531900,
       "sources": {
-        "apikey": 83
+        "apikey": 84
       }
     },
     "100.52.218.188": {
@@ -1342,8 +1357,20 @@
       "sources": {
         "health-check": 11
       }
+    },
+    "23.94.136.177": {
+      "ip": "23.94.136.177",
+      "count": 1,
+      "lastSeen": "2026-07-23T04:45:17.490Z",
+      "models": [
+        "modelo2"
+      ],
+      "tokens": 47322,
+      "sources": {
+        "apikey": 1
+      }
     }
   },
-  "lastUpdated": "2026-07-23T04:45:08.704Z",
+  "lastUpdated": "2026-07-23T04:45:17.611Z",
   "resetAt": "2026-07-23T04:24:34.704Z"
 }
