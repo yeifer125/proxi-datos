@@ -3,20 +3,6 @@
     {
       "model": "modelo2",
       "ip": "23.94.136.177",
-      "tokens": 108038,
-      "timestamp": "2026-07-24T17:00:20.232Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "213.136.79.115",
-      "tokens": 12124,
-      "timestamp": "2026-07-24T17:00:23.677Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "23.94.136.177",
       "tokens": 107200,
       "timestamp": "2026-07-24T17:00:23.847Z",
       "source": "apikey"
@@ -13999,6 +13985,20 @@
       "tokens": 94230,
       "timestamp": "2026-07-25T02:58:42.414Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo2",
+      "ip": "23.94.136.177",
+      "tokens": 95285,
+      "timestamp": "2026-07-25T02:58:49.865Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo20",
+      "ip": "34.204.77.236",
+      "tokens": 1,
+      "timestamp": "2026-07-25T02:59:43.515Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -14011,8 +14011,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 124054302,
-      "totalRequests": 1831,
+      "totalTokens": 124029425,
+      "totalRequests": 1830,
       "uniqueIPs": [
         "54.159.128.157",
         "190.211.124.187",
@@ -14125,10 +14125,11 @@
       ]
     },
     "modelo20": {
-      "totalTokens": 0,
-      "totalRequests": 0,
+      "totalTokens": 1,
+      "totalRequests": 1,
       "uniqueIPs": [
-        "100.52.218.188"
+        "100.52.218.188",
+        "34.204.77.236"
       ]
     },
     "modelo15": {
@@ -14263,15 +14264,15 @@
     },
     "23.94.136.177": {
       "ip": "23.94.136.177",
-      "count": 1632,
-      "lastSeen": "2026-07-25T02:58:42.414Z",
+      "count": 1633,
+      "lastSeen": "2026-07-25T02:58:49.865Z",
       "models": [
         "modelo2",
         "modelo13"
       ],
-      "tokens": 101178732,
+      "tokens": 101274017,
       "sources": {
-        "apikey": 1567,
+        "apikey": 1568,
         "free": 65
       }
     },
@@ -14467,8 +14468,20 @@
       "sources": {
         "health-check": 4
       }
+    },
+    "34.204.77.236": {
+      "ip": "34.204.77.236",
+      "count": 1,
+      "lastSeen": "2026-07-25T02:59:43.515Z",
+      "models": [
+        "modelo20"
+      ],
+      "tokens": 1,
+      "sources": {
+        "health-check": 1
+      }
     }
   },
-  "lastUpdated": "2026-07-25T02:58:44.272Z",
+  "lastUpdated": "2026-07-25T02:59:43.664Z",
   "resetAt": "2026-07-23T04:24:34.704Z"
 }
