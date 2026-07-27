@@ -2,20 +2,6 @@
   "usages": [
     {
       "model": "modelo2",
-      "ip": "190.211.124.187",
-      "tokens": 99995,
-      "timestamp": "2026-07-27T00:27:30.893Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "190.90.38.154",
-      "tokens": 8198,
-      "timestamp": "2026-07-27T00:27:32.666Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
       "ip": "50.116.38.183",
       "tokens": 57207,
       "timestamp": "2026-07-27T00:27:43.765Z",
@@ -14009,6 +13995,20 @@
       "tokens": 100567,
       "timestamp": "2026-07-27T07:18:53.448Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo22",
+      "ip": "unknown",
+      "tokens": 2213,
+      "timestamp": "2026-07-27T07:18:55.949Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo2",
+      "ip": "unknown",
+      "tokens": 5431,
+      "timestamp": "2026-07-27T07:19:03.566Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -14036,8 +14036,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 104500329,
-      "totalRequests": 1387,
+      "totalTokens": 104397567,
+      "totalRequests": 1386,
       "uniqueIPs": [
         "54.159.128.157",
         "190.211.124.187",
@@ -14320,8 +14320,8 @@
       ]
     },
     "modelo22": {
-      "totalTokens": 33197,
-      "totalRequests": 17,
+      "totalTokens": 35410,
+      "totalRequests": 18,
       "uniqueIPs": [
         "54.159.128.157",
         "100.52.218.188",
@@ -15671,8 +15671,8 @@
     },
     "unknown": {
       "ip": "unknown",
-      "count": 869,
-      "lastSeen": "2026-07-27T07:18:53.448Z",
+      "count": 871,
+      "lastSeen": "2026-07-27T07:19:03.566Z",
       "models": [
         "modelo1",
         "modelo2",
@@ -15696,14 +15696,14 @@
         "modelo22",
         "modelo15"
       ],
-      "tokens": 33184680,
+      "tokens": 33192324,
       "sources": {
-        "apikey": 374,
-        "health-check": 463,
+        "apikey": 375,
+        "health-check": 464,
         "free": 32
       }
     }
   },
-  "lastUpdated": "2026-07-27T07:18:53.968Z",
+  "lastUpdated": "2026-07-27T07:19:04.356Z",
   "resetAt": "2026-07-23T04:24:34.704Z"
 }
