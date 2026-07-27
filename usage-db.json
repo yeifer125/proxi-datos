@@ -2,13 +2,6 @@
   "usages": [
     {
       "model": "modelo2",
-      "ip": "23.94.136.177",
-      "tokens": 89601,
-      "timestamp": "2026-07-27T02:06:53.009Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
       "ip": "50.116.38.183",
       "tokens": 137274,
       "timestamp": "2026-07-27T02:06:54.384Z",
@@ -14020,6 +14013,13 @@
       "tokens": 1,
       "timestamp": "2026-07-27T08:24:24.655Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo5",
+      "ip": "unknown",
+      "tokens": 4436,
+      "timestamp": "2026-07-27T08:24:30.244Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -14047,8 +14047,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 70876496,
-      "totalRequests": 1043,
+      "totalTokens": 70786895,
+      "totalRequests": 1042,
       "uniqueIPs": [
         "54.159.128.157",
         "190.211.124.187",
@@ -14239,8 +14239,8 @@
       ]
     },
     "modelo5": {
-      "totalTokens": 162058,
-      "totalRequests": 46,
+      "totalTokens": 166494,
+      "totalRequests": 47,
       "uniqueIPs": [
         "54.159.128.157",
         "100.52.218.188",
@@ -15682,8 +15682,8 @@
     },
     "unknown": {
       "ip": "unknown",
-      "count": 1730,
-      "lastSeen": "2026-07-27T08:24:24.655Z",
+      "count": 1731,
+      "lastSeen": "2026-07-27T08:24:30.244Z",
       "models": [
         "modelo1",
         "modelo2",
@@ -15707,14 +15707,14 @@
         "modelo22",
         "modelo15"
       ],
-      "tokens": 60330093,
+      "tokens": 60334529,
       "sources": {
         "apikey": 802,
-        "health-check": 859,
+        "health-check": 860,
         "free": 70
       }
     }
   },
-  "lastUpdated": "2026-07-27T08:24:25.560Z",
+  "lastUpdated": "2026-07-27T08:24:30.860Z",
   "resetAt": "2026-07-23T04:24:34.704Z"
 }
