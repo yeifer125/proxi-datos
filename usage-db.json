@@ -2,20 +2,6 @@
   "usages": [
     {
       "model": "modelo2",
-      "ip": "50.116.38.183",
-      "tokens": 143141,
-      "timestamp": "2026-07-27T02:09:42.725Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "37.187.140.176",
-      "tokens": 3717,
-      "timestamp": "2026-07-27T02:09:46.099Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
       "ip": "37.187.150.129",
       "tokens": 3786,
       "timestamp": "2026-07-27T02:09:47.667Z",
@@ -14021,6 +14007,20 @@
       "tokens": 92,
       "timestamp": "2026-07-27T08:28:23.242Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo5",
+      "ip": "unknown",
+      "tokens": 4285,
+      "timestamp": "2026-07-27T08:28:25.741Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo3",
+      "ip": "unknown",
+      "tokens": 2588,
+      "timestamp": "2026-07-27T08:28:35.358Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -14048,8 +14048,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 68441526,
-      "totalRequests": 1001,
+      "totalTokens": 68294668,
+      "totalRequests": 999,
       "uniqueIPs": [
         "54.159.128.157",
         "190.211.124.187",
@@ -14125,8 +14125,8 @@
       ]
     },
     "modelo3": {
-      "totalTokens": 61264,
-      "totalRequests": 53,
+      "totalTokens": 63852,
+      "totalRequests": 54,
       "uniqueIPs": [
         "54.159.128.157",
         "34.204.77.236",
@@ -14240,8 +14240,8 @@
       ]
     },
     "modelo5": {
-      "totalTokens": 170233,
-      "totalRequests": 48,
+      "totalTokens": 174518,
+      "totalRequests": 49,
       "uniqueIPs": [
         "54.159.128.157",
         "100.52.218.188",
@@ -15683,8 +15683,8 @@
     },
     "unknown": {
       "ip": "unknown",
-      "count": 1773,
-      "lastSeen": "2026-07-27T08:28:23.242Z",
+      "count": 1775,
+      "lastSeen": "2026-07-27T08:28:35.358Z",
       "models": [
         "modelo1",
         "modelo2",
@@ -15708,14 +15708,14 @@
         "modelo22",
         "modelo15"
       ],
-      "tokens": 60418003,
+      "tokens": 60424876,
       "sources": {
         "apikey": 820,
-        "health-check": 884,
+        "health-check": 886,
         "free": 70
       }
     }
   },
-  "lastUpdated": "2026-07-27T08:28:23.960Z",
+  "lastUpdated": "2026-07-27T08:28:36.066Z",
   "resetAt": "2026-07-23T04:24:34.704Z"
 }
