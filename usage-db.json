@@ -2,20 +2,6 @@
   "usages": [
     {
       "model": "modelo2",
-      "ip": "190.211.124.187",
-      "tokens": 77223,
-      "timestamp": "2026-07-27T01:44:51.199Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "190.211.124.187",
-      "tokens": 79763,
-      "timestamp": "2026-07-27T01:45:04.850Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
       "ip": "213.136.79.115",
       "tokens": 55491,
       "timestamp": "2026-07-27T01:45:10.805Z",
@@ -14016,6 +14002,20 @@
       "tokens": 124049,
       "timestamp": "2026-07-27T07:54:08.444Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo2",
+      "ip": "unknown",
+      "tokens": 125635,
+      "timestamp": "2026-07-27T07:54:13.945Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo3",
+      "ip": "unknown",
+      "tokens": 2588,
+      "timestamp": "2026-07-27T07:54:14.269Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -14043,8 +14043,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 84268435,
-      "totalRequests": 1241,
+      "totalTokens": 84237084,
+      "totalRequests": 1240,
       "uniqueIPs": [
         "54.159.128.157",
         "190.211.124.187",
@@ -14120,8 +14120,8 @@
       ]
     },
     "modelo3": {
-      "totalTokens": 48319,
-      "totalRequests": 43,
+      "totalTokens": 50907,
+      "totalRequests": 44,
       "uniqueIPs": [
         "54.159.128.157",
         "34.204.77.236",
@@ -15678,8 +15678,8 @@
     },
     "unknown": {
       "ip": "unknown",
-      "count": 1423,
-      "lastSeen": "2026-07-27T07:54:08.444Z",
+      "count": 1425,
+      "lastSeen": "2026-07-27T07:54:14.269Z",
       "models": [
         "modelo1",
         "modelo2",
@@ -15703,14 +15703,14 @@
         "modelo22",
         "modelo15"
       ],
-      "tokens": 55946860,
+      "tokens": 56075083,
       "sources": {
-        "apikey": 687,
-        "health-check": 668,
+        "apikey": 688,
+        "health-check": 669,
         "free": 69
       }
     }
   },
-  "lastUpdated": "2026-07-27T07:54:09.357Z",
+  "lastUpdated": "2026-07-27T07:54:14.451Z",
   "resetAt": "2026-07-23T04:24:34.704Z"
 }
