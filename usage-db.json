@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo16",
-      "ip": "unknown",
-      "tokens": 14,
-      "timestamp": "2026-07-28T04:42:47.944Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "unknown",
-      "tokens": 115588,
-      "timestamp": "2026-07-28T04:42:58.855Z",
-      "source": "apikey"
-    },
-    {
       "model": "modelo2",
       "ip": "unknown",
       "tokens": 116318,
@@ -14013,6 +13999,20 @@
       "tokens": 30,
       "timestamp": "2026-07-28T08:36:53.566Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo2",
+      "ip": "unknown",
+      "tokens": 1,
+      "timestamp": "2026-07-28T08:37:00.457Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo13",
+      "ip": "unknown",
+      "tokens": 12,
+      "timestamp": "2026-07-28T08:37:00.776Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -14040,7 +14040,7 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 47955520,
+      "totalTokens": 47839933,
       "totalRequests": 639,
       "uniqueIPs": [
         "54.159.128.157",
@@ -14416,8 +14416,8 @@
       ]
     },
     "modelo13": {
-      "totalTokens": 395714,
-      "totalRequests": 767,
+      "totalTokens": 395726,
+      "totalRequests": 768,
       "uniqueIPs": [
         "190.211.124.187",
         "23.94.136.177",
@@ -14470,8 +14470,8 @@
       ]
     },
     "modelo16": {
-      "totalTokens": 74342,
-      "totalRequests": 183,
+      "totalTokens": 74328,
+      "totalRequests": 182,
       "uniqueIPs": [
         "54.159.128.157",
         "100.52.218.188",
@@ -15675,8 +15675,8 @@
     },
     "unknown": {
       "ip": "unknown",
-      "count": 9279,
-      "lastSeen": "2026-07-28T08:36:53.566Z",
+      "count": 9281,
+      "lastSeen": "2026-07-28T08:37:00.776Z",
       "models": [
         "modelo1",
         "modelo2",
@@ -15700,14 +15700,14 @@
         "modelo22",
         "modelo15"
       ],
-      "tokens": 135154361,
+      "tokens": 135154374,
       "sources": {
-        "apikey": 4129,
-        "health-check": 5053,
+        "apikey": 4130,
+        "health-check": 5054,
         "free": 98
       }
     }
   },
-  "lastUpdated": "2026-07-28T08:36:54.956Z",
+  "lastUpdated": "2026-07-28T08:37:01.076Z",
   "resetAt": "2026-07-23T04:24:34.704Z"
 }
