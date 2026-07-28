@@ -1,41 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo13",
-      "ip": "unknown",
-      "tokens": 1,
-      "timestamp": "2026-07-28T09:26:32.142Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo13",
-      "ip": "unknown",
-      "tokens": 1,
-      "timestamp": "2026-07-28T09:26:36.241Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo13",
-      "ip": "unknown",
-      "tokens": 1,
-      "timestamp": "2026-07-28T09:26:43.554Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo13",
-      "ip": "unknown",
-      "tokens": 16,
-      "timestamp": "2026-07-28T09:26:43.646Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo13",
-      "ip": "unknown",
-      "tokens": 42,
-      "timestamp": "2026-07-28T09:26:54.445Z",
-      "source": "apikey"
-    },
-    {
       "model": "modelo2",
       "ip": "unknown",
       "tokens": 1,
@@ -14043,12 +14008,48 @@
       "tokens": 1,
       "timestamp": "2026-07-28T13:10:20.301Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo2",
+      "ip": "unknown",
+      "tokens": 1,
+      "timestamp": "2026-07-28T13:10:59.998Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo4",
+      "ip": "unknown",
+      "tokens": 2581,
+      "timestamp": "2026-07-28T13:11:00.141Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo9",
+      "ip": "unknown",
+      "tokens": 2581,
+      "timestamp": "2026-07-28T13:11:00.210Z",
+      "rotatorModel": "modelo4",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo20",
+      "ip": "unknown",
+      "tokens": 2213,
+      "timestamp": "2026-07-28T13:11:00.337Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo22",
+      "ip": "unknown",
+      "tokens": 2213,
+      "timestamp": "2026-07-28T13:11:00.434Z",
+      "source": "health-check"
     }
   ],
   "stats": {
     "modelo9": {
-      "totalTokens": 152673,
-      "totalRequests": 44,
+      "totalTokens": 155254,
+      "totalRequests": 45,
       "uniqueIPs": [
         "54.159.128.157",
         "100.52.218.188",
@@ -14070,8 +14071,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 7521,
-      "totalRequests": 96,
+      "totalTokens": 7522,
+      "totalRequests": 97,
       "uniqueIPs": [
         "54.159.128.157",
         "190.211.124.187",
@@ -14354,8 +14355,8 @@
       ]
     },
     "modelo22": {
-      "totalTokens": 106224,
-      "totalRequests": 48,
+      "totalTokens": 108437,
+      "totalRequests": 49,
       "uniqueIPs": [
         "54.159.128.157",
         "100.52.218.188",
@@ -14398,8 +14399,8 @@
       ]
     },
     "modelo20": {
-      "totalTokens": 104011,
-      "totalRequests": 47,
+      "totalTokens": 106224,
+      "totalRequests": 48,
       "uniqueIPs": [
         "100.52.218.188",
         "34.204.77.236",
@@ -14446,8 +14447,8 @@
       ]
     },
     "modelo13": {
-      "totalTokens": 493109,
-      "totalRequests": 661,
+      "totalTokens": 493048,
+      "totalRequests": 656,
       "uniqueIPs": [
         "190.211.124.187",
         "23.94.136.177",
@@ -14534,8 +14535,8 @@
       ]
     },
     "modelo4": {
-      "totalTokens": 165196,
-      "totalRequests": 76,
+      "totalTokens": 167777,
+      "totalRequests": 77,
       "uniqueIPs": [
         "100.52.218.188",
         "34.204.77.236",
@@ -15705,8 +15706,8 @@
     },
     "unknown": {
       "ip": "unknown",
-      "count": 11936,
-      "lastSeen": "2026-07-28T13:10:20.301Z",
+      "count": 11941,
+      "lastSeen": "2026-07-28T13:11:00.434Z",
       "models": [
         "modelo1",
         "modelo2",
@@ -15730,14 +15731,14 @@
         "modelo22",
         "modelo15"
       ],
-      "tokens": 139971697,
+      "tokens": 139981286,
       "sources": {
         "apikey": 5052,
-        "health-check": 6787,
+        "health-check": 6792,
         "free": 98
       }
     }
   },
-  "lastUpdated": "2026-07-28T13:10:20.804Z",
+  "lastUpdated": "2026-07-28T13:11:00.570Z",
   "resetAt": "2026-07-23T04:24:34.704Z"
 }
