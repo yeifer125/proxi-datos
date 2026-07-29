@@ -531,18 +531,40 @@
       "tokens": 17,
       "timestamp": "2026-07-29T03:38:13.374Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo13",
+      "ip": "213.136.79.115",
+      "tokens": 164,
+      "timestamp": "2026-07-29T03:38:14.906Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo13",
+      "ip": "37.187.140.176",
+      "tokens": 1,
+      "timestamp": "2026-07-29T03:38:16.320Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo13",
+      "ip": "42.235.204.114",
+      "tokens": 188,
+      "timestamp": "2026-07-29T03:38:17.908Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo13": {
-      "totalTokens": 3170,
-      "totalRequests": 73,
+      "totalTokens": 3523,
+      "totalRequests": 76,
       "uniqueIPs": [
         "190.90.38.154",
         "213.136.79.115",
         "42.235.204.114",
         "37.187.150.129",
-        "190.211.124.187"
+        "190.211.124.187",
+        "37.187.140.176"
       ]
     },
     "modelo2": {
@@ -568,26 +590,26 @@
     },
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 28,
-      "lastSeen": "2026-07-29T03:38:05.907Z",
+      "count": 29,
+      "lastSeen": "2026-07-29T03:38:14.906Z",
       "models": [
         "modelo13"
       ],
-      "tokens": 1432,
+      "tokens": 1596,
       "sources": {
-        "apikey": 28
+        "apikey": 29
       }
     },
     "42.235.204.114": {
       "ip": "42.235.204.114",
-      "count": 17,
-      "lastSeen": "2026-07-29T03:37:29.190Z",
+      "count": 18,
+      "lastSeen": "2026-07-29T03:38:17.908Z",
       "models": [
         "modelo13"
       ],
-      "tokens": 407,
+      "tokens": 595,
       "sources": {
-        "apikey": 17
+        "apikey": 18
       }
     },
     "37.187.150.129": {
@@ -614,8 +636,20 @@
       "sources": {
         "apikey": 12
       }
+    },
+    "37.187.140.176": {
+      "ip": "37.187.140.176",
+      "count": 1,
+      "lastSeen": "2026-07-29T03:38:16.320Z",
+      "models": [
+        "modelo13"
+      ],
+      "tokens": 1,
+      "sources": {
+        "apikey": 1
+      }
     }
   },
-  "lastUpdated": "2026-07-29T03:38:13.636Z",
+  "lastUpdated": "2026-07-29T03:38:18.432Z",
   "resetAt": "2026-07-29T03:28:14.208Z"
 }
