@@ -6,6 +6,13 @@
       "tokens": 2679,
       "timestamp": "2026-07-29T03:17:02.904Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo13",
+      "ip": "unknown",
+      "tokens": 16,
+      "timestamp": "2026-07-29T03:19:11.376Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -15,22 +22,31 @@
       "uniqueIPs": [
         "unknown"
       ]
+    },
+    "modelo13": {
+      "totalTokens": 16,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "unknown"
+      ]
     }
   },
   "visitors": {
     "unknown": {
       "ip": "unknown",
-      "count": 1,
-      "lastSeen": "2026-07-29T03:17:02.904Z",
+      "count": 2,
+      "lastSeen": "2026-07-29T03:19:11.376Z",
       "models": [
-        "modelo7"
+        "modelo7",
+        "modelo13"
       ],
-      "tokens": 2679,
+      "tokens": 2695,
       "sources": {
-        "health-check": 1
+        "health-check": 1,
+        "apikey": 1
       }
     }
   },
-  "lastUpdated": "2026-07-29T03:17:03.256Z",
+  "lastUpdated": "2026-07-29T03:19:11.615Z",
   "resetAt": "2026-07-29T03:16:57.829Z"
 }
