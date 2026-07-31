@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo1",
-      "ip": "213.136.83.197",
-      "tokens": 0,
-      "timestamp": "2026-07-30T20:04:26.420Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo4",
-      "ip": "213.136.83.197",
-      "tokens": 2581,
-      "timestamp": "2026-07-30T20:05:46.044Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo3",
       "ip": "213.136.83.197",
       "tokens": 1,
@@ -14063,12 +14049,26 @@
       "tokens": 10,
       "timestamp": "2026-07-31T00:03:23.722Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo13",
+      "ip": "23.94.136.177",
+      "tokens": 135,
+      "timestamp": "2026-07-31T00:03:26.550Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo13",
+      "ip": "50.116.38.183",
+      "tokens": 1,
+      "timestamp": "2026-07-31T00:03:30.272Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo13": {
-      "totalTokens": 442434,
-      "totalRequests": 432,
+      "totalTokens": 442570,
+      "totalRequests": 434,
       "uniqueIPs": [
         "190.90.38.154",
         "213.136.79.115",
@@ -14121,8 +14121,8 @@
       ]
     },
     "modelo4": {
-      "totalTokens": 268424,
-      "totalRequests": 106,
+      "totalTokens": 265843,
+      "totalRequests": 105,
       "uniqueIPs": [
         "213.136.83.197"
       ]
@@ -14182,7 +14182,7 @@
     },
     "modelo1": {
       "totalTokens": 100764,
-      "totalRequests": 37,
+      "totalRequests": 36,
       "uniqueIPs": [
         "213.136.83.197",
         "190.211.124.187"
@@ -14385,31 +14385,31 @@
     },
     "23.94.136.177": {
       "ip": "23.94.136.177",
-      "count": 147,
-      "lastSeen": "2026-07-31T00:02:57.262Z",
+      "count": 148,
+      "lastSeen": "2026-07-31T00:03:26.550Z",
       "models": [
         "modelo2",
         "modelo13"
       ],
-      "tokens": 6867157,
+      "tokens": 6867292,
       "sources": {
-        "apikey": 147
+        "apikey": 148
       }
     },
     "50.116.38.183": {
       "ip": "50.116.38.183",
-      "count": 293,
-      "lastSeen": "2026-07-31T00:03:23.722Z",
+      "count": 294,
+      "lastSeen": "2026-07-31T00:03:30.272Z",
       "models": [
         "modelo2",
         "modelo13"
       ],
-      "tokens": 414730,
+      "tokens": 414731,
       "sources": {
-        "apikey": 293
+        "apikey": 294
       }
     }
   },
-  "lastUpdated": "2026-07-31T00:03:24.162Z",
+  "lastUpdated": "2026-07-31T00:03:30.632Z",
   "resetAt": "2026-07-29T03:28:14.208Z"
 }
