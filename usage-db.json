@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo3",
-      "ip": "213.136.83.197",
-      "tokens": 1,
-      "timestamp": "2026-07-30T21:49:46.145Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo4",
-      "ip": "213.136.83.197",
-      "tokens": 2581,
-      "timestamp": "2026-07-30T21:49:46.248Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo9",
       "ip": "213.136.83.197",
       "tokens": 2581,
@@ -14066,12 +14052,26 @@
       "tokens": 1,
       "timestamp": "2026-07-31T01:43:10.097Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo13",
+      "ip": "213.136.79.115",
+      "tokens": 64,
+      "timestamp": "2026-07-31T01:43:12.832Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo13",
+      "ip": "213.136.79.115",
+      "tokens": 1,
+      "timestamp": "2026-07-31T01:43:20.333Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo13": {
-      "totalTokens": 524168,
-      "totalRequests": 605,
+      "totalTokens": 524233,
+      "totalRequests": 607,
       "uniqueIPs": [
         "190.90.38.154",
         "213.136.79.115",
@@ -14124,15 +14124,15 @@
       ]
     },
     "modelo4": {
-      "totalTokens": 271004,
-      "totalRequests": 106,
+      "totalTokens": 268423,
+      "totalRequests": 105,
       "uniqueIPs": [
         "213.136.83.197"
       ]
     },
     "modelo3": {
-      "totalTokens": 111,
-      "totalRequests": 111,
+      "totalTokens": 110,
+      "totalRequests": 110,
       "uniqueIPs": [
         "213.136.83.197",
         "190.211.124.187"
@@ -14258,14 +14258,14 @@
     },
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 3355,
-      "lastSeen": "2026-07-31T01:43:10.097Z",
+      "count": 3357,
+      "lastSeen": "2026-07-31T01:43:20.333Z",
       "models": [
         "modelo13"
       ],
-      "tokens": 2346700,
+      "tokens": 2346765,
       "sources": {
-        "apikey": 3355
+        "apikey": 3357
       }
     },
     "42.235.204.114": {
@@ -14413,6 +14413,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-31T01:43:10.595Z",
+  "lastUpdated": "2026-07-31T01:43:21.073Z",
   "resetAt": "2026-07-29T03:28:14.208Z"
 }
