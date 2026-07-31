@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo2",
-      "ip": "213.136.83.197",
-      "tokens": 2555,
-      "timestamp": "2026-07-31T05:56:12.359Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo14",
-      "ip": "213.136.83.197",
-      "tokens": 3649,
-      "timestamp": "2026-07-31T05:56:14.005Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo6",
       "ip": "213.136.83.197",
       "tokens": 2489,
@@ -14045,12 +14031,26 @@
       "tokens": 2537,
       "timestamp": "2026-07-31T18:02:23.728Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo13",
+      "ip": "213.136.79.115",
+      "tokens": 1,
+      "timestamp": "2026-07-31T18:02:25.825Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo13",
+      "ip": "213.136.79.115",
+      "tokens": 20,
+      "timestamp": "2026-07-31T18:02:49.320Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo13": {
-      "totalTokens": 336598,
-      "totalRequests": 439,
+      "totalTokens": 336619,
+      "totalRequests": 441,
       "uniqueIPs": [
         "190.90.38.154",
         "213.136.79.115",
@@ -14067,8 +14067,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 5965832,
-      "totalRequests": 166,
+      "totalTokens": 5963277,
+      "totalRequests": 165,
       "uniqueIPs": [
         "190.211.124.187",
         "18.135.193.236",
@@ -14161,8 +14161,8 @@
       ]
     },
     "modelo14": {
-      "totalTokens": 291920,
-      "totalRequests": 80,
+      "totalTokens": 288271,
+      "totalRequests": 79,
       "uniqueIPs": [
         "213.136.83.197",
         "18.135.193.236"
@@ -14273,15 +14273,15 @@
     },
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 3855,
-      "lastSeen": "2026-07-31T18:01:41.903Z",
+      "count": 3857,
+      "lastSeen": "2026-07-31T18:02:49.320Z",
       "models": [
         "modelo13",
         "modelo19"
       ],
-      "tokens": 9027798,
+      "tokens": 9027819,
       "sources": {
-        "apikey": 3855
+        "apikey": 3857
       }
     },
     "42.235.204.114": {
@@ -14483,6 +14483,6 @@
       }
     }
   },
-  "lastUpdated": "2026-07-31T18:02:24.081Z",
+  "lastUpdated": "2026-07-31T18:02:49.791Z",
   "resetAt": "2026-07-29T03:28:14.208Z"
 }
