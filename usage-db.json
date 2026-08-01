@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo5",
-      "ip": "213.136.83.197",
-      "tokens": 3472,
-      "timestamp": "2026-08-01T07:46:11.389Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo13",
-      "ip": "23.94.136.177",
-      "tokens": 97440,
-      "timestamp": "2026-08-01T07:46:17.314Z",
-      "source": "apikey"
-    },
-    {
       "model": "modelo13",
       "ip": "23.94.136.177",
       "tokens": 98693,
@@ -14060,12 +14046,26 @@
       "tokens": 1,
       "timestamp": "2026-08-01T11:48:11.766Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo18",
+      "ip": "213.136.83.197",
+      "tokens": 1,
+      "timestamp": "2026-08-01T11:48:14.739Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo5",
+      "ip": "213.136.83.197",
+      "tokens": 4500,
+      "timestamp": "2026-08-01T11:48:17.975Z",
+      "source": "health-check"
     }
   ],
   "stats": {
     "modelo13": {
-      "totalTokens": 5932641,
-      "totalRequests": 118,
+      "totalTokens": 5835201,
+      "totalRequests": 117,
       "uniqueIPs": [
         "190.90.38.154",
         "213.136.79.115",
@@ -14235,7 +14235,7 @@
       ]
     },
     "modelo5": {
-      "totalTokens": 349433,
+      "totalTokens": 350461,
       "totalRequests": 93,
       "uniqueIPs": [
         "213.136.83.197",
@@ -14283,8 +14283,8 @@
       ]
     },
     "modelo18": {
-      "totalTokens": 176307,
-      "totalRequests": 85,
+      "totalTokens": 176308,
+      "totalRequests": 86,
       "uniqueIPs": [
         "213.136.83.197",
         "18.135.193.236",
@@ -14483,8 +14483,8 @@
     },
     "213.136.83.197": {
       "ip": "213.136.83.197",
-      "count": 13734,
-      "lastSeen": "2026-08-01T11:48:11.766Z",
+      "count": 13736,
+      "lastSeen": "2026-08-01T11:48:17.975Z",
       "models": [
         "modelo7",
         "modelo8",
@@ -14513,9 +14513,9 @@
         "modelo27",
         "modelo25"
       ],
-      "tokens": 32254461,
+      "tokens": 32258962,
       "sources": {
-        "health-check": 13734
+        "health-check": 13736
       }
     },
     "23.94.136.177": {
@@ -14625,6 +14625,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-01T11:48:12.425Z",
+  "lastUpdated": "2026-08-01T11:48:18.619Z",
   "resetAt": "2026-07-29T03:28:14.208Z"
 }
