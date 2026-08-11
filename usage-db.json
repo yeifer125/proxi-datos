@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo26",
-      "ip": "190.211.125.99",
-      "tokens": 50939,
-      "timestamp": "2026-08-11T03:23:50.041Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo26",
-      "ip": "190.211.125.99",
-      "tokens": 51101,
-      "timestamp": "2026-08-11T03:25:04.374Z",
-      "source": "apikey"
-    },
-    {
       "model": "modelo24",
       "ip": "190.211.125.99",
       "tokens": 74619,
@@ -14074,20 +14060,34 @@
       "tokens": 2415,
       "timestamp": "2026-08-11T08:57:50.955Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo3",
+      "ip": "213.136.83.197",
+      "tokens": 2476,
+      "timestamp": "2026-08-11T08:58:31.156Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo11",
+      "ip": "213.136.83.197",
+      "tokens": 1,
+      "timestamp": "2026-08-11T08:58:31.852Z",
+      "source": "health-check"
     }
   ],
   "stats": {
     "modelo26": {
-      "totalTokens": 1177430,
-      "totalRequests": 61,
+      "totalTokens": 1075390,
+      "totalRequests": 59,
       "uniqueIPs": [
         "213.136.83.197",
         "190.211.125.99"
       ]
     },
     "modelo11": {
-      "totalTokens": 104,
-      "totalRequests": 104,
+      "totalTokens": 105,
+      "totalRequests": 105,
       "uniqueIPs": [
         "190.211.125.99",
         "213.136.83.197"
@@ -14126,8 +14126,8 @@
       ]
     },
     "modelo3": {
-      "totalTokens": 187374,
-      "totalRequests": 86,
+      "totalTokens": 189850,
+      "totalRequests": 87,
       "uniqueIPs": [
         "213.136.83.197",
         "190.211.125.99"
@@ -14290,8 +14290,8 @@
   "visitors": {
     "213.136.83.197": {
       "ip": "213.136.83.197",
-      "count": 3334,
-      "lastSeen": "2026-08-11T08:57:50.955Z",
+      "count": 3336,
+      "lastSeen": "2026-08-11T08:58:31.852Z",
       "models": [
         "modelo26",
         "modelo11",
@@ -14320,9 +14320,9 @@
         "modelo2",
         "modelo1"
       ],
-      "tokens": 5457183,
+      "tokens": 5459660,
       "sources": {
-        "health-check": 3334
+        "health-check": 3336
       }
     },
     "190.211.125.99": {
@@ -14398,6 +14398,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-11T08:57:51.752Z",
+  "lastUpdated": "2026-08-11T08:58:32.266Z",
   "resetAt": "2026-08-08T23:08:17.511Z"
 }
