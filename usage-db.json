@@ -3,13 +3,6 @@
     {
       "model": "modelo1",
       "ip": "213.136.79.115",
-      "tokens": 20046,
-      "timestamp": "2026-08-21T13:09:57.244Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo1",
-      "ip": "213.136.79.115",
       "tokens": 13391,
       "timestamp": "2026-08-21T13:09:57.642Z",
       "source": "apikey"
@@ -13999,6 +13992,13 @@
       "tokens": 28948,
       "timestamp": "2026-08-21T14:44:01.952Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo27",
+      "ip": "213.136.79.115",
+      "tokens": 22504,
+      "timestamp": "2026-08-21T14:44:09.446Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -14200,15 +14200,16 @@
       ]
     },
     "modelo27": {
-      "totalTokens": 92514,
-      "totalRequests": 1,
+      "totalTokens": 115018,
+      "totalRequests": 2,
       "uniqueIPs": [
         "190.211.125.99",
         "213.136.83.197",
         "127.0.0.1",
         "54.169.179.1",
         "23.94.136.177",
-        "52.69.90.124"
+        "52.69.90.124",
+        "213.136.79.115"
       ]
     },
     "modelo8": {
@@ -14265,8 +14266,8 @@
       ]
     },
     "modelo1": {
-      "totalTokens": 38686947,
-      "totalRequests": 1999,
+      "totalTokens": 38666901,
+      "totalRequests": 1998,
       "uniqueIPs": [
         "213.136.83.197",
         "190.211.125.99",
@@ -14379,16 +14380,17 @@
     },
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 122722,
-      "lastSeen": "2026-08-21T14:44:01.952Z",
+      "count": 122723,
+      "lastSeen": "2026-08-21T14:44:09.446Z",
       "models": [
         "modelo13",
         "modelo4",
-        "modelo1"
+        "modelo1",
+        "modelo27"
       ],
-      "tokens": 2339183078,
+      "tokens": 2339205582,
       "sources": {
-        "apikey": 122722
+        "apikey": 122723
       }
     },
     "152.175.38.234": {
@@ -14528,6 +14530,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-21T14:44:02.848Z",
+  "lastUpdated": "2026-08-21T14:44:10.363Z",
   "resetAt": "2026-08-08T23:08:17.511Z"
 }
