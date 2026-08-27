@@ -448,6 +448,27 @@
       "tokens": 3116,
       "timestamp": "2026-08-27T05:57:03.145Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo20",
+      "ip": "213.136.83.197",
+      "tokens": 2489,
+      "timestamp": "2026-08-27T05:57:05.367Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo5",
+      "ip": "213.136.83.197",
+      "tokens": 1,
+      "timestamp": "2026-08-27T05:57:06.542Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 21224,
+      "timestamp": "2026-08-27T05:57:06.649Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -461,16 +482,16 @@
       ]
     },
     "modelo1": {
-      "totalTokens": 482876,
-      "totalRequests": 29,
+      "totalTokens": 504100,
+      "totalRequests": 30,
       "uniqueIPs": [
         "213.136.79.115",
         "213.136.83.197"
       ]
     },
     "modelo5": {
-      "totalTokens": 2581,
-      "totalRequests": 1,
+      "totalTokens": 2582,
+      "totalRequests": 2,
       "uniqueIPs": [
         "213.136.83.197"
       ]
@@ -511,8 +532,8 @@
       ]
     },
     "modelo20": {
-      "totalTokens": 2489,
-      "totalRequests": 1,
+      "totalTokens": 4978,
+      "totalRequests": 2,
       "uniqueIPs": [
         "213.136.83.197"
       ]
@@ -589,21 +610,21 @@
     },
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 32,
-      "lastSeen": "2026-08-27T05:57:02.279Z",
+      "count": 33,
+      "lastSeen": "2026-08-27T05:57:06.649Z",
       "models": [
         "modelo1",
         "modelo27"
       ],
-      "tokens": 794776,
+      "tokens": 816000,
       "sources": {
-        "apikey": 32
+        "apikey": 33
       }
     },
     "213.136.83.197": {
       "ip": "213.136.83.197",
-      "count": 23,
-      "lastSeen": "2026-08-27T05:57:03.145Z",
+      "count": 25,
+      "lastSeen": "2026-08-27T05:57:06.542Z",
       "models": [
         "modelo5",
         "modelo6",
@@ -623,12 +644,12 @@
         "modelo3",
         "modelo7"
       ],
-      "tokens": 57149,
+      "tokens": 59639,
       "sources": {
-        "health-check": 23
+        "health-check": 25
       }
     }
   },
-  "lastUpdated": "2026-08-27T05:57:03.248Z",
+  "lastUpdated": "2026-08-27T05:57:06.850Z",
   "resetAt": "2026-08-27T05:54:40.249Z"
 }
