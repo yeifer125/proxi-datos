@@ -2167,12 +2167,26 @@
       "tokens": 15214,
       "timestamp": "2026-08-28T15:13:35.348Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo17",
+      "ip": "213.136.83.197",
+      "tokens": 4035,
+      "timestamp": "2026-08-28T15:13:37.139Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 23880,
+      "timestamp": "2026-08-28T15:13:39.742Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo1": {
-      "totalTokens": 4295418,
-      "totalRequests": 216,
+      "totalTokens": 4319298,
+      "totalRequests": 217,
       "uniqueIPs": [
         "213.136.79.115",
         "190.211.125.203",
@@ -2325,19 +2339,26 @@
       "uniqueIPs": [
         "213.136.83.197"
       ]
+    },
+    "modelo17": {
+      "totalTokens": 4035,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "213.136.83.197"
+      ]
     }
   },
   "visitors": {
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 211,
-      "lastSeen": "2026-08-28T15:13:35.348Z",
+      "count": 212,
+      "lastSeen": "2026-08-28T15:13:39.742Z",
       "models": [
         "modelo1"
       ],
-      "tokens": 4284211,
+      "tokens": 4308091,
       "sources": {
-        "apikey": 211
+        "apikey": 212
       }
     },
     "190.211.125.203": {
@@ -2361,8 +2382,8 @@
     },
     "213.136.83.197": {
       "ip": "213.136.83.197",
-      "count": 73,
-      "lastSeen": "2026-08-28T15:13:17.940Z",
+      "count": 74,
+      "lastSeen": "2026-08-28T15:13:37.139Z",
       "models": [
         "modelo8",
         "modelo12",
@@ -2384,14 +2405,15 @@
         "modelo6",
         "modelo15",
         "modelo14",
-        "modelo18"
+        "modelo18",
+        "modelo17"
       ],
-      "tokens": 157925,
+      "tokens": 161960,
       "sources": {
-        "health-check": 73
+        "health-check": 74
       }
     }
   },
-  "lastUpdated": "2026-08-28T15:13:35.873Z",
+  "lastUpdated": "2026-08-28T15:13:40.154Z",
   "resetAt": "2026-08-28T15:05:03.753Z"
 }
