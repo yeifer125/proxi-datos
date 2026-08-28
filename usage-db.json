@@ -1527,12 +1527,33 @@
       "tokens": 17526,
       "timestamp": "2026-08-28T15:11:24.054Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 14730,
+      "timestamp": "2026-08-28T15:11:26.339Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo8",
+      "ip": "190.211.125.203",
+      "tokens": 593,
+      "timestamp": "2026-08-28T15:11:26.738Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 18741,
+      "timestamp": "2026-08-28T15:11:28.740Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo1": {
-      "totalTokens": 3052987,
-      "totalRequests": 149,
+      "totalTokens": 3086458,
+      "totalRequests": 151,
       "uniqueIPs": [
         "213.136.79.115",
         "190.211.125.203",
@@ -1572,10 +1593,11 @@
       ]
     },
     "modelo8": {
-      "totalTokens": 7655,
-      "totalRequests": 3,
+      "totalTokens": 8248,
+      "totalRequests": 4,
       "uniqueIPs": [
-        "213.136.83.197"
+        "213.136.83.197",
+        "190.211.125.203"
       ]
     },
     "modelo12": {
@@ -1687,30 +1709,31 @@
   "visitors": {
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 145,
-      "lastSeen": "2026-08-28T15:11:24.054Z",
+      "count": 147,
+      "lastSeen": "2026-08-28T15:11:28.740Z",
       "models": [
         "modelo1"
       ],
-      "tokens": 3044234,
+      "tokens": 3077705,
       "sources": {
-        "apikey": 145
+        "apikey": 147
       }
     },
     "190.211.125.203": {
       "ip": "190.211.125.203",
-      "count": 16,
-      "lastSeen": "2026-08-28T15:10:50.443Z",
+      "count": 17,
+      "lastSeen": "2026-08-28T15:11:26.738Z",
       "models": [
         "modelo1",
         "modelo4",
         "modelo3",
         "modelo6",
-        "modelo5"
+        "modelo5",
+        "modelo8"
       ],
-      "tokens": 751259,
+      "tokens": 751852,
       "sources": {
-        "apikey": 16
+        "apikey": 17
       }
     },
     "213.136.83.197": {
@@ -1746,6 +1769,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-28T15:11:24.470Z",
+  "lastUpdated": "2026-08-28T15:11:29.042Z",
   "resetAt": "2026-08-28T15:05:03.753Z"
 }
