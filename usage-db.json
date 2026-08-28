@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo1",
-      "ip": "213.136.83.197",
-      "tokens": 2454,
-      "timestamp": "2026-08-28T15:35:27.972Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo20",
-      "ip": "213.136.83.197",
-      "tokens": 2489,
-      "timestamp": "2026-08-28T15:35:29.437Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo6",
       "ip": "213.136.83.197",
       "tokens": 2581,
@@ -14012,12 +13998,26 @@
       "tokens": 12210,
       "timestamp": "2026-08-28T16:37:16.051Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 18746,
+      "timestamp": "2026-08-28T16:37:18.582Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 20509,
+      "timestamp": "2026-08-28T16:37:19.553Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo1": {
-      "totalTokens": 34937685,
-      "totalRequests": 1648,
+      "totalTokens": 34974486,
+      "totalRequests": 1649,
       "uniqueIPs": [
         "213.136.79.115",
         "190.211.125.203",
@@ -14080,8 +14080,8 @@
       ]
     },
     "modelo20": {
-      "totalTokens": 34849,
-      "totalRequests": 17,
+      "totalTokens": 32360,
+      "totalRequests": 16,
       "uniqueIPs": [
         "213.136.83.197"
       ]
@@ -14210,14 +14210,14 @@
   "visitors": {
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 2353,
-      "lastSeen": "2026-08-28T16:37:16.051Z",
+      "count": 2355,
+      "lastSeen": "2026-08-28T16:37:19.553Z",
       "models": [
         "modelo1"
       ],
-      "tokens": 49504417,
+      "tokens": 49543672,
       "sources": {
-        "apikey": 2353
+        "apikey": 2355
       }
     },
     "190.211.125.203": {
@@ -14277,6 +14277,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-28T16:37:16.582Z",
+  "lastUpdated": "2026-08-28T16:37:20.679Z",
   "resetAt": "2026-08-28T15:05:03.753Z"
 }
