@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo1",
-      "ip": "213.136.79.115",
-      "tokens": 22867,
-      "timestamp": "2026-08-28T00:11:18.857Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo5",
-      "ip": "213.136.83.197",
-      "tokens": 2581,
-      "timestamp": "2026-08-28T00:11:26.347Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo3",
       "ip": "213.136.83.197",
       "tokens": 2679,
@@ -14020,6 +14006,20 @@
       "tokens": 26752,
       "timestamp": "2026-08-28T01:19:43.069Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 12366,
+      "timestamp": "2026-08-28T01:19:47.744Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 25270,
+      "timestamp": "2026-08-28T01:19:47.848Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -14033,8 +14033,8 @@
       ]
     },
     "modelo1": {
-      "totalTokens": 32917230,
-      "totalRequests": 1538,
+      "totalTokens": 32931999,
+      "totalRequests": 1539,
       "uniqueIPs": [
         "213.136.79.115",
         "213.136.83.197",
@@ -14042,8 +14042,8 @@
       ]
     },
     "modelo5": {
-      "totalTokens": 51622,
-      "totalRequests": 25,
+      "totalTokens": 49041,
+      "totalRequests": 24,
       "uniqueIPs": [
         "213.136.83.197",
         "190.211.125.203"
@@ -14239,16 +14239,16 @@
     },
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 21999,
-      "lastSeen": "2026-08-28T01:19:43.069Z",
+      "count": 22001,
+      "lastSeen": "2026-08-28T01:19:47.848Z",
       "models": [
         "modelo1",
         "modelo27",
         "modelo13"
       ],
-      "tokens": 462544578,
+      "tokens": 462582214,
       "sources": {
-        "apikey": 21999
+        "apikey": 22001
       }
     },
     "213.136.83.197": {
@@ -14289,6 +14289,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-28T01:19:43.962Z",
+  "lastUpdated": "2026-08-28T01:19:48.355Z",
   "resetAt": "2026-08-27T05:54:40.249Z"
 }
