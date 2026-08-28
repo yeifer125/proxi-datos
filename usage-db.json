@@ -3,20 +3,6 @@
     {
       "model": "modelo1",
       "ip": "213.136.79.115",
-      "tokens": 14146,
-      "timestamp": "2026-08-28T03:28:11.149Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo1",
-      "ip": "213.136.79.115",
-      "tokens": 15086,
-      "timestamp": "2026-08-28T03:28:14.245Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo1",
-      "ip": "213.136.79.115",
       "tokens": 14394,
       "timestamp": "2026-08-28T03:28:16.243Z",
       "source": "apikey"
@@ -14016,6 +14002,21 @@
       "tokens": 23421,
       "timestamp": "2026-08-28T04:36:35.948Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo9",
+      "ip": "213.136.83.197",
+      "tokens": 2679,
+      "timestamp": "2026-08-28T04:36:38.350Z",
+      "rotatorModel": "modelo3",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 30425,
+      "timestamp": "2026-08-28T04:36:42.645Z",
+      "source": "apikey"
     }
   ],
   "stats": {
@@ -14049,8 +14050,8 @@
       ]
     },
     "modelo1": {
-      "totalTokens": 31505797,
-      "totalRequests": 1500,
+      "totalTokens": 31506990,
+      "totalRequests": 1499,
       "uniqueIPs": [
         "213.136.79.115",
         "213.136.83.197",
@@ -14169,8 +14170,8 @@
       ]
     },
     "modelo9": {
-      "totalTokens": 125169,
-      "totalRequests": 17,
+      "totalTokens": 127848,
+      "totalRequests": 18,
       "uniqueIPs": [
         "213.136.83.197",
         "190.211.125.206"
@@ -14290,23 +14291,23 @@
     },
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 25677,
-      "lastSeen": "2026-08-28T04:36:35.948Z",
+      "count": 25678,
+      "lastSeen": "2026-08-28T04:36:42.645Z",
       "models": [
         "modelo1",
         "modelo27",
         "modelo13",
         "modelo5"
       ],
-      "tokens": 539952297,
+      "tokens": 539982722,
       "sources": {
-        "apikey": 25677
+        "apikey": 25678
       }
     },
     "213.136.83.197": {
       "ip": "213.136.83.197",
-      "count": 4946,
-      "lastSeen": "2026-08-28T04:36:31.745Z",
+      "count": 4947,
+      "lastSeen": "2026-08-28T04:36:38.350Z",
       "models": [
         "modelo5",
         "modelo6",
@@ -14335,9 +14336,9 @@
         "modelo19",
         "modelo23"
       ],
-      "tokens": 11052702,
+      "tokens": 11055381,
       "sources": {
-        "health-check": 4946
+        "health-check": 4947
       }
     },
     "190.211.125.204": {
@@ -14616,6 +14617,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-28T04:36:36.347Z",
+  "lastUpdated": "2026-08-28T04:36:43.163Z",
   "resetAt": "2026-08-27T05:54:40.249Z"
 }
