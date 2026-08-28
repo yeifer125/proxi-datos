@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo1",
-      "ip": "213.136.79.115",
-      "tokens": 17798,
-      "timestamp": "2026-08-28T15:11:07.948Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo4",
-      "ip": "213.136.83.197",
-      "tokens": 1,
-      "timestamp": "2026-08-28T15:11:10.963Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo5",
       "ip": "213.136.83.197",
       "tokens": 2581,
@@ -14019,12 +14005,26 @@
       "tokens": 16410,
       "timestamp": "2026-08-28T16:12:14.962Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 21177,
+      "timestamp": "2026-08-28T16:12:19.544Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 26978,
+      "timestamp": "2026-08-28T16:12:19.961Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo1": {
-      "totalTokens": 33291128,
-      "totalRequests": 1617,
+      "totalTokens": 33321485,
+      "totalRequests": 1618,
       "uniqueIPs": [
         "213.136.79.115",
         "190.211.125.203",
@@ -14032,8 +14032,8 @@
       ]
     },
     "modelo4": {
-      "totalTokens": 36197,
-      "totalRequests": 22,
+      "totalTokens": 36196,
+      "totalRequests": 21,
       "uniqueIPs": [
         "190.211.125.203",
         "213.136.83.197"
@@ -14217,14 +14217,14 @@
   "visitors": {
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 1739,
-      "lastSeen": "2026-08-28T16:12:14.962Z",
+      "count": 1741,
+      "lastSeen": "2026-08-28T16:12:19.961Z",
       "models": [
         "modelo1"
       ],
-      "tokens": 36145518,
+      "tokens": 36193673,
       "sources": {
-        "apikey": 1739
+        "apikey": 1741
       }
     },
     "190.211.125.203": {
@@ -14284,6 +14284,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-28T16:12:15.587Z",
+  "lastUpdated": "2026-08-28T16:12:20.090Z",
   "resetAt": "2026-08-28T15:05:03.753Z"
 }
