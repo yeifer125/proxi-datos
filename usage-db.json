@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo1",
-      "ip": "213.136.79.115",
-      "tokens": 16417,
-      "timestamp": "2026-08-28T16:43:25.251Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo7",
-      "ip": "213.136.83.197",
-      "tokens": 1,
-      "timestamp": "2026-08-28T16:43:26.946Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo5",
       "ip": "213.136.83.197",
       "tokens": 2581,
@@ -14015,12 +14001,26 @@
       "tokens": 25296,
       "timestamp": "2026-08-28T17:44:03.143Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 23381,
+      "timestamp": "2026-08-28T17:44:07.042Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 24216,
+      "timestamp": "2026-08-28T17:44:07.261Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo1": {
-      "totalTokens": 40886482,
-      "totalRequests": 1658,
+      "totalTokens": 40917662,
+      "totalRequests": 1659,
       "uniqueIPs": [
         "213.136.79.115",
         "190.211.125.203",
@@ -14191,8 +14191,8 @@
       ]
     },
     "modelo7": {
-      "totalTokens": 14,
-      "totalRequests": 14,
+      "totalTokens": 13,
+      "totalRequests": 13,
       "uniqueIPs": [
         "213.136.83.197"
       ]
@@ -14215,15 +14215,15 @@
   "visitors": {
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 4108,
-      "lastSeen": "2026-08-28T17:44:03.143Z",
+      "count": 4110,
+      "lastSeen": "2026-08-28T17:44:07.261Z",
       "models": [
         "modelo1",
         "modelo5"
       ],
-      "tokens": 86060925,
+      "tokens": 86108522,
       "sources": {
-        "apikey": 4108
+        "apikey": 4110
       }
     },
     "190.211.125.203": {
@@ -14284,6 +14284,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-28T17:44:03.936Z",
+  "lastUpdated": "2026-08-28T17:44:07.547Z",
   "resetAt": "2026-08-28T15:05:03.753Z"
 }
