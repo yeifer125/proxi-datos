@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo2",
-      "ip": "213.136.83.197",
-      "tokens": 2679,
-      "timestamp": "2026-08-29T18:04:29.956Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo11",
-      "ip": "213.136.83.197",
-      "tokens": 2679,
-      "timestamp": "2026-08-29T18:04:29.971Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo22",
       "ip": "213.136.83.197",
       "tokens": 2861,
@@ -14009,12 +13995,26 @@
       "tokens": 4342,
       "timestamp": "2026-08-29T19:02:36.242Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 26010,
+      "timestamp": "2026-08-29T19:02:38.346Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 10654,
+      "timestamp": "2026-08-29T19:02:39.542Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo1": {
-      "totalTokens": 34087783,
-      "totalRequests": 1663,
+      "totalTokens": 34124447,
+      "totalRequests": 1665,
       "uniqueIPs": [
         "213.136.79.115",
         "190.211.125.203",
@@ -14188,8 +14188,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 48222,
-      "totalRequests": 18,
+      "totalTokens": 45543,
+      "totalRequests": 17,
       "uniqueIPs": [
         "213.136.83.197",
         "190.211.125.120"
@@ -14204,8 +14204,8 @@
       ]
     },
     "modelo11": {
-      "totalTokens": 48222,
-      "totalRequests": 18,
+      "totalTokens": 45543,
+      "totalRequests": 17,
       "uniqueIPs": [
         "213.136.83.197"
       ]
@@ -14221,15 +14221,15 @@
   "visitors": {
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 37416,
-      "lastSeen": "2026-08-29T19:02:33.762Z",
+      "count": 37418,
+      "lastSeen": "2026-08-29T19:02:39.542Z",
       "models": [
         "modelo1",
         "modelo5"
       ],
-      "tokens": 774543739,
+      "tokens": 774580403,
       "sources": {
-        "apikey": 37416
+        "apikey": 37418
       }
     },
     "190.211.125.203": {
@@ -14313,6 +14313,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-29T19:02:36.768Z",
+  "lastUpdated": "2026-08-29T19:02:40.048Z",
   "resetAt": "2026-08-28T15:05:03.753Z"
 }
