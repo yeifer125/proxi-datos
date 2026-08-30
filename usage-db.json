@@ -3,27 +3,6 @@
     {
       "model": "modelo1",
       "ip": "213.136.79.115",
-      "tokens": 12097,
-      "timestamp": "2026-08-30T08:15:36.263Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo2",
-      "ip": "213.136.83.197",
-      "tokens": 2679,
-      "timestamp": "2026-08-30T08:15:39.363Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo1",
-      "ip": "213.136.79.115",
-      "tokens": 12246,
-      "timestamp": "2026-08-30T08:15:39.943Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo1",
-      "ip": "213.136.79.115",
       "tokens": 23947,
       "timestamp": "2026-08-30T08:15:40.163Z",
       "source": "apikey"
@@ -14015,11 +13994,32 @@
       "tokens": 13945,
       "timestamp": "2026-08-30T09:17:58.244Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 34508,
+      "timestamp": "2026-08-30T09:18:00.262Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo13",
+      "ip": "213.136.83.197",
+      "tokens": 2476,
+      "timestamp": "2026-08-30T09:18:00.968Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 23720,
+      "timestamp": "2026-08-30T09:18:02.162Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo1": {
-      "totalTokens": 32633107,
+      "totalTokens": 32666992,
       "totalRequests": 1579,
       "uniqueIPs": [
         "213.136.79.115",
@@ -14198,8 +14198,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 56259,
-      "totalRequests": 21,
+      "totalTokens": 53580,
+      "totalRequests": 20,
       "uniqueIPs": [
         "213.136.83.197",
         "190.211.125.120"
@@ -14221,8 +14221,8 @@
       ]
     },
     "modelo13": {
-      "totalTokens": 37140,
-      "totalRequests": 15,
+      "totalTokens": 39616,
+      "totalRequests": 16,
       "uniqueIPs": [
         "213.136.83.197"
       ]
@@ -14231,15 +14231,15 @@
   "visitors": {
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 54838,
-      "lastSeen": "2026-08-30T09:17:58.244Z",
+      "count": 54840,
+      "lastSeen": "2026-08-30T09:18:02.162Z",
       "models": [
         "modelo1",
         "modelo5"
       ],
-      "tokens": 1133471065,
+      "tokens": 1133529293,
       "sources": {
-        "apikey": 54838
+        "apikey": 54840
       }
     },
     "190.211.125.203": {
@@ -14264,8 +14264,8 @@
     },
     "213.136.83.197": {
       "ip": "213.136.83.197",
-      "count": 4913,
-      "lastSeen": "2026-08-30T09:17:34.773Z",
+      "count": 4914,
+      "lastSeen": "2026-08-30T09:18:00.968Z",
       "models": [
         "modelo8",
         "modelo12",
@@ -14294,9 +14294,9 @@
         "modelo11",
         "modelo13"
       ],
-      "tokens": 11026266,
+      "tokens": 11028742,
       "sources": {
-        "health-check": 4913
+        "health-check": 4914
       }
     },
     "190.211.125.120": {
@@ -14371,6 +14371,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-30T09:17:58.665Z",
+  "lastUpdated": "2026-08-30T09:18:02.973Z",
   "resetAt": "2026-08-28T15:05:03.753Z"
 }
