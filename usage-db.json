@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo1",
-      "ip": "213.136.83.197",
-      "tokens": 2454,
-      "timestamp": "2026-08-30T01:50:23.243Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo21",
-      "ip": "213.136.83.197",
-      "tokens": 2719,
-      "timestamp": "2026-08-30T01:50:23.369Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo26",
       "ip": "213.136.83.197",
       "tokens": 1,
@@ -14023,12 +14009,26 @@
       "tokens": 12443,
       "timestamp": "2026-08-30T02:58:54.643Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 11237,
+      "timestamp": "2026-08-30T02:58:59.842Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 15415,
+      "timestamp": "2026-08-30T02:59:00.153Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo1": {
-      "totalTokens": 32326970,
-      "totalRequests": 1503,
+      "totalTokens": 32351168,
+      "totalRequests": 1504,
       "uniqueIPs": [
         "213.136.79.115",
         "190.211.125.203",
@@ -14171,8 +14171,8 @@
       ]
     },
     "modelo21": {
-      "totalTokens": 46223,
-      "totalRequests": 17,
+      "totalTokens": 43504,
+      "totalRequests": 16,
       "uniqueIPs": [
         "213.136.83.197"
       ]
@@ -14239,15 +14239,15 @@
   "visitors": {
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 46505,
-      "lastSeen": "2026-08-30T02:58:54.643Z",
+      "count": 46507,
+      "lastSeen": "2026-08-30T02:59:00.153Z",
       "models": [
         "modelo1",
         "modelo5"
       ],
-      "tokens": 960885879,
+      "tokens": 960912531,
       "sources": {
-        "apikey": 46505
+        "apikey": 46507
       }
     },
     "190.211.125.203": {
@@ -14379,6 +14379,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-30T02:58:55.363Z",
+  "lastUpdated": "2026-08-30T02:59:00.461Z",
   "resetAt": "2026-08-28T15:05:03.753Z"
 }
