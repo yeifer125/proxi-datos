@@ -1,20 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo25",
-      "ip": "213.136.83.197",
-      "tokens": 1,
-      "timestamp": "2026-08-30T07:09:24.248Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo6",
-      "ip": "213.136.83.197",
-      "tokens": 2581,
-      "timestamp": "2026-08-30T07:09:24.260Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo26",
       "ip": "213.136.83.197",
       "tokens": 1,
@@ -14022,12 +14008,26 @@
       "tokens": 2581,
       "timestamp": "2026-08-30T08:25:25.055Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 9871,
+      "timestamp": "2026-08-30T08:25:26.463Z",
+      "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.79.115",
+      "tokens": 24544,
+      "timestamp": "2026-08-30T08:25:28.443Z",
+      "source": "apikey"
     }
   ],
   "stats": {
     "modelo1": {
-      "totalTokens": 31509006,
-      "totalRequests": 1509,
+      "totalTokens": 31543421,
+      "totalRequests": 1511,
       "uniqueIPs": [
         "213.136.79.115",
         "190.211.125.203",
@@ -14058,8 +14058,8 @@
       ]
     },
     "modelo6": {
-      "totalTokens": 30975,
-      "totalRequests": 17,
+      "totalTokens": 28394,
+      "totalRequests": 16,
       "uniqueIPs": [
         "190.211.125.203",
         "213.136.83.197",
@@ -14130,8 +14130,8 @@
       ]
     },
     "modelo25": {
-      "totalTokens": 16,
-      "totalRequests": 16,
+      "totalTokens": 15,
+      "totalRequests": 15,
       "uniqueIPs": [
         "213.136.83.197",
         "190.211.125.120"
@@ -14238,15 +14238,15 @@
   "visitors": {
     "213.136.79.115": {
       "ip": "213.136.79.115",
-      "count": 53594,
-      "lastSeen": "2026-08-30T08:25:24.761Z",
+      "count": 53596,
+      "lastSeen": "2026-08-30T08:25:28.443Z",
       "models": [
         "modelo1",
         "modelo5"
       ],
-      "tokens": 1107731223,
+      "tokens": 1107765638,
       "sources": {
-        "apikey": 53594
+        "apikey": 53596
       }
     },
     "190.211.125.203": {
@@ -14378,6 +14378,6 @@
       }
     }
   },
-  "lastUpdated": "2026-08-30T08:25:25.165Z",
+  "lastUpdated": "2026-08-30T08:25:29.050Z",
   "resetAt": "2026-08-28T15:05:03.753Z"
 }
