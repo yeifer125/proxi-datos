@@ -1,27 +1,6 @@
 {
   "usages": [
     {
-      "model": "modelo1",
-      "ip": "190.211.125.120",
-      "tokens": 1,
-      "timestamp": "2026-09-01T02:48:43.351Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo1",
-      "ip": "213.136.83.197",
-      "tokens": 1,
-      "timestamp": "2026-09-01T02:48:59.960Z",
-      "source": "health-check"
-    },
-    {
-      "model": "modelo5",
-      "ip": "213.136.83.197",
-      "tokens": 2581,
-      "timestamp": "2026-09-01T02:49:00.549Z",
-      "source": "health-check"
-    },
-    {
       "model": "modelo18",
       "ip": "213.136.83.197",
       "tokens": 2679,
@@ -14045,12 +14024,33 @@
       "tokens": 1,
       "timestamp": "2026-09-01T22:24:05.656Z",
       "source": "apikey"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.83.197",
+      "tokens": 1,
+      "timestamp": "2026-09-01T22:25:00.373Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo5",
+      "ip": "213.136.83.197",
+      "tokens": 2581,
+      "timestamp": "2026-09-01T22:25:00.566Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo8",
+      "ip": "213.136.83.197",
+      "tokens": 468,
+      "timestamp": "2026-09-01T22:25:00.677Z",
+      "source": "health-check"
     }
   ],
   "stats": {
     "modelo1": {
-      "totalTokens": 356,
-      "totalRequests": 356,
+      "totalTokens": 355,
+      "totalRequests": 355,
       "uniqueIPs": [
         "213.136.79.115",
         "190.211.125.203",
@@ -14103,8 +14103,8 @@
       ]
     },
     "modelo8": {
-      "totalTokens": 134550,
-      "totalRequests": 53,
+      "totalTokens": 135018,
+      "totalRequests": 54,
       "uniqueIPs": [
         "213.136.83.197",
         "190.211.125.203"
@@ -14302,8 +14302,8 @@
     },
     "213.136.83.197": {
       "ip": "213.136.83.197",
-      "count": 7160,
-      "lastSeen": "2026-09-01T22:23:38.557Z",
+      "count": 7163,
+      "lastSeen": "2026-09-01T22:25:00.677Z",
       "models": [
         "modelo8",
         "modelo12",
@@ -14332,9 +14332,9 @@
         "modelo11",
         "modelo13"
       ],
-      "tokens": 16193444,
+      "tokens": 16196494,
       "sources": {
-        "health-check": 7160
+        "health-check": 7163
       }
     },
     "190.211.125.120": {
@@ -14439,6 +14439,6 @@
       }
     }
   },
-  "lastUpdated": "2026-09-01T22:24:06.451Z",
+  "lastUpdated": "2026-09-01T22:25:01.147Z",
   "resetAt": "2026-08-28T15:05:03.753Z"
 }
