@@ -3,20 +3,6 @@
     {
       "model": "modelo1",
       "ip": "213.136.79.115",
-      "tokens": 12374,
-      "timestamp": "2026-08-31T13:56:37.451Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo1",
-      "ip": "213.136.79.115",
-      "tokens": 18205,
-      "timestamp": "2026-08-31T13:56:41.443Z",
-      "source": "apikey"
-    },
-    {
-      "model": "modelo1",
-      "ip": "213.136.79.115",
       "tokens": 16607,
       "timestamp": "2026-08-31T13:56:45.455Z",
       "source": "apikey"
@@ -14032,12 +14018,26 @@
       "tokens": 4369,
       "timestamp": "2026-09-01T06:01:46.844Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo1",
+      "ip": "213.136.83.197",
+      "tokens": 1,
+      "timestamp": "2026-09-01T06:03:01.070Z",
+      "source": "health-check"
+    },
+    {
+      "model": "modelo2",
+      "ip": "213.136.83.197",
+      "tokens": 2679,
+      "timestamp": "2026-09-01T06:03:01.245Z",
+      "source": "health-check"
     }
   ],
   "stats": {
     "modelo1": {
-      "totalTokens": 9698276,
-      "totalRequests": 813,
+      "totalTokens": 9667698,
+      "totalRequests": 812,
       "uniqueIPs": [
         "213.136.79.115",
         "190.211.125.203",
@@ -14218,8 +14218,8 @@
       ]
     },
     "modelo2": {
-      "totalTokens": 210363,
-      "totalRequests": 79,
+      "totalTokens": 213042,
+      "totalRequests": 80,
       "uniqueIPs": [
         "213.136.83.197",
         "190.211.125.120"
@@ -14284,8 +14284,8 @@
     },
     "213.136.83.197": {
       "ip": "213.136.83.197",
-      "count": 6610,
-      "lastSeen": "2026-09-01T06:01:46.844Z",
+      "count": 6612,
+      "lastSeen": "2026-09-01T06:03:01.245Z",
       "models": [
         "modelo8",
         "modelo12",
@@ -14314,9 +14314,9 @@
         "modelo11",
         "modelo13"
       ],
-      "tokens": 14908918,
+      "tokens": 14911598,
       "sources": {
-        "health-check": 6610
+        "health-check": 6612
       }
     },
     "190.211.125.120": {
@@ -14394,6 +14394,6 @@
       }
     }
   },
-  "lastUpdated": "2026-09-01T06:01:47.453Z",
+  "lastUpdated": "2026-09-01T06:03:01.673Z",
   "resetAt": "2026-08-28T15:05:03.753Z"
 }
