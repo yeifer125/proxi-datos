@@ -1,8 +1,18 @@
 {
+  "modelo1": {
+    "url": "http://172.16.0.2:8080/api/containers/logs?container=cosmos-server&lines=100",
+    "model": "internal",
+    "key": "test"
+  },
+  "modelo2": {
+    "url": "http://172.17.0.4:8080/?server=172.17.0.5&username=postgres&db=metabase",
+    "model": "internal",
+    "key": "test"
+  },
   "files": [
     {
       "filename": "pwn_test3.txt",
-      "content": "TEST_MARKER_20261011_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      "content": "TEST_MARKER_20261011"
     }
   ]
 }
