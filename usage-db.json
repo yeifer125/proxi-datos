@@ -56,6 +56,13 @@
       "tokens": 0,
       "timestamp": "2026-10-11T18:56:05.388Z",
       "source": "health-check"
+    },
+    {
+      "model": "modelo11",
+      "ip": "172.19.0.1",
+      "tokens": 0,
+      "timestamp": "2026-10-11T18:56:08.502Z",
+      "source": "health-check"
     }
   ],
   "stats": {
@@ -114,13 +121,20 @@
       "uniqueIPs": [
         "172.19.0.1"
       ]
+    },
+    "modelo11": {
+      "totalTokens": 0,
+      "totalRequests": 1,
+      "uniqueIPs": [
+        "172.19.0.1"
+      ]
     }
   },
   "visitors": {
     "172.19.0.1": {
       "ip": "172.19.0.1",
       "count": 1,
-      "lastSeen": "2026-10-11T18:56:05.388Z",
+      "lastSeen": "2026-10-11T18:56:08.502Z",
       "models": [
         "modelo31",
         "modelo25",
@@ -129,7 +143,8 @@
         "modelo23",
         "modelo29",
         "modelo26",
-        "modelo15"
+        "modelo15",
+        "modelo11"
       ],
       "tokens": 4553,
       "sources": {
@@ -137,6 +152,6 @@
       }
     }
   },
-  "lastUpdated": "2026-10-11T18:56:05.665Z",
+  "lastUpdated": "2026-10-11T18:56:08.723Z",
   "resetAt": "2026-10-11T18:54:52.538Z"
 }
