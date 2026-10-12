@@ -13088,6 +13088,14 @@
       "timestamp": "2026-10-12T07:58:48.577Z",
       "source": "apikey",
       "client": "ops_key"
+    },
+    {
+      "model": "modelo23",
+      "ip": "fdbd:dc02:22:38::79",
+      "tokens": 30758,
+      "timestamp": "2026-10-12T08:00:27.591Z",
+      "source": "apikey",
+      "client": "ops_key"
     }
   ],
   "stats": {
@@ -13120,8 +13128,8 @@
       ]
     },
     "modelo23": {
-      "totalTokens": 7365932,
-      "totalRequests": 125,
+      "totalTokens": 7396690,
+      "totalRequests": 126,
       "uniqueIPs": [
         "172.19.0.1",
         "39.144.163.215",
@@ -13130,7 +13138,8 @@
         "fdbd:dc03:11:600::201",
         "141.11.146.65",
         "fdbd:dc02:20:798::73",
-        "fdbd:dc03:3:220::220"
+        "fdbd:dc03:3:220::220",
+        "fdbd:dc02:22:38::79"
       ]
     },
     "modelo29": {
@@ -13735,8 +13744,20 @@
       "sources": {
         "apikey": 1
       }
+    },
+    "fdbd:dc02:22:38::79": {
+      "ip": "fdbd:dc02:22:38::79",
+      "count": 1,
+      "lastSeen": "2026-10-12T08:00:27.591Z",
+      "models": [
+        "modelo23"
+      ],
+      "tokens": 30758,
+      "sources": {
+        "apikey": 1
+      }
     }
   },
-  "lastUpdated": "2026-10-12T07:58:49.284Z",
+  "lastUpdated": "2026-10-12T08:00:27.932Z",
   "resetAt": "2026-10-11T18:54:52.538Z"
 }
